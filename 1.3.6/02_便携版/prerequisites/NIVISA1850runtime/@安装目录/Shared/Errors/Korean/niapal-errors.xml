@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI Platform Services" familyname="NI Platform Services">
+  <nicomment>Errors for APAL and atomic components.</nicomment>
+  <nierror code="-52031">
+    <![CDATA[지정된 채널이 현재 사용 중입니다.]]>
+  </nierror>
+  <nierror code="-52030">
+    <![CDATA[현재 어플리케이션 개발 환경을 지원하지 않습니다.]]>
+  </nierror>
+  <nierror code="-52029">
+    <![CDATA[지정된 포맷을 지원하지 않습니다.]]>
+  </nierror>
+  <nierror code="-52028">
+    <![CDATA[지정된 언어를 지원하지 않습니다.]]>
+  </nierror>
+  <nierror code="-52027">
+    <![CDATA[지정된 문자열에 포함된 일부 문자는 설치된 언어 지원과 시스템 로캘 셋팅 때문에 해석할 수 없는 문자입니다.
+
+가능하면 이 문자를 사용하지 마십시오. 또는 적절한 언어 지원이 시스템에 설치되어 있고 시스템 로캘이 올바르게 설정되어 있는지 확인하십시오. 대부분의 Windows OS에서는 제어판의 국가 및 언어 옵션을 통해 이를 확인할 수 있습니다. LabVIEW RT 타겟의 경우 LabVIEW RT를 위한 언어 지원을 설치하고 MAX의 시스템 셋팅 탭에서 원격 시스템의 로캘 셋팅을 변경하십시오.]]>
+  </nierror>
+  <nierror code="-52026">
+    <![CDATA[사용자에게 충분한 권한이 없기 때문에 이 작업을 완료할 수 없습니다.  관리자로 실행하는 것을 고려하십시오.]]>
+  </nierror>
+  <nierror code="-52025">
+    <![CDATA[사용자 모드 신호에 의해 작업이 중단되었습니다.]]>
+  </nierror>
+  <nierror code="-52024">
+    <![CDATA[디바이스에서 데이터를 읽거나 데이터를 쓰려고 시도하는 동안 알수 없거나 예상치 못한 통신 실패가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-52023">
+    <![CDATA[클라이언트에 의해 전송이 강제 종료되었기 때문에 어떤 전송도 진행 중이지 않습니다. 동작을 지정된 대로 완료할 수 없습니다.]]>
+  </nierror>
+  <nierror code="-52022">
+    <![CDATA[IO 처리과정이 활성화되어 있지 않습니다.]]>
+  </nierror>
+  <nierror code="-52021">
+    <![CDATA[요청한 동작을 완료하기에 파워가 충분하지 않습니다.]]>
+  </nierror>
+  <nierror code="-52020">
+    <![CDATA[요청한 리소스는 제거되었습니다.]]>
+  </nierror>
+  <nierror code="-52019">
+    <![CDATA[제공된 버퍼의 크기가 작습니다.]]>
+  </nierror>
+  <nierror code="-52018">
+    <![CDATA[하드웨어 실패가 발생했습니다. 동작을 지정된 대로 완료할 수 없습니다.]]>
+  </nierror>
+  <nierror code="-52017">
+    <![CDATA[요청된 작업이 객체가 이 상태에 있을 때 중복되어 있거나 유효하지 않습니다.]]>
+  </nierror>
+  <nierror code="-52016">
+    <![CDATA[스레드를 시작하려고 시도했을 때 이미 실행 중이었습니다(중복된 상태 변경).]]>
+  </nierror>
+  <nierror code="-52015">
+    <![CDATA[동기화된 객체 수집에 실패했습니다.]]>
+  </nierror>
+  <nierror code="-52014">
+    <![CDATA[동기화된 객체를 이전 소유자가 버렸습니다.]]>
+  </nierror>
+  <nierror code="-52013">
+    <![CDATA[요청된 이름 또는 핸들이 다른 클라이언트에 의해 예약되어 있습니다.]]>
+  </nierror>
+  <nierror code="-52012">
+    <![CDATA[읽을만한 데이터가 더 이상 없고 쓰는데 사용할 공간이 더 이상 없습니다.]]>
+  </nierror>
+  <nierror code="-52011">
+    <![CDATA[동작이 시작되었고 비동기적으로 완료됩니다.]]>
+  </nierror>
+  <nierror code="-52010">
+    <![CDATA[요청된 리소스를 사용하기 전에 초기화하여야 합니다.]]>
+  </nierror>
+  <nierror code="-52009">
+    <![CDATA[요청된 리소스를 삭제하기 위해 표시되었고 새로운 요청을 거부합니다.]]>
+  </nierror>
+  <nierror code="-52008">
+    <![CDATA[예상치 못한 OS 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-52007">
+    <![CDATA[요청된 동작을 제 시간에 완료하지 못했습니다.]]>
+  </nierror>
+  <nierror code="-52006">
+    <![CDATA[요청된 리소스를 찾지 못했습니다.]]>
+  </nierror>
+  <nierror code="-52005">
+    <![CDATA[함수에서 받은 파라미터가 유효하지 않습니다.]]>
+  </nierror>
+  <nierror code="-52004">
+    <![CDATA[다이나믹 캐스트 동작을 실패했습니다.]]>
+  </nierror>
+  <nierror code="-52003">
+    <![CDATA[예상치 못한 소프트웨어 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-52002">
+    <![CDATA[요청된 기능을 지원하지 않습니다.]]>
+  </nierror>
+  <nierror code="-52001">
+    <![CDATA[메모리가 고정된 상태가 될 수 없었습니다.]]>
+  </nierror>
+  <nierror code="-52000">
+    <![CDATA[지정된 바이트 개수를 할당할 수 없었습니다.]]>
+  </nierror>
+  <nierror code="52000">
+    <![CDATA[지정된 바이트 개수를 할당할 수 없었습니다.]]>
+  </nierror>
+  <nierror code="52001">
+    <![CDATA[메모리가 고정된 상태가 될 수 없었습니다.]]>
+  </nierror>
+  <nierror code="52002">
+    <![CDATA[요청된 기능을 지원하지 않습니다.]]>
+  </nierror>
+  <nierror code="52003">
+    <![CDATA[예상치 못한 소프트웨어 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="52004">
+    <![CDATA[다이나믹 캐스트 동작을 실패했습니다.]]>
+  </nierror>
+  <nierror code="52005">
+    <![CDATA[함수에서 받은 파라미터가 유효하지 않습니다.]]>
+  </nierror>
+  <nierror code="52006">
+    <![CDATA[요청된 리소스를 찾지 못했습니다.]]>
+  </nierror>
+  <nierror code="52007">
+    <![CDATA[요청된 동작을 제 시간에 완료하지 못했습니다.]]>
+  </nierror>
+  <nierror code="52008">
+    <![CDATA[예상치 못한 OS 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="52009">
+    <![CDATA[요청된 리소스를 삭제하기 위해 표시되었고 새로운 요청을 거부합니다.]]>
+  </nierror>
+  <nierror code="52010">
+    <![CDATA[요청된 리소스를 사용하기 전에 초기화하여야 합니다.]]>
+  </nierror>
+  <nierror code="52011">
+    <![CDATA[동작이 시작되었고 비동기적으로 완료됩니다.]]>
+  </nierror>
+  <nierror code="52012">
+    <![CDATA[읽을만한 데이터가 더 이상 없고 쓰는데 사용할 공간이 더 이상 없습니다.]]>
+  </nierror>
+  <nierror code="52013">
+    <![CDATA[요청된 이름 또는 핸들이 다른 클라이언트에 의해 예약되어 있습니다.]]>
+  </nierror>
+  <nierror code="52014">
+    <![CDATA[동기화된 객체를 이전 소유자가 버렸습니다.]]>
+  </nierror>
+  <nierror code="52015">
+    <![CDATA[동기화된 객체 수집에 실패했습니다.]]>
+  </nierror>
+  <nierror code="52016">
+    <![CDATA[스레드를 시작하려고 시도했을 때 이미 실행 중이었습니다(중복된 상태 변경).]]>
+  </nierror>
+  <nierror code="52017">
+    <![CDATA[요청된 작업이 객체가 이 상태에 있을 때 중복되어 있거나 유효하지 않습니다.]]>
+  </nierror>
+  <nierror code="52018">
+    <![CDATA[하드웨어 실패가 발생했습니다. 동작을 지정된 대로 완료할 수 없습니다.]]>
+  </nierror>
+  <nierror code="52019">
+    <![CDATA[제공된 버퍼의 크기가 작습니다.]]>
+  </nierror>
+  <nierror code="52020">
+    <![CDATA[요청한 리소스는 제거되었습니다.]]>
+  </nierror>
+  <nierror code="52021">
+    <![CDATA[요청한 동작을 완료하기에 파워가 충분하지 않습니다.]]>
+  </nierror>
+  <nierror code="52022">
+    <![CDATA[IO 처리과정이 활성화되어 있지 않습니다.]]>
+  </nierror>
+  <nierror code="52023">
+    <![CDATA[클라이언트에 의해 전송이 강제 종료되었기 때문에 어떤 전송도 진행 중이지 않습니다. 동작을 지정된 대로 완료할 수 없습니다.]]>
+  </nierror>
+  <nierror code="52024">
+    <![CDATA[디바이스에서 데이터를 읽거나 데이터를 쓰려고 시도하는 동안 알수 없거나 예상치 못한 통신 실패가 발생했습니다.]]>
+  </nierror>
+  <nierror code="52025">
+    <![CDATA[사용자 모드 신호에 의해 작업이 중단되었습니다.]]>
+  </nierror>
+  <nierror code="52026">
+    <![CDATA[사용자에게 충분한 권한이 없기 때문에 이 작업을 완료할 수 없습니다.  관리자로 실행하는 것을 고려하십시오.]]>
+  </nierror>
+  <nierror code="52027">
+    <![CDATA[지정된 문자열에 포함된 일부 문자는 설치된 언어 지원과 시스템 로캘 셋팅 때문에 해석할 수 없는 문자입니다.
+
+가능하면 이 문자를 사용하지 마십시오. 또는 적절한 언어 지원이 시스템에 설치되어 있고 시스템 로캘이 올바르게 설정되어 있는지 확인하십시오. 대부분의 Windows OS에서는 제어판의 국가 및 언어 옵션을 통해 이를 확인할 수 있습니다. LabVIEW RT 타겟의 경우 LabVIEW RT를 위한 언어 지원을 설치하고 MAX의 시스템 셋팅 탭에서 원격 시스템의 로캘 셋팅을 변경하십시오.]]>
+  </nierror>
+  <nierror code="52028">
+    <![CDATA[지정된 언어를 지원하지 않습니다.]]>
+  </nierror>
+  <nierror code="52029">
+    <![CDATA[지정된 포맷을 지원하지 않습니다.]]>
+  </nierror>
+  <nierror code="52030">
+    <![CDATA[현재 어플리케이션 개발 환경을 지원하지 않습니다.]]>
+  </nierror>
+  <nierror code="52031">
+    <![CDATA[지정된 채널이 현재 사용 중입니다.]]>
+  </nierror>
+</nidocument>

@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI Platform Services" familyname="NI Platform Services">
+  <nicomment>Errors for NI-PAL.</nicomment>
+  <nierror code="-50808">
+    <![CDATA[Un transfert USB a échoué à cause d'une erreur de transaction rapportée par le contrôleur hôte USB.  Ceci peut être dû à une défaillance dans le contrôleur hôte USB du système, un câble USB ou un périphérique USB.]]>
+  </nierror>
+  <nierror code="-50807">
+    <![CDATA[Concerne un bus 1394. Un descripteur de buffer isochrone est introuvable ou un flux de driver de liaison n'a pas été connecté ou déconnecté.]]>
+  </nierror>
+  <nierror code="-50806">
+    <![CDATA[S'applique aux connexions TCP.  S'applique aux connexions UDP/TCP. L'adresse utilisée n'est pas valide (par exemple, envoi à l'adresse 0). Remarque : la pile TCP ne permet pas de se connecter à l'adresse loopback à  partir d'une adresse non loopback.]]>
+  </nierror>
+  <nierror code="-50805">
+    <![CDATA[S'applique aux connexions TCP. Ceci est une version plus spécifique de kPALStatusConnectionRefused. Le flux a déjà été ouvert à la même adresse et au même port.]]>
+  </nierror>
+  <nierror code="-50804">
+    <![CDATA[S'applique aux connexions TCP.  Le flux/périphérique a été mal configuré (avec une taille de buffer non valide, par exemple) ou le périphérique n'est plus dans un état convenable.]]>
+  </nierror>
+  <nierror code="-50803">
+    <![CDATA[S'applique aux connexions TCP.  La connexion a été coupée par le pair distant.]]>
+  </nierror>
+  <nierror code="-50802">
+    <![CDATA[S'applique aux connexions TCP.  Le périphérique sous-jacent a été retiré sans préavis et/ou la connexion a été coupée.]]>
+  </nierror>
+  <nierror code="-50801">
+    <![CDATA[Impossible de se connecter à l'hôte distant.  Vérifiez que tous les segments du réseau entre cet hôte et l'hôte distant fonctionnent et que l'hôte distant est prêt à accepter les connexions.]]>
+  </nierror>
+  <nierror code="-50800">
+    <![CDATA[Erreur applicable à un bus 1394. Le compte de génération sur le paquet soumis est incorrect et l'ensemble du transfert a échoué.]]>
+  </nierror>
+  <nierror code="-50700">
+    <![CDATA[La fonction d'attente a été interrompue par une source interne ou externe et a été renvoyée.  L'opération ne s'est pas achevée comme spécifié et les attentes suivantes risquent aussi de ne pas se terminer.]]>
+  </nierror>
+  <nierror code="-50651">
+    <![CDATA[Aucun message n'a pu être lu car la file d'attente de messages est vide. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50650">
+    <![CDATA[Le message n'a pas pu être écrit car la file d'attente de messages est pleine. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50604">
+    <![CDATA[Le thread spécifié n'a pas pu être joint car il a déjà été quitté ou a été arrêté. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50603">
+    <![CDATA[La taille de pile spécifiée n'est pas supportée. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50602">
+    <![CDATA[L'instance erronée du iThreadController a été utilisée en essayant de joindre un thread. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50601">
+    <![CDATA[Une structure de données de threads interne a été corrompue. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50600">
+    <![CDATA[Le thread spécifié n'est pas exécutable. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50551">
+    <![CDATA[Le thread qui a acquis l'objet de synchronisation a quitté ou a été arrêté. Cette erreur concerne les objets de synchronisation de type mutex, pour lesquels le thread qui acquiert l'objet de synchronisation en reste propriétaire jusqu'à ce qu'il le libère. La ressource protégée par l'objet de synchronisation est peut-être dans un état inconnu.]]>
+  </nierror>
+  <nierror code="-50550">
+    <![CDATA[Un objet de synchronisation n'a pas été acquis dans les délais impartis. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50503">
+    <![CDATA[Le récepteur d'interface de connexion n'est pas valide. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50502">
+    <![CDATA[L'auditeur d'interface de connexion spécifié n'est pas valide. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50501">
+    <![CDATA[L'auditeur d'interface de connexion est déjà enregistré. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50500">
+    <![CDATA[La fonction dispatch a déjà été exportée.]]>
+  </nierror>
+  <nierror code="-50450">
+    <![CDATA[Un événement de lien DMA a été manqué - probablement parce que l'interruption n'a pas été traitée à temps. Par conséquent, les données déplacées ne sont pas complètes. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50413">
+    <![CDATA[Un transfert a été annulé à cause d'une erreur de matériel sur le bus sur lequel le tranfert était en cours.]]>
+  </nierror>
+  <nierror code="-50412">
+    <![CDATA[Un transfert a été abandonné car il n'a pas pu être achevé dans le nombre maximal de tentatives permises par le bus sur lequel le transfert a eu lieu.]]>
+  </nierror>
+  <nierror code="-50411">
+    <![CDATA[Il n'y avait plus de données dans le buffer lorsque de nouvelles données ont été lues. Par conséquent, les données renvoyées par l'opération sont anciennes.]]>
+  </nierror>
+  <nierror code="-50410">
+    <![CDATA[Il n'y avait plus de place dans le buffer lorsque de nouvelles données ont été écrites. Par conséquent, les plus anciennes données non lues du buffer ont été perdues.]]>
+  </nierror>
+  <nierror code="-50409">
+    <![CDATA[Un buffer du matériel a débordé.]]>
+  </nierror>
+  <nierror code="-50408">
+    <![CDATA[Un buffer du matériel est tombé à cours de données.]]>
+  </nierror>
+  <nierror code="-50407">
+    <![CDATA[Il n'y a plus de place dans le buffer.]]>
+  </nierror>
+  <nierror code="-50406">
+    <![CDATA[Il n'y a plus de données dans le buffer.]]>
+  </nierror>
+  <nierror code="-50405">
+    <![CDATA[Aucun transfert n'est en cours car le transfert a été abandonné par le client. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50404">
+    <![CDATA[Aucun transfert n'est en cours car le transfert a été interrompu par le système. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50403">
+    <![CDATA[Un transfert est déjà en cours. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50402">
+    <![CDATA[Aucun transfert n'est en cours car aucun n'a été initialisé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50401">
+    <![CDATA[Un problème de communication inconnu ou inattendu s'est produit lors de l'écriture ou de la lecture des données vers ou d'un périphérique.]]>
+  </nierror>
+  <nierror code="-50400">
+    <![CDATA[Le transfert n'a pas pu être achevé dans la période de timeout ou le nombre spécifié de tentatives.]]>
+  </nierror>
+  <nierror code="-50355">
+    <![CDATA[Le gestionnaire de mémoire a détecté qu'une ou plusieurs parties de mémoire allouées n'ont pas été libérées. L'opération a été achevée mais l'état du système risque de ne pas être fiable.]]>
+  </nierror>
+  <nierror code="-50354">
+    <![CDATA[Le gestionnaire de mémoire a détecté une corruption dans ses structures de données internes. L'état du système risque de ne pas être fiable.]]>
+  </nierror>
+  <nierror code="-50353">
+    <![CDATA[Une ou plusieurs pages de mémoire du buffer logique spécifié n'ont pas pu être verrouillées dans la mémoire physique. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50352">
+    <![CDATA[La mémoire demandée n'a pas pu être allouée.]]>
+  </nierror>
+  <nierror code="-50351">
+    <![CDATA[Le buffer spécifié est aligné sur une limite définie par une adresse qui empêche le transfert de données vers ou en provenance du périphérique spécifié. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50350">
+    <![CDATA[Un problème de configuration de mémoire interfère avec un mécanisme de transfert en arrière-plan. Ceci peut signifier qu'un buffer n'a pas été alloué, ou qu'un buffer a été alloué mais qu'il n'est pas compris dans la gamme d'adresses du bus maître ciblé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50303">
+    <![CDATA[Le périphérique spécifié n'a pas pu être initialisé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50302">
+    <![CDATA[Le périphérique spécifié est contrôlé par la pile de ce logiciel mais une ressource ou une autre fonctionnalité associée à ce périphérique n'est pas supportée par la pile de ce logiciel actuellement. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50301">
+    <![CDATA[Le périphérique spécifié n'est pas contrôlé par la pile de ce logiciel. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50300">
+    <![CDATA[Le périphérique spécifié n'est pas présent ou est désactivé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50265">
+    <![CDATA[La fonctionnalité spécifiée est implémentée mais elle a été désactivée dans l'environnement actuel. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50264">
+    <![CDATA[Le composant logiciel spécifié est occupé ou encore utilisé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50263">
+    <![CDATA[Le composant logiciel spécifié a déjà été installé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50262">
+    <![CDATA[Le composant logiciel spécifié ne peut pas être déchargé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50261">
+    <![CDATA[Le composant logiciel spécifié n'est pas chargé actuellement. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50260">
+    <![CDATA[Le composant logiciel spécifié a déjà été chargé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50259">
+    <![CDATA[Le composant logiciel spécifié possède une dépendance circulaire. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50258">
+    <![CDATA[Échec lors de l'initialisation du composant logiciel spécifié. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50257">
+    <![CDATA[Le composant logiciel spécifié n'a pas pu être chargé car son image est corrompue. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50256">
+    <![CDATA[La fonctionnalité spécifiée n'a pas été implémentée pour cet environnement. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50255">
+    <![CDATA[Une fonction importée d'une autre bibliothèque est introuvable. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50254">
+    <![CDATA[La fonction spécifiée n'est plus supportée. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50253">
+    <![CDATA[Le composant logiciel spécifié n'est pas rétrocompatible avec le client qui essayait de le charger. Le client n'a pas été chargé.]]>
+  </nierror>
+  <nierror code="-50252">
+    <![CDATA[Le composant logiciel spécifié n'est pas compatible de façon montante avec le client qui essayait de le charger. Le client n'a pas été chargé.]]>
+  </nierror>
+  <nierror code="-50251">
+    <![CDATA[Le composant logiciel spécifié n'est pas disponible. Ce composant n'a pas été chargé.]]>
+  </nierror>
+  <nierror code="-50250">
+    <![CDATA[Plusieurs composants du package en cours de chargement ne peuvent pas fonctionner ensemble du fait de versions incompatibles. Ce genre d'échec indique généralement un problème d'installation. Le package n'a pas été chargé.]]>
+  </nierror>
+  <nierror code="-50209">
+    <![CDATA[Une erreur indéterminée s'est produite en effectuant une opération sur le fichier spécifié. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50208">
+    <![CDATA[Une erreur s'est produite en essayant d'écrire les données d'un buffer dans le fichier spécifié. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50207">
+    <![CDATA[Une erreur s'est produite en essayant de lire un buffer à partir du fichier spécifié. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50206">
+    <![CDATA[L'offset spécifié est introuvable dans le fichier spécifié. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50205">
+    <![CDATA[Le fichier spécifié n'a pas pu être fermé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50204">
+    <![CDATA[Le fichier spécifié n'a pas pu être ouvert. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50203">
+    <![CDATA[Il n'y a plus de place sur le disque ciblé. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50202">
+    <![CDATA[Un appel du système a renvoyé une erreur. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50201">
+    <![CDATA[Un appel du système a renvoyé une erreur lors du lancement de NI Platform Services. NI Platform Services n'a pas pu être lancé.]]>
+  </nierror>
+  <nierror code="-50200">
+    <![CDATA[Cette fonction n'a pas pu être implémentée pour ce système d'exploitation. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50175">
+    <![CDATA[L'opération mathématique spécifiée donne lieu à un débordement.]]>
+  </nierror>
+  <nierror code="-50152">
+    <![CDATA[Une défaillance du matériel s'est produite. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50151">
+    <![CDATA[Le firmware, un programme résidant sur un périphérique, est entré dans un état inconnu suite, en général, à une série d'échecs provoquée par une série d'entrées d'états imprévue. L'opération n'a pas pu se faire comme spécifiée, et vous devriez arrêter immédiatement toutes les autres transactions si possible.]]>
+  </nierror>
+  <nierror code="-50150">
+    <![CDATA[Le logiciel est entré dans un état inconnu suite, en général, à une série d'échecs provoquée par une série d'entrées d'états imprévue. L'opération n'a pas pu se faire comme spécifiée, et vous devriez arrêter immédiatement toutes les autres transactions si possible.]]>
+  </nierror>
+  <nierror code="-50108">
+    <![CDATA[La file d'attente de transport de messages pour la zone impliquée est pleine. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50107">
+    <![CDATA[La ressource spécifiée est ambiguë ou une ressource unique n'a pas pu être déterminée sur base des attributs de qualification. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50106">
+    <![CDATA[La ressource est en cours d'utilisation. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50105">
+    <![CDATA[La ressource a déjà été initialisée et ne peut pas l'être de nouveau. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50104">
+    <![CDATA[La ressource spécifiée n'a pas été initialisée. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50103">
+    <![CDATA[La ressource spécifiée est réservée. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50102">
+    <![CDATA[La ressource spécifiée n'est pas réservée. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50101">
+    <![CDATA[La ressource demandée n'existe pas, ou elle existe dans un état qui empêche sa réservation. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50100">
+    <![CDATA[La ressource est contrôlée par le système d'exploitation ou un système s'y rapportant et ne doit pas être manipulée de façon directe. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50020">
+    <![CDATA[Le symbole spécifié n'est pas valide. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50019">
+    <![CDATA[Le mode multitâche spécifié n'est pas valide. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50018">
+    <![CDATA[Le spécificateur de bibliothèque spécifié n'est pas valide. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50017">
+    <![CDATA[L'espace d'adresse spécifié n'est pas valide. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50016">
+    <![CDATA[Le type de fenêtre spécifié n'est pas valide ou ne convient pas dans le contexte de la configuration de périphérique actuelle. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50015">
+    <![CDATA[La classe d'adresses spécifiée n'est pas valide dans le contexte de la configuration de périphérique actuelle. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50014">
+    <![CDATA[Le nombre spécifié est trop petit ou trop grand, ou sa granularité ne convient pas aux opérations d'écriture. Dans les cas où un offset est également spécifié, le nombre maximal peut être dérivé de l'offset. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50013">
+    <![CDATA[L'offset spécifié est hors gamme pour les opérations d'écriture. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50012">
+    <![CDATA[Le mode spécifié n'est pas supporté pour les opérations d'écriture. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50011">
+    <![CDATA[Le nombre spécifié est trop petit ou trop grand, ou sa granularité ne convient pas aux opérations de lecture. Dans les cas où un offset est également spécifié, le nombre maximal peut être dérivé de l'offset. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50010">
+    <![CDATA[L'offset spécifié est hors gamme pour les opérations de lecture. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50009">
+    <![CDATA[Le mode spécifié n'est pas supporté pour les opérations de lecture. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50008">
+    <![CDATA[Le nombre spécifié est trop petit ou trop élevé, ou sa granularité ne convient pas. Dans les cas où un offset est également spécifié, le nombre maximal peut être dérivé de l'offset. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50007">
+    <![CDATA[L'offset spécifié est hors gamme. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50006">
+    <![CDATA[Le mode spécifié n'est pas supporté. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50005">
+    <![CDATA[La largeur de données spécifiée n'est pas supportée ou ne peut pas être transférée sur le bus. L'opération n'a pas pu être effectuée telle que spécifiée.]]>
+  </nierror>
+  <nierror code="-50004">
+    <![CDATA[Un paramètre de type pointeur n'est pas valide. Cela peut indiquer que le pointeur est NULL quand il ne devrait pas l'être ou vice-versa, ou il n'est pas NULL mais ne semble pas pointer vers le type approprié d'objet ou de données. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50003">
+    <![CDATA[Un sélecteur (généralement de type énumération) est inadéquat ou hors gamme. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50002">
+    <![CDATA[Le périphérique spécifié n'est pas valide. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50001">
+    <![CDATA[Un attribut, explicite ou implicite, n'est pas applicable, peut-être à cause de l'état actuel du système. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-50000">
+    <![CDATA[La valeur d'un des paramètres spécifiés est en conflit avec l'état ou la valeur d'un autre paramètre. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="50000">
+    <![CDATA[La valeur d'un des paramètres spécifiés est en conflit avec l'état ou la valeur d'un autre paramètre. L'opération a été effectuée en ignorant ou en outrepassant les paramètres incompatibles.]]>
+  </nierror>
+  <nierror code="50001">
+    <![CDATA[Un attribut, explicite ou implicite, n'est pas applicable, peut-être à cause de l'état actuel du système. L'opération a été effectuée en ignorant ou en outrepassant cet attribut.]]>
+  </nierror>
+  <nierror code="50002">
+    <![CDATA[Le périphérique spécifié n'est pas valide. L'opération a été effectuée en ignorant ou en outrepassant le paramètre de périphérique.]]>
+  </nierror>
+  <nierror code="50003">
+    <![CDATA[Un sélecteur (généralement de type énumération) est inadéquat ou hors gamme. L'opération a été effectuée en ignorant ou en outrepassant le sélecteur.]]>
+  </nierror>
+  <nierror code="50004">
+    <![CDATA[Un paramètre de type pointeur n'est pas valide. Cela peut indiquer que le pointeur est NULL quand il ne devrait pas l'être ou vice-versa, ou il n'est pas NULL mais ne semble pas pointer vers le type approprié d'objet ou de données. L'opération a été effectuée en ignorant ou en outrepassant le pointeur.]]>
+  </nierror>
+  <nierror code="50005">
+    <![CDATA[La largeur de données spécifiée n'est pas supportée ou ne peut pas être transférée sur le bus. L'opération a été effectuée en ignorant ou en outrepassant la largeur de données spécifiée.]]>
+  </nierror>
+  <nierror code="50006">
+    <![CDATA[Le mode spécifié n'est pas supporté. L'opération a été effectuée en ignorant ou en outrepassant le mode.]]>
+  </nierror>
+  <nierror code="50007">
+    <![CDATA[L'offset spécifié est hors gamme. L'opération a été effectuée en ignorant ou en outrepassant l'offset.]]>
+  </nierror>
+  <nierror code="50008">
+    <![CDATA[Le nombre spécifié est trop petit ou trop grand, ou sa granularité ne convient pas. Dans les cas où un offset est également spécifié, le nombre maximal peut être dérivé de l'offset. L'opération a été effectuée en ignorant ou en outrepassant le nombre.]]>
+  </nierror>
+  <nierror code="50009">
+    <![CDATA[Le mode spécifié n'est pas supporté pour les opérations de lecture. L'opération a été effectuée en ignorant ou en outrepassant le mode.]]>
+  </nierror>
+  <nierror code="50010">
+    <![CDATA[L'offset spécifié est hors gamme pour les opérations de lecture. L'opération a été effectuée en ignorant ou en outrepassant l'offset.]]>
+  </nierror>
+  <nierror code="50011">
+    <![CDATA[Le nombre spécifié est trop petit ou trop grand, ou sa granularité ne convient pas aux opérations de lecture. Dans les cas où un offset est également spécifié, le nombre maximal peut être dérivé de l'offset. L'opération a été effectuée en ignorant ou en outrepassant le nombre.]]>
+  </nierror>
+  <nierror code="50012">
+    <![CDATA[Le mode spécifié n'est pas supporté pour les opérations d'écriture. L'opération a été effectuée en ignorant ou en outrepassant le mode.]]>
+  </nierror>
+  <nierror code="50013">
+    <![CDATA[L'offset spécifié est hors gamme pour les opérations d'écriture. L'opération a été effectuée en ignorant ou en outrepassant l'offset.]]>
+  </nierror>
+  <nierror code="50014">
+    <![CDATA[Le nombre spécifié est trop petit ou trop grand, ou sa granularité ne convient pas aux opérations d'écriture. Dans les cas où un offset est également spécifié, le nombre maximal peut être dérivé de l'offset. L'opération a été effectuée en ignorant ou en outrepassant le nombre.]]>
+  </nierror>
+  <nierror code="50015">
+    <![CDATA[La classe d'adresses spécifiée n'est pas valide dans le contexte de la configuration de périphérique actuelle. L'opération a été effectuée en ignorant ou en outrepassant la classe d'adresses.]]>
+  </nierror>
+  <nierror code="50016">
+    <![CDATA[Le type de fenêtre spécifié n'est pas valide ou ne convient pas dans le contexte de la configuration de périphérique actuelle. L'opération a été effectuée en ignorant ou en outrepassant le type de fenêtre.]]>
+  </nierror>
+  <nierror code="50019">
+    <![CDATA[Le mode multitâche spécifié n'est pas valide. L'opération a été effectuée en ignorant ou en outrepassant le mode multitâche.]]>
+  </nierror>
+  <nierror code="50100">
+    <![CDATA[La ressource est contrôlée par le système d'exploitation ou un système s'y rapportant et ne doit pas être manipulée de façon directe. L'opération a été achevée mais l'état du système risque de ne pas être fiable.]]>
+  </nierror>
+  <nierror code="50101">
+    <![CDATA[La ressource demandée n'existe pas, ou elle existe dans un état qui empêche sa réservation. L'opération a été effectuée en réservant un sous-ensemble fonctionnel de la ressource demandée.]]>
+  </nierror>
+  <nierror code="50102">
+    <![CDATA[La ressource spécifiée n'est pas réservée. L'opération a été effectuée en réservant la ressource, ou en ignorant ou en outrepassant la ressource spécifiée.]]>
+  </nierror>
+  <nierror code="50103">
+    <![CDATA[La ressource spécifiée est réservée. L'opération a été effectuée en ignorant ou en outrepassant la ressource spécifiée.]]>
+  </nierror>
+  <nierror code="50104">
+    <![CDATA[La ressource spécifiée n'a pas été initialisée. L'opération a été effectuée en initialisant la ressource pour vous.]]>
+  </nierror>
+  <nierror code="50105">
+    <![CDATA[La ressource était déjà initialisée. L'opération a été effectuée en réinitialisant la ressource, ce qui peut avoir invalidé l'état de votre système.]]>
+  </nierror>
+  <nierror code="50106">
+    <![CDATA[La ressource est en cours d'utilisation. L'opération a été effectuée partiellement, ce qui peut avoir invalidé l'état de votre système.]]>
+  </nierror>
+  <nierror code="50107">
+    <![CDATA[La ressource spécifiée est ambiguë ou une ressource unique n'a pas pu être déterminée sur base des attributs de qualification. L'opération a été achevée mais cela peut avoir invalidé l'état de votre système.]]>
+  </nierror>
+  <nierror code="50151">
+    <![CDATA[Le firmware, un programme résidant sur un périphérique, est entré dans un état inconnu, suite, en général, à une série d'échecs provoquée par une série d'entrées d'états imprévue. L'opération a été effectuée en désactivant le firmware et en restorant ainsi le comportement intrinsèque du périphérique.]]>
+  </nierror>
+  <nierror code="50152">
+    <![CDATA[Une défaillance du matériel s'est produite. L'opération a été effectuée en utilisant un autre matériel.]]>
+  </nierror>
+  <nierror code="50200">
+    <![CDATA[Cette fonction n'est pas appropriée pour ce système d'exploitation. Aucune opération n'a été effectuée.]]>
+  </nierror>
+  <nierror code="50202">
+    <![CDATA[Un appel du système a renvoyé une mise en garde. L'opération a été achevée mais l'état du système risque de ne pas être fiable.]]>
+  </nierror>
+  <nierror code="50254">
+    <![CDATA[La fonction spécifiée est devenue obsolète. L'opération a été achevée mais vous devriez mettre votre code source à jour dès que possible.]]>
+  </nierror>
+  <nierror code="50255">
+    <![CDATA[Une fonction importée d'une autre bibliothèque est introuvable. L'opération a été achevée par d'autres moyens.]]>
+  </nierror>
+  <nierror code="50256">
+    <![CDATA[La fonctionnalité spécifiée peut ne pas fonctionner comme prévu dans cet environnement. L'opération a été achevée mais cela peut avoir invalidé l'état de votre système.]]>
+  </nierror>
+  <nierror code="50258">
+    <![CDATA[Le composant logiciel spécifié s'est initialisé mais a renvoyé une mise en garde. L'opération a été achevée mais l'état du système risque de ne pas être fiable.]]>
+  </nierror>
+  <nierror code="50260">
+    <![CDATA[Le composant logiciel spécifié a déjà été chargé.]]>
+  </nierror>
+  <nierror code="50262">
+    <![CDATA[Le composant logiciel spécifié ne peut pas être déchargé. L'opération a été achevée par d'autres moyens.]]>
+  </nierror>
+  <nierror code="50351">
+    <![CDATA[Le buffer spécifié est aligné sur une limite définie par une adresse qui empêche le transfert efficace des données vers ou en provenance du périphérique spécifié. L'opération a été effectuée en utilisant une largeur de données plus petite.]]>
+  </nierror>
+  <nierror code="50355">
+    <![CDATA[Le gestionnaire de mémoire a détecté qu'une ou plusieurs parties de mémoire allouées n'ont pas été libérées. L'opération a été achevée mais l'état du système risque de ne pas être fiable.]]>
+  </nierror>
+  <nierror code="50402">
+    <![CDATA[Aucun transfert n'est en cours car aucun n'a été initialisé. L'opération a été achevée mais cela peut avoir invalidé l'état de votre système.]]>
+  </nierror>
+  <nierror code="50403">
+    <![CDATA[Un transfert est déjà en cours. L'opération a été achevée mais cela peut avoir invalidé l'état de votre système.]]>
+  </nierror>
+  <nierror code="50404">
+    <![CDATA[Aucun transfert n'est en cours car le transfert a été interrompu par le système. L'opération a été achevée mais cela peut avoir invalidé l'état de votre système.]]>
+  </nierror>
+  <nierror code="50405">
+    <![CDATA[Aucun transfert n'est en cours car le transfert a été abandonné par le client. L'opération a été achevée mais cela peut avoir invalidé l'état de votre système.]]>
+  </nierror>
+  <nierror code="50406">
+    <![CDATA[Il n'y a plus de données dans le buffer.]]>
+  </nierror>
+  <nierror code="50407">
+    <![CDATA[Il n'y a plus de place dans le buffer.]]>
+  </nierror>
+  <nierror code="50408">
+    <![CDATA[Un buffer du matériel est tombé à cours de données.]]>
+  </nierror>
+  <nierror code="50409">
+    <![CDATA[Un buffer du matériel a débordé.]]>
+  </nierror>
+  <nierror code="50410">
+    <![CDATA[Il n'y avait plus de place dans le buffer lorsque de nouvelles données ont été écrites. Par conséquent, les plus anciennes données non lues du buffer ont été perdues.]]>
+  </nierror>
+  <nierror code="50411">
+    <![CDATA[Il n'y avait plus de données dans le buffer lorsque de nouvelles données ont été lues. Par conséquent, les données renvoyées par l'opération sont anciennes.]]>
+  </nierror>
+  <nierror code="50500">
+    <![CDATA[La fonction dispatch a déjà été exportée.]]>
+  </nierror>
+  <nierror code="50551">
+    <![CDATA[Le thread qui a acquis l'objet de synchronisation a quitté ou a été arrêté.]]>
+  </nierror>
+</nidocument>

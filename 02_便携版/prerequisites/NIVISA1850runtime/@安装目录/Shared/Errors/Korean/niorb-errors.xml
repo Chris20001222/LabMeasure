@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-ORB" familyname="NI-ORB">
+  <nierror code="-88908">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88907">
+    <![CDATA[NI Service Locator에 등록할 수 없었습니다.
+
+NI Service Locator 서비스가 설치되어 있어서 시작할 수 있는지 확인하십시오.]]>
+  </nierror>
+  <nierror code="-88906">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88905">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88904">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88903">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88902">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88901">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88900">
+    <![CDATA[지정된 원격 타겟에 도달할 수 없습니다.
+
+타겟이 실행 중인지 확인하십시오.]]>
+  </nierror>
+  <nierror code="-88800">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88361">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88360">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88313">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88312">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88311">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88310">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88309">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88308">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88307">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88306">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88305">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88304">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88303">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88302">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88301">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-88300">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+</nidocument>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="updatefirmware">Mettre à jour le firmware</str>
+  <str name="firmwareupdatemode">Mise à jour du firmware</str>
+  <str name="firmwareupdatemanual">Manuel</str>
+  <str name="firmwareupdatedriver">Géré par driver</str>
+</uistrings>

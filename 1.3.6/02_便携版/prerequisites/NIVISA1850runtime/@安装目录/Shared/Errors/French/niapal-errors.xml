@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI Platform Services" familyname="NI Platform Services">
+  <nicomment>Errors for APAL and atomic components.</nicomment>
+  <nierror code="-52031">
+    <![CDATA[La ressource spécifiée est en cours d'utilisation.]]>
+  </nierror>
+  <nierror code="-52030">
+    <![CDATA[L'environnement de développement d'applications actuel n'est pas supporté.]]>
+  </nierror>
+  <nierror code="-52029">
+    <![CDATA[Le format spécifié n'est pas supporté.]]>
+  </nierror>
+  <nierror code="-52028">
+    <![CDATA[La langue spécifiée n'est pas supportée.]]>
+  </nierror>
+  <nierror code="-52027">
+    <![CDATA[La chaîne spécifiée contient des caractères qui ne peuvent pas être interprétés du fait du support de langue installé et des options régionales.
+
+Si possible, n'utilisez pas ce caractère. Sinon, assurez-vous que le support de langue approprié est installé sur le système et que les options régionales sont correctement définies. Pour la plupart des systèmes d'exploitation Windows, ceci s'effectue via les Options régionales du Panneau de configuration. Pour les cibles LabVIEW RT, installez le support de langue pour LabVIEW RT et changez les options régionales pour le système distant sous l'onglet de configuration du système dans MAX.]]>
+  </nierror>
+  <nierror code="-52026">
+    <![CDATA[Impossible d'effectuer l'opération car l'utilisateur n'a pas les autorisations nécessaires.  Envisagez de l'exécuter en tant qu'administrateur.]]>
+  </nierror>
+  <nierror code="-52025">
+    <![CDATA[L'opération a été interrompue par un signal en mode utilisateur.]]>
+  </nierror>
+  <nierror code="-52024">
+    <![CDATA[Un problème de communication inconnu ou inattendu s'est produit lors de l'écriture ou de la lecture des données vers ou d'un périphérique.]]>
+  </nierror>
+  <nierror code="-52023">
+    <![CDATA[Aucun transfert n'est en cours car le transfert a été abandonné par le client. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-52022">
+    <![CDATA[Le traitement des ES n'est pas actif.]]>
+  </nierror>
+  <nierror code="-52021">
+    <![CDATA[Il n'y a pas assez de puissance pour effectuer l'opération demandée.]]>
+  </nierror>
+  <nierror code="-52020">
+    <![CDATA[La ressource demandée a été supprimée.]]>
+  </nierror>
+  <nierror code="-52019">
+    <![CDATA[Le buffer spécifié est trop petit.]]>
+  </nierror>
+  <nierror code="-52018">
+    <![CDATA[Une défaillance du matériel s'est produite. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="-52017">
+    <![CDATA[L'opération que vous avez demandée est redondante ou n'est pas valide quand l'objet est dans cet état.]]>
+  </nierror>
+  <nierror code="-52016">
+    <![CDATA[Le thread était en cours d'exécution lorsque vous avez essayé de le lancer (changement d'état redondant).]]>
+  </nierror>
+  <nierror code="-52015">
+    <![CDATA[L'acquisition de l'objet de synchronisation a échoué.]]>
+  </nierror>
+  <nierror code="-52014">
+    <![CDATA[L'objet de synchronisation a été abandonné par son détenteur précédent.]]>
+  </nierror>
+  <nierror code="-52013">
+    <![CDATA[L'handle ou le nom demandé a déjà été réservé par un autre client.]]>
+  </nierror>
+  <nierror code="-52012">
+    <![CDATA[Il n'y a plus de données à lire ou d'espace pour l'écriture.]]>
+  </nierror>
+  <nierror code="-52011">
+    <![CDATA[L'opération a commencé et se terminera de manière asynchrone.]]>
+  </nierror>
+  <nierror code="-52010">
+    <![CDATA[La ressource demandée doit être initialisée pour pouvoir être utilisée.]]>
+  </nierror>
+  <nierror code="-52009">
+    <![CDATA[La ressource demandée a été sélectionnée pour être supprimée et n'accepte pas de nouvelles requêtes.]]>
+  </nierror>
+  <nierror code="-52008">
+    <![CDATA[Une erreur de système d'exploitation inattendue est survenue.]]>
+  </nierror>
+  <nierror code="-52007">
+    <![CDATA[L'opération demandée ne s'est pas terminée dans les délais impartis.]]>
+  </nierror>
+  <nierror code="-52006">
+    <![CDATA[La ressource demandée est introuvable.]]>
+  </nierror>
+  <nierror code="-52005">
+    <![CDATA[Le paramètre reçu par la fonction n'est pas valide.]]>
+  </nierror>
+  <nierror code="-52004">
+    <![CDATA[L'opération CAST a échoué.]]>
+  </nierror>
+  <nierror code="-52003">
+    <![CDATA[Une erreur logicielle inattendue est survenue.]]>
+  </nierror>
+  <nierror code="-52002">
+    <![CDATA[La fonctionnalité demandée n'est pas supportée.]]>
+  </nierror>
+  <nierror code="-52001">
+    <![CDATA[La mémoire ne peut pas être verrouillée sur une page.]]>
+  </nierror>
+  <nierror code="-52000">
+    <![CDATA[Le nombre d'octets spécifié ne peut pas être alloué.]]>
+  </nierror>
+  <nierror code="52000">
+    <![CDATA[Le nombre d'octets spécifié ne peut pas être alloué.]]>
+  </nierror>
+  <nierror code="52001">
+    <![CDATA[La mémoire ne peut pas être verrouillée sur une page.]]>
+  </nierror>
+  <nierror code="52002">
+    <![CDATA[La fonctionnalité demandée n'est pas supportée.]]>
+  </nierror>
+  <nierror code="52003">
+    <![CDATA[Une erreur logicielle inattendue est survenue.]]>
+  </nierror>
+  <nierror code="52004">
+    <![CDATA[L'opération CAST a échoué.]]>
+  </nierror>
+  <nierror code="52005">
+    <![CDATA[Le paramètre reçu par la fonction n'est pas valide.]]>
+  </nierror>
+  <nierror code="52006">
+    <![CDATA[La ressource demandée est introuvable.]]>
+  </nierror>
+  <nierror code="52007">
+    <![CDATA[L'opération demandée ne s'est pas terminée dans les délais impartis.]]>
+  </nierror>
+  <nierror code="52008">
+    <![CDATA[Une erreur de système d'exploitation inattendue est survenue.]]>
+  </nierror>
+  <nierror code="52009">
+    <![CDATA[La ressource demandée a été sélectionnée pour être supprimée et n'accepte pas de nouvelles requêtes.]]>
+  </nierror>
+  <nierror code="52010">
+    <![CDATA[La ressource demandée doit être initialisée pour pouvoir être utilisée.]]>
+  </nierror>
+  <nierror code="52011">
+    <![CDATA[L'opération a commencé et se terminera de manière asynchrone.]]>
+  </nierror>
+  <nierror code="52012">
+    <![CDATA[Il n'y a plus de données à lire ou d'espace pour l'écriture.]]>
+  </nierror>
+  <nierror code="52013">
+    <![CDATA[L'handle ou le nom demandé a déjà été réservé par un autre client.]]>
+  </nierror>
+  <nierror code="52014">
+    <![CDATA[L'objet de synchronisation a été abandonné par son détenteur précédent.]]>
+  </nierror>
+  <nierror code="52015">
+    <![CDATA[L'acquisition de l'objet de synchronisation a échoué.]]>
+  </nierror>
+  <nierror code="52016">
+    <![CDATA[Le thread était en cours d'exécution lorsque vous avez essayé de le lancer (changement d'état redondant).]]>
+  </nierror>
+  <nierror code="52017">
+    <![CDATA[L'opération que vous avez demandée est redondante ou n'est pas valide quand l'objet est dans cet état.]]>
+  </nierror>
+  <nierror code="52018">
+    <![CDATA[Une défaillance du matériel s'est produite. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="52019">
+    <![CDATA[Le buffer spécifié est trop petit.]]>
+  </nierror>
+  <nierror code="52020">
+    <![CDATA[La ressource demandée a été supprimée.]]>
+  </nierror>
+  <nierror code="52021">
+    <![CDATA[Il n'y a pas assez de puissance pour effectuer l'opération demandée.]]>
+  </nierror>
+  <nierror code="52022">
+    <![CDATA[Le traitement des ES n'est pas actif.]]>
+  </nierror>
+  <nierror code="52023">
+    <![CDATA[Aucun transfert n'est en cours car le transfert a été abandonné par le client. L'opération n'a pas pu se faire comme spécifiée.]]>
+  </nierror>
+  <nierror code="52024">
+    <![CDATA[Un problème de communication inconnu ou inattendu s'est produit lors de l'écriture ou de la lecture des données vers ou d'un périphérique.]]>
+  </nierror>
+  <nierror code="52025">
+    <![CDATA[L'opération a été interrompue par un signal en mode utilisateur.]]>
+  </nierror>
+  <nierror code="52026">
+    <![CDATA[Impossible d'effectuer l'opération car l'utilisateur n'a pas les autorisations nécessaires.  Envisagez de l'exécuter en tant qu'administrateur.]]>
+  </nierror>
+  <nierror code="52027">
+    <![CDATA[La chaîne spécifiée contient des caractères qui ne peuvent pas être interprétés du fait du support de langue installé et des options régionales.
+
+Si possible, n'utilisez pas ce caractère. Sinon, assurez-vous que le support de langue approprié est installé sur le système et que les options régionales sont correctement définies. Pour la plupart des systèmes d'exploitation Windows, ceci s'effectue via les Options régionales du Panneau de configuration. Pour les cibles LabVIEW RT, installez le support de langue pour LabVIEW RT et changez les options régionales pour le système distant sous l'onglet de configuration du système dans MAX.]]>
+  </nierror>
+  <nierror code="52028">
+    <![CDATA[La langue spécifiée n'est pas supportée.]]>
+  </nierror>
+  <nierror code="52029">
+    <![CDATA[Le format spécifié n'est pas supporté.]]>
+  </nierror>
+  <nierror code="52030">
+    <![CDATA[L'environnement de développement d'applications actuel n'est pas supporté.]]>
+  </nierror>
+  <nierror code="52031">
+    <![CDATA[La ressource spécifiée est en cours d'utilisation.]]>
+  </nierror>
+</nidocument>

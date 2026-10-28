@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SoftwareInfo>
+	<Name>NI-VISA</Name>
+	<Description>Virtual Instrument Software Architecture</Description>
+	<Version key="true">National Instruments\NI-VISA for Windows 95/NT\CurrentVersion</Version>
+	<Path>%SYSTEM32%\visa32.dll</Path>
+	<IsLaunchable>false</IsLaunchable>
+	<IsUpdateable>true</IsUpdateable>
+	<IsWatched>true</IsWatched>
+	<DefaultIcon>Experts\niswelib\visa.ico</DefaultIcon>
+	<Alias>{97C9B630-E74A-418B-BAB0-E4345FE29903}</Alias>
+	<French>
+		<Description>Architecture logicielle d&apos;instrument virtuel</Description>
+	</French>
+	<German>
+		<Description>Virtual Instrument Software Architecture.</Description>
+	</German>
+	<Japanese>
+		<Description>仮想計測ソフトウェアアーキテクチャ</Description>
+	</Japanese>
+
+	<SoftwareInfo>
+		<Name>NiVisaServer.exe</Name>
+		<Description>Remote NI-VISA Server</Description>
+		<Path key="true">SOFTWARE\VXIPNP_Alliance\VXIPNP\CurrentVersion\FRAMEWORK_PATH</Path>
+		<Path>\NIvisa\NiVisaServer.exe</Path>
+		<Version file="true">%PATH%</Version>
+		<IsLaunchable>true</IsLaunchable>
+		<IsUpdateable>false</IsUpdateable>
+		<IsWatched>false</IsWatched>
+		<DefaultIcon>%PATH%</DefaultIcon>
+		<French>
+			<Description>Serveur VISA déporté</Description>
+		</French>
+		<German>
+			<Description>Netzwerk-VISA-Server</Description>
+		</German>
+		<Japanese>
+			<Description>リモートVISAサーバ</Description>
+		</Japanese>
+	</SoftwareInfo>
+
+	<SoftwareInfo>
+		<Name>NIvisaic.exe</Name>
+		<Description>VISA Interactive Control Utility</Description>
+		<Path key="true">SOFTWARE\VXIPNP_Alliance\VXIPNP\CurrentVersion\FRAMEWORK_PATH</Path>
+		<Path>\NIvisa\NIvisaic.exe</Path>
+		<Version file="true">%PATH%</Version>
+		<IsLaunchable>true</IsLaunchable>
+		<IsUpdateable>false</IsUpdateable>
+		<IsWatched>false</IsWatched>
+		<DefaultIcon>Experts\niswelib\visa.ico</DefaultIcon>
+		<French>
+			<Description>Utilitaire de contrôle interactif VISA</Description>
+		</French>
+		<German>
+			<Description>Hilfsprogramm zur interaktiven Steuerung über VISA</Description>
+		</German>
+		<Japanese>
+			<Description>VISA対話式制御ユーティリティ</Description>
+		</Japanese>
+	</SoftwareInfo>
+
+</SoftwareInfo>

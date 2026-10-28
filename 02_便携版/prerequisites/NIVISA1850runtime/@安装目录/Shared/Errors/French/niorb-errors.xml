@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-ORB" familyname="NI-ORB">
+  <nierror code="-88908">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88907">
+    <![CDATA[Impossible d'enregistrer dans NI Service Locator.
+
+Vérifiez que le service NI Service Locator est installé et qu'il a été démarré.]]>
+  </nierror>
+  <nierror code="-88906">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88905">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88904">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88903">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88902">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88901">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88900">
+    <![CDATA[La cible distante spécifiée n'est pas atteignable.
+
+Assurez-vous que la cible est en cours d'exécution.]]>
+  </nierror>
+  <nierror code="-88800">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88361">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88360">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88313">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88312">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88311">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88310">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88309">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88308">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88307">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88306">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88305">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88304">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88303">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88302">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88301">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-88300">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+</nidocument>

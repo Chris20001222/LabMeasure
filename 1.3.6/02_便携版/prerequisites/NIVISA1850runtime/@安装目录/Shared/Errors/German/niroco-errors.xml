@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-MRU" familyname="NI-MRU">
+  <nicomment>Errors for Atomic Routing, MRU and DIM.</nicomment>
+  <nierror code="-89169">
+    <![CDATA[Die installierte Version des Treibers für dieses Gerät ist nicht mehr unterstützt. Installieren Sie die aktuelle Version des Treibers für das Gerät.]]>
+  </nierror>
+  <nierror code="-89168">
+    <![CDATA[Es konnte keine Verbindung mit dem Dienst "NI Route Coordinator" hergestellt werden.  Vergewissern Sie sich, dass der Dienst "NI Route Coordinator" installiert ist und gestartet wurde.]]>
+  </nierror>
+  <nierror code="-89167">
+    <![CDATA[PXIe_DStar<n> (A, B oder C) ist als Endanschluss nur für Geräte im Steckplatz zur zeitlichen Steuerung des Systems verfügbar.
+
+Zur Verwendung von PXIe_DStar A, B oder C (ohne Nummer) ist keine Star-Leitungsnummer anzugeben. Zur Verwendung von PXIe_DStar<n> (A, B oder C) stecken Sie Ihr Gerät in einen Steckplatz zur zeitlichen Steuerung des Systems.]]>
+  </nierror>
+  <nierror code="-89166">
+    <![CDATA[PXIe_DStar<n> (A, B oder C) ist als Ausgangsanschluss nur für Geräte im Steckplatz zur zeitlichen Steuerung des Systems verfügbar.
+
+Zur Verwendung von PXIe_DStar A, B oder C (ohne Nummer) ist keine Star-Leitungsnummer anzugeben. Zur Verwendung von PXIe_DStar<n> (A, B oder C) stecken Sie Ihr Gerät in einen Steckplatz zur zeitlichen Steuerung des Systems.]]>
+  </nierror>
+  <nierror code="-89165">
+    <![CDATA[PXIe_DStar (A, B oder C) steht nicht als Ausgangsanschluss im aktuellen Steckplatz Ihres Moduls zur Verfügung.
+
+Stecken Sie das Modul in einen Steckplatz, der mit dem DStar-Trigger-Bus verbunden ist, oder wählen Sie einen anderen Ausgangsanschluss.]]>
+  </nierror>
+  <nierror code="-89164">
+    <![CDATA[PXIe_DStar (A, B oder C) steht nicht als Endanschluss im aktuellen Steckplatz Ihres Moduls zur Verfügung.
+
+Stecken Sie das Modul in einen Steckplatz, der mit dem DStar-Trigger-Bus verbunden ist, oder wählen Sie einen anderen Endanschluss.]]>
+  </nierror>
+  <nierror code="-89162">
+    <![CDATA[PXI_Clk10In ist als Endanschluss nur für Geräte in einem Star-Trigger-Steckplatz verfügbar.
+
+Stecken Sie Ihr Gerät daher in einen solchen Steckplatz.]]>
+  </nierror>
+  <nierror code="-89161">
+    <![CDATA[PXI_Clk10In ist als Endanschluss nur für Geräte in einem Steckplatz zur zeitlichen Steuerung des Systems verfügbar.
+
+Stecken Sie Ihr Gerät daher in einen solchen Steckplatz.]]>
+  </nierror>
+  <nierror code="-89160">
+    <![CDATA[PXI_Star<n> ist als Zielanschluss nur für Geräte in einem Star-Trigger-Steckplatz verfügbar.
+
+Zur Verwendung von PXI_Star (ohne Nummer) ist keine Star-Leitungsnummer anzugeben. Zur Verwendung von PXI_Star<n> stecken Sie Ihr Gerät in einen Star-Trigger-Steckplatz.]]>
+  </nierror>
+  <nierror code="-89159">
+    <![CDATA[PXI_Star<n> ist als Endanschluss nur für Geräte in einem System-Timing-Steckplatz verfügbar.
+
+Zur Verwendung von PXI_Star (ohne Nummer) ist keine Star-Leitungsnummer anzugeben. Zur Verwendung von PXI_Star<n> stecken Sie Ihr Gerät in einen Steckplatz zur zeitlichen Steuerung des Systems.]]>
+  </nierror>
+  <nierror code="-89158">
+    <![CDATA[PXI_Star<n> ist als Ausgangsanschluss nur für Geräte in einem Star-Trigger-Steckplatz verfügbar.
+
+Zur Verwendung von PXI_Star (ohne Nummer) ist keine Star-Leitungsnummer anzugeben. Zur Verwendung von PXI_Star<n> stecken Sie Ihr Gerät in einen Star-Trigger-Steckplatz.]]>
+  </nierror>
+  <nierror code="-89157">
+    <![CDATA[PXI_Star<n> ist als Ausgangsanschluss nur für Geräte in einem System-Timing-Steckplatz verfügbar.
+
+Zur Verwendung von PXI_Star (ohne Nummer) ist keine Star-Leitungsnummer anzugeben. Zur Verwendung von PXI_Star<n> stecken Sie Ihr Gerät in einen Steckplatz zur zeitlichen Steuerung des Systems.]]>
+  </nierror>
+  <nierror code="-89156">
+    <![CDATA[PXI_Star ist im aktuellen Steckplatz nicht als Ausgangsanschluss verfügbar.
+
+Stecken Sie Ihre Karte in einen anderen Steckplatz mit Star-Trigger-Bus oder wählen Sie einen anderen Anschluss als Datenquelle aus.]]>
+  </nierror>
+  <nierror code="-89155">
+    <![CDATA[PXI_Star ist im aktuellen Steckplatz nicht als Endanschluss verfügbar.
+
+Stecken Sie Ihre Karte in einen anderen Steckplatz mit Star-Trigger-Bus oder wählen Sie einen anderen Anschluss als Datensenke aus.]]>
+  </nierror>
+  <nierror code="-89154">
+    <![CDATA[PXI_Star ist nicht als Zielanschluss für Geräte in einem Star-Trigger-Steckplatz verfügbar. Ein Star-Trigger-Steckplatz hat bestimmte PXI_Star<n>-Leitungen, wie PXI_Star3.
+
+Stecken Sie die Karte entweder in einen anderen Steckplatz mit Star-Trigger-Bus oder wählen Sie einen anderen Anschluss als Datensenke aus.]]>
+  </nierror>
+  <nierror code="-89153">
+    <![CDATA[PXI_Star ist nicht als Zielanschluss für Geräte in einem Steckplatz zur zeitlichen Steuerung des Systems verfügbar. Ein System-Timing-Steckplatz hat bestimmte PXI_Star<n>-Leitungen, wie PXI_Star3.
+
+Stecken Sie die Karte entweder in einen anderen Steckplatz mit Star-Trigger-Bus oder wählen Sie einen anderen Anschluss als Datensenke aus.]]>
+  </nierror>
+  <nierror code="-89152">
+    <![CDATA[PXI_Star ist nicht als Quellenanschluss für Geräte in einem Star-Trigger-Steckplatz verfügbar. Ein Star-Trigger-Steckplatz hat bestimmte PXI_Star<n>-Leitungen, wie PXI_Star3.
+
+Stecken Sie die Karte entweder in einen anderen Steckplatz mit Star-Trigger-Bus oder wählen Sie einen anderen Anschluss als Datenquelle aus.]]>
+  </nierror>
+  <nierror code="-89151">
+    <![CDATA[PXI_Star ist nicht als Quellenanschluss für Geräte in einem Steckplatz zur zeitlichen Steuerung des Systems verfügbar. Ein System-Timing-Steckplatz hat bestimmte PXI_Star<n>-Leitungen, wie PXI_Star3.
+
+Stecken Sie die Karte entweder in einen anderen Steckplatz mit Star-Trigger-Bus oder wählen Sie einen anderen Anschluss als Datenquelle aus.]]>
+  </nierror>
+  <nierror code="-89150">
+    <![CDATA[Der angegebene Wert entspricht keinem gültigen Verhalten der Anschlussverbindungen.]]>
+  </nierror>
+  <nierror code="-89149">
+    <![CDATA[PXI_Clk10In ist nur für Geräte im Steckplatz für den Star-Trigger-Controller (Slot 2) als Zielanschluss verfügbar.
+
+Platzieren Sie Ihr Gerät in den PXI-Steckplatz 2.]]>
+  </nierror>
+  <nierror code="-89148">
+    <![CDATA[PXI_Star<n> ist nur für Geräte im Steckplatz für den Star-Trigger-Controller (Slot 2) als Zielanschluss verfügbar.
+
+Zur Verwendung von PXI_Star (ohne Nummer) geben Sie keine Star-Leitungsnummer an. Zur Verwendung von PXI_Star<n>  platzieren Sie Ihr Gerät in Slot 2.]]>
+  </nierror>
+  <nierror code="-89147">
+    <![CDATA[PXI_Star<n> ist nur für Geräte im Steckplatz für den Star-Trigger-Controller (Slot 2) als Quellanschluss verfügbar.
+
+Zur Verwendung von PXI_Star (ohne Nummer) geben Sie keine Star-Leitungsnummer an. Zur Verwendung von PXI_Star<n>  platzieren Sie Ihr Gerät in Slot 2.]]>
+  </nierror>
+  <nierror code="-89146">
+    <![CDATA[PXI_Star ist nicht als Quellanschluss für Geräte in PXI-Slot 16 und höher verfügbar.
+
+Platzieren Sie Ihr Gerät in einem der Slots 3 bis 15 oder wählen Sie einen anderen Quellanschluss aus.]]>
+  </nierror>
+  <nierror code="-89145">
+    <![CDATA[PXI_Star ist nicht als Zielanschluss für Geräte in PXI-Slot 16 und höher verfügbar.
+
+Platzieren Sie Ihr Gerät in einem der Slots 3 bis 15 oder wählen Sie einen anderen Zielanschluss aus.]]>
+  </nierror>
+  <nierror code="-89144">
+    <![CDATA[PXI_Star ist nicht als Zielanschluss für Geräte in PXI-Slot 2 verfügbar. PXI-Slot 2 hat spezifische PXI_Star<n>-Leitungen, wie PXI_Star3.
+
+Platzieren Sie Ihr Gerät in einem der Slots 3 bis 15 oder wählen Sie einen anderen Zielanschluss.]]>
+  </nierror>
+  <nierror code="-89143">
+    <![CDATA[PXI_Star ist nicht als Quellanschluss für Geräte in PXI-Slot 2 verfügbar. PXI-Slot 2 hat spezifische PXI_Star<n>-Leitungen, wie PXI_Star3.
+
+Platzieren Sie Ihr Gerät in einem der Slots 3 bis 15 oder wählen Sie einen anderen Quellanschluss.]]>
+  </nierror>
+  <nierror code="-89142">
+    <![CDATA[Das Routing ist fehlgeschlagen, da das PXI-Chassis nicht identifiziert wurde. Die Existenz des Zielanschlusses hängt vom Chassis ab.
+
+Verwenden Sie den Measurements & Automation Explorer (MAX) zur Identifizierung des Chassis.]]>
+  </nierror>
+  <nierror code="-89141">
+    <![CDATA[Das Routing ist fehlgeschlagen, da das PXI-Chassis nicht identifiziert wurde. Die Existenz des Quellanschlusses hängt vom Chassis ab.
+
+Verwenden Sie den Measurements & Automation Explorer (MAX) zur Identifizierung des Chassis.]]>
+  </nierror>
+  <nierror code="-89140">
+    <![CDATA[Der Treiber kann die Verbindung nicht vervollständigen, da die einzig mögliche Route eine Trigger-Bus-Leitung erfordert und für dieses Gerät kein Trigger-Bus im MAX konfiguriert wurde.
+
+Wenn Sie ein PXI-Chassis verwenden, stellen Sie sicher, dass es im MAX ordnungsgemäß erkannt wurde. Wenn Sie eine PCI-Karte verwenden, erzeugen Sie im MAX ein RTSI-Kabel (auch, wenn Sie kein solches verwenden), welches die PCI-Karte enthält.]]>
+  </nierror>
+  <nierror code="-89139">
+    <![CDATA[Es gibt keine gemeinsamen Trigger-Leitungen zwischen den beiden Geräten, die für beide Geräte akzeptabel wären. Auch wenn beide Geräte einige gemeinsame Trigger-Leitungen unterstützen, gibt es keine Trigger-Leitung, die für beide Geräte für die angegebene Eigenschaft und den zugehörigen Wert verwendet werden kann.
+
+Möglicherweise können Sie die Signale über die I/O-Anschlüsse der beiden Geräte verbinden.]]>
+  </nierror>
+  <nierror code="-89138">
+    <![CDATA[Die angegebene Route kann nicht verwendet werden, da sie Ressourcen erfordert, die zur Zeit von einer anderen Route innerhalb dieses Tasks verwendet werden.]]>
+  </nierror>
+  <nierror code="-89137">
+    <![CDATA[Die angegebene Route kann nicht verwendet werden, da sie Ressourcen erfordert, die zur Zeit von einer anderen Route verwendet werden.]]>
+  </nierror>
+  <nierror code="-89136">
+    <![CDATA[Die angegebene Route kann nicht verwendet werden, da die Hardware diese nicht zulässt.]]>
+  </nierror>
+  <nierror code="-89135">
+    <![CDATA[Die angegebene Invertierung kann nicht durchgeführt werden, da sie Ressourcen erfordert, die zur Zeit von einer anderen Route innerhalb dieses Tasks verwendet werden.]]>
+  </nierror>
+  <nierror code="-89134">
+    <![CDATA[Die angegebene Invertierung kann nicht durchgeführt werden, da sie Ressourcen erfordert, die zur Zeit von einer anderen Route verwendet werden.]]>
+  </nierror>
+  <nierror code="-89133">
+    <![CDATA[Die angegebene Invertierung kann nicht durchgeführt werden, da die Hardware diese nicht zulässt.]]>
+  </nierror>
+  <nierror code="-89132">
+    <![CDATA[Der angegebene Eigenschaftswert kann nicht verwendet werden, da er Ressourcen erfordert, die zur Zeit verwendet werden.]]>
+  </nierror>
+  <nierror code="-89131">
+    <![CDATA[Es wurde versucht, ein Signal weiterzuleiten, aber als Ausgangs- und Endpunkt wurde derselbe Anschluss angegeben.
+
+In vielen Fällen, zum Beispiel wenn ein externer Takt oder eine Taktquelle konfiguriert wird, muss ein PFI- oder ein PXI-Trigger oder eine RTSI-Leitung als Quelle angegeben werden.]]>
+  </nierror>
+  <nierror code="-89130">
+    <![CDATA[Gerät ist für das Routing nicht verfügbar.  Es ist möglich, dass das Gerät zurückgesetzt werden muss oder gerade zurückgesetzt wird.
+
+Wenn das Gerät gerade zurückgesetzt wird, warten Sie, bis der Vorgang abgeschlossen ist.
+
+Wenn das Gerät zuvor mit dem traditionellen NI-DAQ-Treiber verwendet wurde, muss das Gerät vor dem Herstellen der Verbindung zurückgesetzt werden.  Bei SCXI-Geräten muss das Modul, mit dem der Datenaustausch mit dem Rechner erfolgt, zurückgesetzt werden. Rufen Sie dazu das VI "Gerät zurücksetzen" des traditionellen NI-DAQ-Treibers oder die Funktion Init_DA_Brds auf. Um alle Geräte, die mit dem traditionellen NI-DAQ-Treiber betrieben werden, zurückzusetzen, klicken Sie mit der rechten Maustaste auf die Kategorie "Traditioneller NI-DAQ - Geräte" in MAX und wählen "Treiber für traditionellen NI-DAQ zurücksetzen".]]>
+  </nierror>
+  <nierror code="-89129">
+    <![CDATA[Der Anschluss ist für das Gerät nicht gültig.]]>
+  </nierror>
+  <nierror code="-89128">
+    <![CDATA[Der Anschluss kann nicht in den Tristate-Modus versetzt werden, da die Hardware diese Option nicht erlaubt.]]>
+  </nierror>
+  <nierror code="-89127">
+    <![CDATA[Der Anschluss kann nicht in den Tristate-Modus gesetzt werden, da er zur Zeit verwendet wird.
+
+Trennen Sie alle Durchleitungsverbindungen, die mit diesem Anschluss arbeiten, oder verwenden Sie diesen Anschluss nicht mehr.]]>
+  </nierror>
+  <nierror code="-89126">
+    <![CDATA[Die gewünschte Trigger-Leitung konnte nicht reserviert werden, da sie bereits verwendet wird.]]>
+  </nierror>
+  <nierror code="-89125">
+    <![CDATA[Es konnten keine registrierten Trigger-Leitungen zwischen den Geräten dieser Route gefunden werden.
+
+Wenn Sie ein PXI-Chassis haben, identifizieren Sie das Chassis korrekt im MAX und prüfen Sie die Konfiguration des Chassis. Wenn Sie PCI-Karten verwenden, sollten Sie sich vergewissern, dass diese über ein RTSI-Kabel miteinander verbunden sind und das RTSI-Kable im MAX registriert ist. Ansonsten sollten Sie gewährleisten, dass eine Trigger-Leitung auf dem Trigger-Bus verfügbar ist, die von beiden Karten verwendet wird.]]>
+  </nierror>
+  <nierror code="-89124">
+    <![CDATA[Der Verbindungsweg zwischen dem angegebenen Ausgangs- und Endanschluss kann nicht hergestellt werden.
+
+Entweder unterstützt die Hardware diesen Verbindungsweg nicht oder der Verbindungsweg ist durch andere Verbindungen blockiert.]]>
+  </nierror>
+  <nierror code="-89123">
+    <![CDATA[Die für diesen Verbindungsweg notwendige Hardware wird von anderen Routen verwendet.]]>
+  </nierror>
+  <nierror code="-89122">
+    <![CDATA[Die gewünschte Invertierung ist nicht möglich.
+
+Entweder unterstützt die Hardware die Invertierung zwischen dem Ausgangs- und dem Endanschluss nicht oder der Verbindungsweg ist durch andere Verbindungen versperrt.]]>
+  </nierror>
+  <nierror code="-89121">
+    <![CDATA[Der Endanschluss für den Verbindungsweg wurde auf dem Gerät nicht gefunden.
+
+Überprüfen Sie den Anschlussnamen. Gültige Anschlussbezeichnungen können Sie dem Measurement & Automation Explorer oder der Hardwaredokumentation entnehmen.]]>
+  </nierror>
+  <nierror code="-89120">
+    <![CDATA[Der Quellanschluss für den Verbindungsweg wurde auf dem Gerät nicht gefunden.
+
+Überprüfen Sie den Anschlussnamen. Gültige Anschlussbezeichnungen können Sie dem Measurement & Automation Explorer entnehmen.]]>
+  </nierror>
+  <nierror code="-89119">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89118">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89117">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89116">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89115">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89114">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89113">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89112">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89111">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89110">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89109">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89108">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89107">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89106">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89105">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89104">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89103">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89102">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89101">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-89100">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54023">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54022">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54021">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54020">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54012">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54011">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54010">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54002">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54001">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-54000">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+</nidocument>

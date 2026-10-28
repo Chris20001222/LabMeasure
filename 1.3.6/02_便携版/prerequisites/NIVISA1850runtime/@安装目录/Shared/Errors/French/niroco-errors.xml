@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-MRU" familyname="NI-MRU">
+  <nicomment>Errors for Atomic Routing, MRU and DIM.</nicomment>
+  <nierror code="-89169">
+    <![CDATA[La version du driver installée pour ce périphérique n'est plus supportée. Installez la version actuelle du driver pour ce périphérique.]]>
+  </nierror>
+  <nierror code="-89168">
+    <![CDATA[Impossible de se connecter au service NI Route Coordinator.  Vérifiez que le service NI Route Coordinator est installé et qu'il a été démarré.]]>
+  </nierror>
+  <nierror code="-89167">
+    <![CDATA[PXIe_DStar<n> (A, B ou C) n'est disponible comme terminal de destination que pour les périphériques dans un emplacement de cadencement système.
+
+Pour utiliser PXIe_DStar<n> (A, B ou C) (sans numéro), ne spécifiez aucun numéro de ligne star. Pour utiliser PXIe_DStar<n> (A, B ou C), installez votre périphérique dans un emplacement de cadencement système.]]>
+  </nierror>
+  <nierror code="-89166">
+    <![CDATA[PXIe_DStar<n> (A, B ou C) n'est disponible comme terminal source que pour les périphériques dans un emplacement de cadencement système.
+
+Pour utiliser PXIe_DStar<n> (A, B ou C) (sans numéro), ne spécifiez aucun numéro de ligne star. Pour utiliser PXIe_DStar<n> (A, B ou C), installez votre périphérique dans un emplacement de cadencement système.]]>
+  </nierror>
+  <nierror code="-89165">
+    <![CDATA[PXIe_DStar (A, B ou C) n'est pas disponible comme terminal source dans l'emplacement actuel de votre périphérique.
+
+Installez votre périphérique dans un des emplacements connectés au bus DStar Trigger ou sélectionnez un autre terminal source.]]>
+  </nierror>
+  <nierror code="-89164">
+    <![CDATA[PXIe_DStar (A, B ou C) n'est pas disponible comme terminal de destination dans l'emplacement actuel de votre périphérique.
+
+Installez votre périphérique dans un des emplacements connectés au bus DStar Trigger ou sélectionnez un autre terminal de destination.]]>
+  </nierror>
+  <nierror code="-89162">
+    <![CDATA[PXI_Clk10In n'est disponible comme terminal de destination que pour les périphériques dans un emplacement de déclenchement en étoile.
+
+Installez votre périphérique dans un emplacement de déclenchement en étoile.]]>
+  </nierror>
+  <nierror code="-89161">
+    <![CDATA[PXI_Clk10In n'est disponible comme terminal de destination que pour les périphériques dans un emplacement de synchronisation système.
+
+Installez votre périphérique dans un emplacement de synchronisation système.]]>
+  </nierror>
+  <nierror code="-89160">
+    <![CDATA[PXI_Star<n> n'est disponible comme terminal de destination que pour les périphériques dans un emplacement de déclenchement en étoile.
+
+Pour utiliser PXI_Star (sans numéro), ne spécifiez aucun numéro de ligne star. Pour utiliser PXI_Star<n>, installez votre périphérique dans un emplacement de déclenchement en étoile.]]>
+  </nierror>
+  <nierror code="-89159">
+    <![CDATA[PXI_Star<n> n'est disponible comme terminal de destination que pour les périphériques dans un emplacement de synchronisation système.
+
+Pour utiliser PXI_Star (sans numéro), ne spécifiez aucun numéro de ligne star. Pour utiliser PXI_Star<n>, installez votre périphérique dans un emplacement de synchronisation système.]]>
+  </nierror>
+  <nierror code="-89158">
+    <![CDATA[PXI_Star<n> n'est disponible comme terminal source que pour les périphériques dans un emplacement de déclenchement en étoile.
+
+Pour utiliser PXI_Star (sans numéro), ne spécifiez aucun numéro de ligne star. Pour utiliser PXI_Star<n>, installez votre périphérique dans un emplacement de déclenchement en étoile.]]>
+  </nierror>
+  <nierror code="-89157">
+    <![CDATA[PXI_Star<n> n'est disponible comme terminal source que pour les périphériques dans un emplacement de synchronisation système.
+
+Pour utiliser PXI_Star (sans numéro), ne spécifiez aucun numéro de ligne star. Pour utiliser PXI_Star<n>, installez votre périphérique dans un emplacement de synchronisation système.]]>
+  </nierror>
+  <nierror code="-89156">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal source dans l'emplacement actuel de votre périphérique.
+
+Installez votre périphérique dans un des emplacements connectés au bus de déclenchement en étoile ou sélectionnez un autre terminal source.]]>
+  </nierror>
+  <nierror code="-89155">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal de destination dans l'emplacement actuel de votre périphérique.
+
+Installez votre périphérique dans un des emplacements connectés au bus de déclenchement en étoile ou sélectionnez un autre terminal de destination.]]>
+  </nierror>
+  <nierror code="-89154">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal de destination pour les périphériques dans un emplacement de déclenchement en étoile. Un emplacement de déclenchement en étoile comporte des lignes PXI_Star<n> spécifiques, comme PXI_Star3.
+
+Installez votre périphérique dans un des autres emplacements connectés au bus de déclenchement en étoile ou sélectionnez un autre terminal de destination.]]>
+  </nierror>
+  <nierror code="-89153">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal de destination pour les périphériques dans un emplacement de synchronisation système. Un emplacement de synchronisation système comporte des lignes PXI_Star<n> spécifiques, comme PXI_Star3.
+
+Installez votre périphérique dans un des autres emplacements connectés au bus de déclenchement en étoile ou sélectionnez un autre terminal source.]]>
+  </nierror>
+  <nierror code="-89152">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal source pour les périphériques dans un emplacement de déclenchement en étoile. Un emplacement de déclenchement en étoile comporte des lignes PXI_Star<n> spécifiques, comme PXI_Star3.
+
+Installez votre périphérique dans un des autres emplacements connectés au bus de déclenchement en étoile ou sélectionnez un autre terminal source.]]>
+  </nierror>
+  <nierror code="-89151">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal source pour les périphériques dans un emplacement de synchronisation système. Un emplacement de synchronisation système comporte des lignes PXI_Star<n> spécifiques, comme PXI_Star3.
+
+Installez votre périphérique dans un des autres emplacements connectés au bus de déclenchement en étoile ou sélectionnez un autre terminal source.]]>
+  </nierror>
+  <nierror code="-89150">
+    <![CDATA[La valeur spécifiée ne correspond à aucun comportement de connexion de terminal.]]>
+  </nierror>
+  <nierror code="-89149">
+    <![CDATA[PXI_Clk10In n'est disponible comme terminal de destination que pour les périphériques dans l'emplacement du contrôleur de déclenchement en étoile (emplacement 2).
+
+Installez votre périphérique dans l'emplacement PXI 2.]]>
+  </nierror>
+  <nierror code="-89148">
+    <![CDATA[PXI_Star<n> n'est disponible comme terminal de destination que pour les périphériques dans l'emplacement du contrôleur de déclenchement en étoile (emplacement 2).
+
+Pour utiliser PXI_Star (sans numéro), ne spécifiez aucun numéro de ligne star. Pour utiliser PXI_Star<n> , installez votre périphérique dans l'emplacement 2.]]>
+  </nierror>
+  <nierror code="-89147">
+    <![CDATA[PXI_Star<n> n'est disponible comme terminal source que pour les périphériques dans l'emplacement du contrôleur de déclenchement en étoile (emplacement 2).
+
+Pour utiliser PXI_Star (sans numéro), ne spécifiez aucun numéro de ligne star. Pour utiliser PXI_Star<n> , installez votre périphérique dans l'emplacement 2.]]>
+  </nierror>
+  <nierror code="-89146">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal source pour les périphériques dans les emplacements PXI 16 et plus.
+
+Installez le périphérique dans un des emplacements 3 à 15 ou sélectionnez un terminal source différent.]]>
+  </nierror>
+  <nierror code="-89145">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal de destination pour les périphériques dans les emplacements PXI 16 et plus.
+
+Installez le périphérique dans un des emplacements 3 à 15 ou sélectionnez un terminal de destination différent.]]>
+  </nierror>
+  <nierror code="-89144">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal de destination pour les périphériques dans un emplacement PXI 2. L'emplacement PXI 2 a des lignes PXI_Star<n> spécifiques, comme PXI_Star3.
+
+Installez le périphérique dans un des emplacements 3 à 15 ou sélectionnez un terminal de destination différent.]]>
+  </nierror>
+  <nierror code="-89143">
+    <![CDATA[PXI_Star n'est pas disponible comme terminal source pour les périphériques dans un emplacement PXI 2. L'emplacement PXI 2 a des lignes PXI_Star<n> spécifiques, comme PXI_Star3.
+
+Installez le périphérique dans un des emplacements 3 à 15 ou sélectionnez un terminal source différent.]]>
+  </nierror>
+  <nierror code="-89142">
+    <![CDATA[Le routage a échoué car le châssis PXI n'est pas identifié. L'existence du terminal de destination dépend du châssis identifié.
+
+Utilisez MAX (Measurements & Automation Explorer) pour identifier votre châssis.]]>
+  </nierror>
+  <nierror code="-89141">
+    <![CDATA[Le routage a échoué car le châssis PXI n'est pas identifié. L'existence du terminal source dépend du châssis identifié.
+
+Utilisez MAX (Measurements & Automation Explorer) pour identifier votre châssis.]]>
+  </nierror>
+  <nierror code="-89140">
+    <![CDATA[Le driver ne peut pas terminer le routage car la seule façon de le faire nécessite une ligne de bus de déclenchement et aucun bus de déclenchement n'a été configuré dans MAX pour ce périphérique.
+
+Si vous avez un châssis PXI, vérifiez qu'il a bien été identifié dans MAX. Si vous utilisez un périphérique PCI, créez un câble RTSI dans MAX qui inclut votre périphérique PCI, même si vous n'utilisez pas de câbles RTSI.]]>
+  </nierror>
+  <nierror code="-89139">
+    <![CDATA[Aucune ligne de déclenchement partagée entre les deux périphériques n'est acceptable pour les deux. Bien que ces deux périphériques supportent chacun certaines lignes de déclenchement partagées, aucune de ces lignes de déclenchement partagées ne fonctionne pour les deux périphériques pour la propriété spécifiée et la valeur correspondante.
+
+Envisagez le routage du signal via les connecteurs d'E/S des deux périphériques, si possible.]]>
+  </nierror>
+  <nierror code="-89138">
+    <![CDATA[Le routage spécifié n'est pas possible car il requiert des ressources qui sont en cours d'utilisation par un autre routage à l'intérieur de cette tâche.]]>
+  </nierror>
+  <nierror code="-89137">
+    <![CDATA[Le routage spécifié n'est pas possible car il requiert des ressources qui sont en cours d'utilisation par un autre routage.]]>
+  </nierror>
+  <nierror code="-89136">
+    <![CDATA[Le routage spécifié n'est pas possible car le matériel ne le supporte pas.]]>
+  </nierror>
+  <nierror code="-89135">
+    <![CDATA[L'inversion spécifiée n'est pas possible car elle requiert des ressources qui sont en cours d'utilisation par un autre routage à l'intérieur de cette tâche.]]>
+  </nierror>
+  <nierror code="-89134">
+    <![CDATA[L'inversion spécifiée ne peut pas être satisfaite car elle requiert des ressources qui sont en cours d'utilisation par un autre routage.]]>
+  </nierror>
+  <nierror code="-89133">
+    <![CDATA[L'inversion spécifiée n'est pas possible car le matériel ne la supporte pas.]]>
+  </nierror>
+  <nierror code="-89132">
+    <![CDATA[La valeur de propriété spécifiée ne peut pas être utilisée car elle requiert des ressources qui sont en cours d'utilisation.]]>
+  </nierror>
+  <nierror code="-89131">
+    <![CDATA[Une tentative a eu lieu pour effectuer un routage avec la source et la destination comme même terminal.
+
+Dans beaucoup de cas comme, par exemple lors de la configuration d'une horloge externe ou d'une source de compteur, vous devez sélectionner une ligne PFI, une ligne de déclenchement PXI ou une ligne RTSI comme terminal source.]]>
+  </nierror>
+  <nierror code="-89130">
+    <![CDATA[Le périphérique n'est pas disponible pour le routage.  Il se peut que le périphérique doivent être réinitialisé ou qu'il soit en cours de réinitialisation.
+
+Si vous êtes en train de réinitialiser le périphérique, attendez que la réinitialisation soit terminée.
+
+Par exemple, si vous avez utilisé le périphérique avec DAQ traditionnel, vous devez le réinitialier avant de pouvoir effectuer le routage demandé.  Pour les périphériques SCXI, vous devez réinitialisé le périphérique DAQ communicateur. Appelez le VI Device Reset de NI-DAQ traditionnel ou la fonction Init_DA_Brds. Pour réinitialiser tous les périphériques dans NI-DAQ traditionnel, cliquez avec le bouton droit sur le dossier Périphériques NI-DAQ traditionnel dans MAX et sélectionnez Réinitialiser le driver pour NI-DAQ traditionnel.]]>
+  </nierror>
+  <nierror code="-89129">
+    <![CDATA[Le terminal n'est pas valide pour le périphérique.]]>
+  </nierror>
+  <nierror code="-89128">
+    <![CDATA[Le terminal n'a pas pu être configuré en logique triple état par le matériel.]]>
+  </nierror>
+  <nierror code="-89127">
+    <![CDATA[Le terminal n'a pas pu être configuré en logique triple état car il est occupé.
+
+Déconnectez toutes les routes passant par ce terminal ou arrêtez de l'utiliser.]]>
+  </nierror>
+  <nierror code="-89126">
+    <![CDATA[La ligne de déclenchement demandée n'a pu être réservée car elle est déjà utilisée.]]>
+  </nierror>
+  <nierror code="-89125">
+    <![CDATA[Impossible de trouver des lignes de déclenchement enregistrées entre les périphériques de cette route.
+
+Si vous avez un châssis PXI, identifiez correctement le châssis dans MAX et assurez-vous qu'il a été configuré correctement. Si vous utilisez des périphériques PCI, assurez-vous qu'ils sont connectés avec un câble RTSI et que le câble RTSI est enregistré dans MAX. Sinon, assurez-vous qu'il y a une ligne de déclenchement disponible sur le bus de déclenchement partagé entre les périphériques.]]>
+  </nierror>
+  <nierror code="-89124">
+    <![CDATA[Le routage ne peut pas être effectuée entre les terminaux de source et de destination.
+
+Soit le matériel ne supporte pas ce routage, soit d'autres routages interfèrent avec celui-ci.]]>
+  </nierror>
+  <nierror code="-89123">
+    <![CDATA[Le matériel nécessaire pour ce routage est utilisé par un ou plusieurs autres routages.]]>
+  </nierror>
+  <nierror code="-89122">
+    <![CDATA[L'inversion demandée n'est pas possible.
+
+Soit le matériel entre les terminaux de source et de destination ne supporte pas l'inversion, soit d'autres routages interfèrent avec celui-ci.]]>
+  </nierror>
+  <nierror code="-89121">
+    <![CDATA[Le terminal de destination à connecter est introuvable sur le périphérique.
+
+Vérifiez que le nom du terminal est valide pour le périphérique spécifié. Reportez-vous à Measurement & Automation Explorer ou à la documentation de votre matériel pour obtenir des noms de terminal valides.]]>
+  </nierror>
+  <nierror code="-89120">
+    <![CDATA[Le terminal source à connecter est introuvable sur le périphérique.
+
+Vérifiez que le nom du terminal est valide pour le périphérique spécifié. Reportez-vous à Measurement & Automation Explorer pour obtenir des noms de terminal valides.]]>
+  </nierror>
+  <nierror code="-89119">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89118">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89117">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89116">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89115">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89114">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89113">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89112">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89111">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89110">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89109">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89108">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89107">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89106">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89105">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89104">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89103">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89102">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89101">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-89100">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54023">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54022">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54021">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54020">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54012">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54011">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54010">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54002">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54001">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+  <nierror code="-54000">
+    <![CDATA[Une erreur interne a eu lieu.]]>
+  </nierror>
+</nidocument>

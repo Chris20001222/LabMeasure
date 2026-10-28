@@ -1,0 +1,8 @@
+<instructions>
+   <msis>
+      <msi name="mxs.msi">
+      </msi>
+      <msi name="mxs64.msi">
+      </msi>
+   </msis>
+</instructions>

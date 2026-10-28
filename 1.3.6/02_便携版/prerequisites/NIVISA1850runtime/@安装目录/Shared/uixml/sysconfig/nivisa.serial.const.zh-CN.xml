@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+<str name="serialportbinding">端口绑定</str>
+<str name="serialportdesc">端口说明</str>
+<str name="portsettings">端口设置</str>
+<str name="serialbaud">波特率</str>
+<str name="serialdata">数据位</str>
+<str name="serialparity">校验</str>
+<str name="serialparitynone">无</str>
+<str name="serialparityodd">奇</str>
+<str name="serialparityeven">偶</str>
+<str name="serialparitymark">标记</str>
+<str name="serialparityspace">空</str>
+<str name="serialstop">停止位</str>
+  <str name="serialstoponeandhalf">1.5</str>
+<str name="serialflow">流程控制</str>
+<str name="serialflownone">无</str>
+<str name="serialflowxonxoff">XON/XOFF</str>
+<str name="serialflowrtscts">硬件(RTS/CTS)</str>
+<str name="serialflowdtrdsr">硬件(DTR/DSR)</str>
+</uistrings>

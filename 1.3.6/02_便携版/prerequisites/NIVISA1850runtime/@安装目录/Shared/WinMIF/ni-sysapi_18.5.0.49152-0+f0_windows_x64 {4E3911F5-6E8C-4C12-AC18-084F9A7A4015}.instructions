@@ -1,0 +1,8 @@
+<instructions>
+   <msis>
+      <msi name="nisysapi_x86.msi">
+      </msi>
+      <msi name="nisysapi_x64.msi">
+      </msi>
+   </msis>
+</instructions>

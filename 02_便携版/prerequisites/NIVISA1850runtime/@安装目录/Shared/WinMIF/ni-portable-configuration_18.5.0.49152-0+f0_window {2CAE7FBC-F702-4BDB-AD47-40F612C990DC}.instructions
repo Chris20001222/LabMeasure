@@ -1,0 +1,8 @@
+<instructions>
+   <msis>
+      <msi name="Portable_Configuration.msi">
+      </msi>
+      <msi name="Portable_Configuration64.msi">
+      </msi>
+   </msis>
+</instructions>

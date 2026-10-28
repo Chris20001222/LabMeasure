@@ -1,0 +1,15 @@
+﻿NI-VISA Headers 18.5
+
+This product uses the following technologies licensed under the corresponding licenses.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR NATIONAL INSTRUMENTS SOFTWARE
+
+This product is licensed to you by National Instruments pursuant to the applicable National Instruments software license agreement.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR PROPRIETARY SOFTWARE
+
+This product includes code from the IVI Foundation licensed by a third party or parties pursuant to the license found at "..\..\Shared\MDF\Legal\license\IVI".

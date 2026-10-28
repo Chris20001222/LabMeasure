@@ -1,0 +1,8 @@
+<instructions>
+   <msis>
+      <msi name="mDNSResponder.msi">
+      </msi>
+      <msi name="mDNSResponder_W64.msi">
+      </msi>
+   </msis>
+</instructions>

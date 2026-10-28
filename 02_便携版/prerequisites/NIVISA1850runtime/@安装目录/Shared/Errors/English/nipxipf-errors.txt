@@ -1,0 +1,481 @@
+<?xml version="1.0">
+<nidocument>
+<nicomment>
+<nifamily displayname="NI Platform Services" familyname="NI Platform Services">
+</nifamily>
+</nicomment>
+<nierror code="-380764">
+The PXI system description files are present but inaccessible. This may be a temporary problem caused by another process accessing the files. Contact National Instruments if the problem persists.
+</nierror>
+<nierror code="-380763">
+The PXI system description files are locked by another process. This may be a temporary problem caused by another process accessing the files. Contact National Instruments if the problem persists.
+</nierror>
+<nierror code="-380762">
+Unable to verify the PXI system information is up to date.
+</nierror>
+<nierror code="-380761">
+The PXISA trigger manager library for the PXI chassis was not found. Ensure the software for your PXI chassis is installed and up to date.
+</nierror>
+<nierror code="-380760">
+An internal software error occurred.
+</nierror>
+<nierror code="-380759">
+This slot is not connected to the requested type of PXI trigger bus. To use this type of PXI trigger bus, move your device to another slot.
+</nierror>
+<nierror code="-380758">
+There is no PXI_Star connection for this slot because it is a PXI system timing slot. If the device supports PXI system timing controller functionality, use a numbered PXI_Star connection to access the system timing slot's PXI_Star lines, or move the device to another slot.
+</nierror>
+<nierror code="-380757">
+The requested PXI information is not available. Verify that the PXI Resource Manager for the system is up to date. Use NI MAX to select the active PXI Resource Manager for the system.
+</nierror>
+<nierror code="-380756">
+An internal software error occurred.
+</nierror>
+<nierror code="-380755">
+An internal software error occurred.
+</nierror>
+<nierror code="-380754">
+An internal software error occurred.
+</nierror>
+<nierror code="-380753">
+The PXI system description files are internally inconsistent. The PXI Resource Manager may be generating incorrect files. Use NI MAX to select the active PXI Resource Manager for the system.
+</nierror>
+<nierror code="-380752">
+An internal software error occurred.
+</nierror>
+<nierror code="-380751">
+The requested device, chassis, or controller is unknown to the PXI subsystem.
+</nierror>
+<nierror code="-380750">
+The requested memory could not be allocated.
+</nierror>
+<nierror code="380750">
+The requested memory could not be allocated.
+</nierror>
+<nierror code="380751">
+The requested device, chassis, or controller is unknown to the PXI subsystem.
+</nierror>
+<nierror code="380752">
+An internal software error occurred.
+</nierror>
+<nierror code="380753">
+The PXI system description files are internally inconsistent. The PXI Resource Manager may be generating incorrect files. Use NI MAX to select the active PXI Resource Manager for the system.
+</nierror>
+<nierror code="380754">
+An internal software error occurred.
+</nierror>
+<nierror code="380755">
+An internal software error occurred.
+</nierror>
+<nierror code="380756">
+An internal software error occurred.
+</nierror>
+<nierror code="380757">
+The requested PXI information is not available. Verify that the PXI Resource Manager for the system is up to date. Use NI MAX to select the active PXI Resource Manager for the system.
+</nierror>
+<nierror code="380758">
+There is no PXI_Star connection for this slot because it is a PXI system timing slot. If the device supports PXI system timing controller functionality, use a numbered PXI_Star connection to access the system timing slot's PXI_Star lines, or move the device to another slot.
+</nierror>
+<nierror code="380759">
+This slot is not connected to the requested type of PXI trigger bus. To use this type of PXI trigger bus, move your device to another slot.
+</nierror>
+<nierror code="380760">
+An internal software error occurred.
+</nierror>
+<nierror code="380761">
+The PXISA trigger manager library for the PXI chassis was not found. Ensure the software for your PXI chassis is installed and up to date.
+</nierror>
+<nierror code="380762">
+Unable to verify that the PXI system information is up to date.
+</nierror>
+<nierror code="380763">
+The PXI system description files are locked by another process. This may be a temporary problem caused by another process accessing the files. Contact National Instruments if the problem persists.
+</nierror>
+<nierror code="380764">
+The PXI system description files are present but inaccessible. This may be a temporary problem caused by another process accessing the files. Contact National Instruments if the problem persists.
+</nierror>
+<nierror code="-26853">
+The call should be retried.
+</nierror>
+<nierror code="-26852">
+At least one of the PXI System Description files does not exist.
+</nierror>
+<nierror code="-26851">
+Initialization completed using existing PXI system files.  PXI System files were not regenerated due to a user setting.
+</nierror>
+<nierror code="-26850">
+The PXI System has already been initialized.
+</nierror>
+<nierror code="-26809">
+Some PXI features are unavailable because one or more PXI system description files could not be read properly.  For more information, visit ni.com/info and enter the Info Code exvgq4.
+</nierror>
+<nierror code="-26808">
+The PXISA configuration file is currently locked and inaccessible.
+</nierror>
+<nierror code="-26807">
+The National Instruments PXI Resource Manager is not currently the active PXI resource manager for the system.
+</nierror>
+<nierror code="-26806">
+The attribute is invalid.
+</nierror>
+<nierror code="-26805">
+The handle is invalid.
+</nierror>
+<nierror code="-26804">
+The NI PXI Resource Manager service is inaccessible, probably because it is either not running, or still starting up.
+</nierror>
+<nierror code="-26803">
+A component recursively called into the PXI resource manager while it was initializing.
+</nierror>
+<nierror code="-26802">
+A timeout occurred.
+</nierror>
+<nierror code="-26801">
+An unspecified error occurred in the PXI subsystem.
+</nierror>
+<nierror code="-26657">
+No handler is known for the specified data tree.
+</nierror>
+<nierror code="-26656">
+Data requested is incompatible with the specified data type.
+</nierror>
+<nierror code="-26655">
+File is internally inconsistent.
+</nierror>
+<nierror code="-26654">
+Child not found.
+</nierror>
+<nierror code="-26653">
+Attribute not found.
+</nierror>
+<nierror code="-26652">
+Error reading or writing file.
+</nierror>
+<nierror code="-26651">
+Error reading file.
+</nierror>
+<nierror code="-26650">
+Error opening file.
+</nierror>
+<nierror code="-26600">
+MXS PXI system not found
+</nierror>
+<nierror code="-26550">
+PCI description string parse error
+</nierror>
+<nierror code="-26500">
+Module parse error
+</nierror>
+<nierror code="-26404">
+The PXI system description file is invalid. Contact the vendor of your PXI resource manager software to resolve the issue.
+</nierror>
+<nierror code="-26403">
+System description spec limitation
+</nierror>
+<nierror code="-26402">
+System description write error
+</nierror>
+<nierror code="-26401">
+System description parse error
+</nierror>
+<nierror code="-26400">
+System description file not found
+</nierror>
+<nierror code="-26302">
+Controller parse error
+</nierror>
+<nierror code="-26301">
+Controller type invalid
+</nierror>
+<nierror code="-26300">
+Controller file not found
+</nierror>
+<nierror code="-26206">
+Chassis trigger parse error
+</nierror>
+<nierror code="-26205">
+Chassis bridge parse error
+</nierror>
+<nierror code="-26204">
+Chassis slot parse error
+</nierror>
+<nierror code="-26203">
+Chassis segment parse error
+</nierror>
+<nierror code="-26202">
+Chassis parse error
+</nierror>
+<nierror code="-26201">
+Chassis bridge not found
+</nierror>
+<nierror code="-26200">
+Chassis file not found
+</nierror>
+<nierror code="-26113">
+The buffer is insufficient to hold the data requested.
+</nierror>
+<nierror code="-26112">
+Error creating directory.
+</nierror>
+<nierror code="-26111">
+Access Denied
+</nierror>
+<nierror code="-26110">
+File path not found.
+</nierror>
+<nierror code="-26109">
+File already exists.
+</nierror>
+<nierror code="-26108">
+Error reading file.
+</nierror>
+<nierror code="-26107">
+Error deleting file.
+</nierror>
+<nierror code="-26106">
+Error copying file.
+</nierror>
+<nierror code="-26105">
+File could not be closed.
+</nierror>
+<nierror code="-26104">
+Error opening file.
+</nierror>
+<nierror code="-26103">
+File not found.
+</nierror>
+<nierror code="-26102">
+System not initialized
+</nierror>
+<nierror code="-26101">
+Invalid configuration
+</nierror>
+<nierror code="-26100">
+Allocation error
+</nierror>
+<nierror code="-26010">
+The PXISA trigger manager for the chassis reports that the chassis has been disconnected.
+</nierror>
+<nierror code="-26009">
+The PXISA trigger manager for the chassis reports that another application has already reserved the line.
+</nierror>
+<nierror code="-26008">
+The PXISA trigger manager for the chassis reports that the destination of this route is already used by a different backplane route.
+</nierror>
+<nierror code="-26007">
+The PXISA trigger manager for the chassis reports that there is a conflicting route, and the line could not be unreserved.
+</nierror>
+<nierror code="-26006">
+The PXISA trigger manager for the chassis reports that the line is currently being used for a conflicting route.
+</nierror>
+<nierror code="-26005">
+The PXISA trigger manager for the chassis reports that the line is already reserved by this application.
+</nierror>
+<nierror code="-26004">
+The PXISA trigger manager for the chassis reports the destination line for the route is not reserved, but this reservation is required for the route to be programmed.
+</nierror>
+<nierror code="-26003">
+The PXISA trigger manager for the chassis reports the line was not reserved. Verify that another application or API is not clearing trigger reservations it has not created.
+</nierror>
+<nierror code="-26002">
+The PXISA trigger manager for the chassis was called with an invalid parameter.
+</nierror>
+<nierror code="-26001">
+The PXISA trigger manager for the chassis does not support the requested operation.
+</nierror>
+<nierror code="-26000">
+The PXISA trigger manager for the chassis returned a vendor-specific or generic error.
+</nierror>
+<nierror code="26000">
+The PXISA trigger manager for the chassis returned a vendor-specific or generic error.
+</nierror>
+<nierror code="26001">
+The PXISA trigger manager for the chassis does not support the requested operation.
+</nierror>
+<nierror code="26002">
+The PXISA trigger manager for the chassis was called with an invalid parameter.
+</nierror>
+<nierror code="26003">
+The PXISA trigger manager for the chassis reports the line was not reserved. Verify that another application or API is not clearing trigger reservations it has not created.
+</nierror>
+<nierror code="26004">
+The PXISA trigger manager for the chassis reports the destination line for the route is not reserved, but this reservation is required for the route to be programmed.
+</nierror>
+<nierror code="26005">
+The PXISA trigger manager for the chassis reports that the line is already reserved by this application.
+</nierror>
+<nierror code="26006">
+The PXISA trigger manager for the chassis reports that the line is currently being used for a conflicting route.
+</nierror>
+<nierror code="26007">
+The PXISA trigger manager for the chassis reports that there is a conflicting route, and the line could not be unreserved.
+</nierror>
+<nierror code="26008">
+The PXISA trigger manager for the chassis reports that the destination of this route is already used by a different backplane route.
+</nierror>
+<nierror code="26009">
+The PXISA trigger manager for the chassis reports that another application has already reserved the line.
+</nierror>
+<nierror code="26010">
+The PXISA trigger manager for the chassis reports that the chassis has been disconnected.
+</nierror>
+<nierror code="26100">
+Allocation error
+</nierror>
+<nierror code="26101">
+Invalid configuration
+</nierror>
+<nierror code="26102">
+System not initialized
+</nierror>
+<nierror code="26103">
+File not found.
+</nierror>
+<nierror code="26104">
+Error opening file.
+</nierror>
+<nierror code="26105">
+File could not be closed.
+</nierror>
+<nierror code="26106">
+Error copying file.
+</nierror>
+<nierror code="26107">
+Error deleting file.
+</nierror>
+<nierror code="26108">
+Error reading file.
+</nierror>
+<nierror code="26109">
+File already exists.
+</nierror>
+<nierror code="26110">
+File path not found.
+</nierror>
+<nierror code="26111">
+Access denied.
+</nierror>
+<nierror code="26112">
+Error creating directory.
+</nierror>
+<nierror code="26113">
+The buffer is insufficient to hold the data requested.
+</nierror>
+<nierror code="26200">
+Chassis file not found
+</nierror>
+<nierror code="26201">
+Chassis bridge not found
+</nierror>
+<nierror code="26202">
+Chassis parse error
+</nierror>
+<nierror code="26203">
+Chassis segment parse error
+</nierror>
+<nierror code="26204">
+Chassis slot parse error
+</nierror>
+<nierror code="26205">
+Chassis bridge parse error
+</nierror>
+<nierror code="26206">
+Chassis trigger parse error
+</nierror>
+<nierror code="26300">
+Controller file not found
+</nierror>
+<nierror code="26301">
+Controller type invalid
+</nierror>
+<nierror code="26302">
+Controller parse error
+</nierror>
+<nierror code="26400">
+System description file not found
+</nierror>
+<nierror code="26401">
+System description parse error
+</nierror>
+<nierror code="26402">
+System description write error
+</nierror>
+<nierror code="26403">
+System description spec limitation
+</nierror>
+<nierror code="26404">
+The PXI system description file is invalid. Contact the vendor of your PXI resource manager software to resolve the issue.
+</nierror>
+<nierror code="26500">
+Module parse error
+</nierror>
+<nierror code="26550">
+PCI description string parse error
+</nierror>
+<nierror code="26600">
+MXS PXI system not found
+</nierror>
+<nierror code="26650">
+Error opening file.
+</nierror>
+<nierror code="26651">
+Error reading file.
+</nierror>
+<nierror code="26652">
+Error reading or writing file.
+</nierror>
+<nierror code="26653">
+Attribute not found.
+</nierror>
+<nierror code="26654">
+Child not found.
+</nierror>
+<nierror code="26655">
+File is internally inconsistent.
+</nierror>
+<nierror code="26656">
+Data requested is incompatible with the specified data type.
+</nierror>
+<nierror code="26657">
+No handler is known for the specified data tree.
+</nierror>
+<nierror code="26801">
+An unspecified error occurred in the PXI subsystem.
+</nierror>
+<nierror code="26802">
+A timeout occurred.
+</nierror>
+<nierror code="26803">
+A component recursively called into the PXI resource manager while it was initializing.
+</nierror>
+<nierror code="26804">
+The NI PXI Resource Manager service is inaccessible, probably because it is either not running, or still starting up.
+</nierror>
+<nierror code="26805">
+The handle is invalid.
+</nierror>
+<nierror code="26806">
+The attribute is invalid.
+</nierror>
+<nierror code="26807">
+The National Instruments PXI Resource Manager is not currently the active PXI resource manager for the system.
+</nierror>
+<nierror code="26808">
+The PXISA configuration file is currently locked and inaccessible.
+</nierror>
+<nierror code="26809">
+Some PXI features are unavailable because one or more PXI system description files could not be read properly.  For more information, visit ni.com/info and enter the Info Code exvgq4.
+</nierror>
+<nierror code="26850">
+The PXI System has already been initialized.
+</nierror>
+<nierror code="26851">
+Initialization completed using existing PXI system files.  PXI System files were not regenerated due to a user setting.
+</nierror>
+<nierror code="26852">
+At least one of the PXI System Description files does not exist.
+</nierror>
+<nierror code="26853">
+The call should be retried.
+</nierror>
+</nidocument>

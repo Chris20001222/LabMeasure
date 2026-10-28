@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="serialportbinding">ポートバインド</str>
+  <str name="serialportdesc">ポートの説明</str>
+  <str name="portsettings">ポート設定</str>
+  <str name="serialbaud">ボーレート</str>
+  <str name="serialdata">データビット</str>
+  <str name="serialparity">パリティ</str>
+  <str name="serialparitynone">なし</str>
+  <str name="serialparityodd">奇数</str>
+  <str name="serialparityeven">偶数</str>
+  <str name="serialparitymark">マーク</str>
+  <str name="serialparityspace">スペース</str>
+  <str name="serialstop">ストップビット</str>
+  <str name="serialstoponeandhalf">1.5</str>
+  <str name="serialflow">フロー制御</str>
+  <str name="serialflownone">なし</str>
+  <str name="serialflowxonxoff">XON/XOFF</str>
+  <str name="serialflowrtscts">ハードウェア (RTS/CTS)</str>
+  <str name="serialflowdtrdsr">ハードウェア (DTR/DSR)</str>
+</uistrings>

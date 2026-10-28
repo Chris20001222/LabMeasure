@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<rules>
+		<if>
+			<condition>
+				<or>
+					<!-- IsPresentStatus == NotPresent -->
+					<eq sysattr="16924672" value="0"/>
+					<!-- FirmwareUpdateMode != Manual -->
+					<and>
+						<has sysattr="17354752" />
+						<not>
+							<eq sysattr="17354752" value="1"/>
+						</not>
+					</and>
+				</or>
+			</condition>
+			<setcmd id="settings.updatefirmware" enable="false"/>
+		</if>
+		<!-- SupportFirmwareUpdateModes -->
+		<switch sysattr="17358848">
+			<case value="1">
+				<!-- Manual Only -->
+				<setprop id="settings.firmwareupdatemode" visible="false"/>
+			</case>
+			<case value="2">
+				<!-- Driver Managed Only -->
+				<setprop id="settings.firmwareupdatemode" visible="false"/>
+				<setcmd id="settings.updatefirmware" visible="false"/>
+			</case>
+		</switch>
+	</rules>
+
+	<group id="settings" weight="0">
+		<property id="firmwareupdatemode" caption="{firmwareupdatemode}" sysattr="17354752" writable="true" order="13050">
+			<bitsetoptions sysattr="17358848"/>
+			<map value="1" caption="{firmwareupdatemanual}"/>
+			<map value="2" caption="{firmwareupdatedriver}"/>
+		</property>
+		<command id="updatefirmware" caption="{updatefirmware}" order="20" />
+	</group>
+</item>

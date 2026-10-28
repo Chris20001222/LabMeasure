@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="serialportbinding">Portbindung</str>
+  <str name="serialportdesc">Portbeschreibung</str>
+  <str name="portsettings">Porteinstellungen</str>
+  <str name="serialbaud">Baudrate</str>
+  <str name="serialdata">Datenbits</str>
+  <str name="serialparity">Parität</str>
+  <str name="serialparitynone">Keine</str>
+  <str name="serialparityodd">Ungerade</str>
+  <str name="serialparityeven">Gerade</str>
+  <str name="serialparitymark">Mark</str>
+  <str name="serialparityspace">Space</str>
+  <str name="serialstop">Stoppbits</str>
+  <str name="serialstoponeandhalf">1,5</str>
+  <str name="serialflow">Ablaufsteuerung</str>
+  <str name="serialflownone">Keine</str>
+  <str name="serialflowxonxoff">XON/XOFF</str>
+  <str name="serialflowrtscts">Hardware (RTS/CTS)</str>
+  <str name="serialflowdtrdsr">Hardware (DTR/DSR)</str>
+</uistrings>

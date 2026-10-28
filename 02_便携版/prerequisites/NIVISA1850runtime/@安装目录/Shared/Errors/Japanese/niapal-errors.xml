@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI Platform Services" familyname="NI Platform Services">
+  <nicomment>Errors for APAL and atomic components.</nicomment>
+  <nierror code="-52031">
+    <![CDATA[指定されたリソースは現在使用中です。]]>
+  </nierror>
+  <nierror code="-52030">
+    <![CDATA[現在のアプリケーション開発環境はサポートされていません。]]>
+  </nierror>
+  <nierror code="-52029">
+    <![CDATA[指定された形式はサポートされていません。]]>
+  </nierror>
+  <nierror code="-52028">
+    <![CDATA[指定された言語はサポートされていません。]]>
+  </nierror>
+  <nierror code="-52027">
+    <![CDATA[指定された文字列には、解釈できない文字が含まれています。これはインストールされている言語サポートとシステムの地域設定に影響されています。
+
+可能ならば、この文字は使用しないでください。使用する場合は、適切な言語サポートがシステムにインストールされていること、およびシステムの地域設定が正しいことを確認してください。ほとんどのWindowsオペレーティングシステムでは、コントロールパネルにある地域設定オプションで設定します。LabVIEW RTターゲットの場合、「LabVIEW RTの言語サポート」をインストールしてから、MAXの「システム設定」タブでリモートシステムのロケール設定を変更してください。]]>
+  </nierror>
+  <nierror code="-52026">
+    <![CDATA[ユーザに権限が与えられていないため、操作を完了することができませんでした。administratorとして実行してください。]]>
+  </nierror>
+  <nierror code="-52025">
+    <![CDATA[ユーザモード信号により操作が中断されました。]]>
+  </nierror>
+  <nierror code="-52024">
+    <![CDATA[デバイスからデータを読み取るかデバイスにデータを書き込む際に、不明か予期しない通信障害が発生しました。]]>
+  </nierror>
+  <nierror code="-52023">
+    <![CDATA[転送はクライアントにより中止されたため、転送は実行されません。この操作を指定どおりに完了できませんでした。]]>
+  </nierror>
+  <nierror code="-52022">
+    <![CDATA[IO処理はアクティブではありません。]]>
+  </nierror>
+  <nierror code="-52021">
+    <![CDATA[パワー不足のため、要求された操作を実行できません。]]>
+  </nierror>
+  <nierror code="-52020">
+    <![CDATA[要求されたリソースは削除されました。]]>
+  </nierror>
+  <nierror code="-52019">
+    <![CDATA[提供されたバッファが小さすぎます。]]>
+  </nierror>
+  <nierror code="-52018">
+    <![CDATA[ハードウェア障害が発生しました。この操作を指定どおりに完了できませんでした。]]>
+  </nierror>
+  <nierror code="-52017">
+    <![CDATA[オブジェクトがこのステートにある場合、要求された操作は重複しているか無効です。]]>
+  </nierror>
+  <nierror code="-52016">
+    <![CDATA[スレッドは開始したときに実行されていました (重複したステートの変更)。]]>
+  </nierror>
+  <nierror code="-52015">
+    <![CDATA[同期オブジェクトの取得に失敗しました。]]>
+  </nierror>
+  <nierror code="-52014">
+    <![CDATA[同期オブジェクトは前回のホルダに破棄されました。]]>
+  </nierror>
+  <nierror code="-52013">
+    <![CDATA[要求された名前もしくはハンドルは他のクライアントに予約されています。]]>
+  </nierror>
+  <nierror code="-52012">
+    <![CDATA[読み取るデータはなく、書き込み用の容量もありません。]]>
+  </nierror>
+  <nierror code="-52011">
+    <![CDATA[操作が開始し、非同期で終了します。]]>
+  </nierror>
+  <nierror code="-52010">
+    <![CDATA[要求されたリソースは使用する前に初期化する必要があります。]]>
+  </nierror>
+  <nierror code="-52009">
+    <![CDATA[要求されたリソースは削除対象としてマークされ、新規のリクエストが却下されました。]]>
+  </nierror>
+  <nierror code="-52008">
+    <![CDATA[予期しないオペレーティングシステムエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-52007">
+    <![CDATA[要求された操作は時間内に終了しませんでした。]]>
+  </nierror>
+  <nierror code="-52006">
+    <![CDATA[要求されたリソースが見つかりませんでした。]]>
+  </nierror>
+  <nierror code="-52005">
+    <![CDATA[関数が取得したパラメータが有効ではありません。]]>
+  </nierror>
+  <nierror code="-52004">
+    <![CDATA[ダイナミックキャスト操作に失敗しました。]]>
+  </nierror>
+  <nierror code="-52003">
+    <![CDATA[予期しないソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-52002">
+    <![CDATA[要求した機能はサポートされていません。]]>
+  </nierror>
+  <nierror code="-52001">
+    <![CDATA[メモリのページロックが行えませんでした。]]>
+  </nierror>
+  <nierror code="-52000">
+    <![CDATA[指定したバイト数を割り当てることができませんでした。]]>
+  </nierror>
+  <nierror code="52000">
+    <![CDATA[指定したバイト数を割り当てることができませんでした。]]>
+  </nierror>
+  <nierror code="52001">
+    <![CDATA[メモリのページロックが行えませんでした。]]>
+  </nierror>
+  <nierror code="52002">
+    <![CDATA[要求した機能はサポートされていません。]]>
+  </nierror>
+  <nierror code="52003">
+    <![CDATA[予期しないソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="52004">
+    <![CDATA[ダイナミックキャスト操作に失敗しました。]]>
+  </nierror>
+  <nierror code="52005">
+    <![CDATA[関数が取得したパラメータが有効ではありません。]]>
+  </nierror>
+  <nierror code="52006">
+    <![CDATA[要求されたリソースが見つかりませんでした。]]>
+  </nierror>
+  <nierror code="52007">
+    <![CDATA[要求された操作は時間内に終了しませんでした。]]>
+  </nierror>
+  <nierror code="52008">
+    <![CDATA[予期しないオペレーティングシステムエラーが発生しました。]]>
+  </nierror>
+  <nierror code="52009">
+    <![CDATA[要求されたリソースは削除対象としてマークされ、新規のリクエストが却下されました。]]>
+  </nierror>
+  <nierror code="52010">
+    <![CDATA[要求されたリソースは使用する前に初期化する必要があります。]]>
+  </nierror>
+  <nierror code="52011">
+    <![CDATA[操作が開始し、非同期で終了します。]]>
+  </nierror>
+  <nierror code="52012">
+    <![CDATA[読み取るデータはなく、書き込み用の容量もありません。]]>
+  </nierror>
+  <nierror code="52013">
+    <![CDATA[要求された名前もしくはハンドルは他のクライアントに予約されています。]]>
+  </nierror>
+  <nierror code="52014">
+    <![CDATA[同期オブジェクトは前回のホルダに破棄されました。]]>
+  </nierror>
+  <nierror code="52015">
+    <![CDATA[同期オブジェクトの取得に失敗しました。]]>
+  </nierror>
+  <nierror code="52016">
+    <![CDATA[スレッドは開始したときに実行されていました (重複したステートの変更)。]]>
+  </nierror>
+  <nierror code="52017">
+    <![CDATA[オブジェクトがこのステートにある場合、要求された操作は重複しているか無効です。]]>
+  </nierror>
+  <nierror code="52018">
+    <![CDATA[ハードウェア障害が発生しました。この操作を指定どおりに完了できませんでした。]]>
+  </nierror>
+  <nierror code="52019">
+    <![CDATA[提供されたバッファが小さすぎます。]]>
+  </nierror>
+  <nierror code="52020">
+    <![CDATA[要求されたリソースは削除されました。]]>
+  </nierror>
+  <nierror code="52021">
+    <![CDATA[パワー不足のため、要求された操作を実行できません。]]>
+  </nierror>
+  <nierror code="52022">
+    <![CDATA[IO処理はアクティブではありません。]]>
+  </nierror>
+  <nierror code="52023">
+    <![CDATA[転送はクライアントにより中止されたため、転送は実行されません。この操作を指定どおりに完了できませんでした。]]>
+  </nierror>
+  <nierror code="52024">
+    <![CDATA[デバイスからデータを読み取るかデバイスにデータを書き込む際に、不明か予期しない通信障害が発生しました。]]>
+  </nierror>
+  <nierror code="52025">
+    <![CDATA[ユーザモード信号により操作が中断されました。]]>
+  </nierror>
+  <nierror code="52026">
+    <![CDATA[ユーザに権限が与えられていないため、操作を完了することができませんでした。administratorとして実行してください。]]>
+  </nierror>
+  <nierror code="52027">
+    <![CDATA[指定された文字列には、解釈できない文字が含まれています。これはインストールされている言語サポートとシステムの地域設定に影響されています。
+
+可能ならば、この文字は使用しないでください。使用する場合は、適切な言語サポートがシステムにインストールされていること、およびシステムの地域設定が正しいことを確認してください。ほとんどのWindowsオペレーティングシステムでは、コントロールパネルにある地域設定オプションで設定します。LabVIEW RTターゲットの場合、「LabVIEW RTの言語サポート」をインストールしてから、MAXの「システム設定」タブでリモートシステムのロケール設定を変更してください。]]>
+  </nierror>
+  <nierror code="52028">
+    <![CDATA[指定された言語はサポートされていません。]]>
+  </nierror>
+  <nierror code="52029">
+    <![CDATA[指定された形式はサポートされていません。]]>
+  </nierror>
+  <nierror code="52030">
+    <![CDATA[現在のアプリケーション開発環境はサポートされていません。]]>
+  </nierror>
+  <nierror code="52031">
+    <![CDATA[指定されたリソースは現在使用中です。]]>
+  </nierror>
+</nidocument>

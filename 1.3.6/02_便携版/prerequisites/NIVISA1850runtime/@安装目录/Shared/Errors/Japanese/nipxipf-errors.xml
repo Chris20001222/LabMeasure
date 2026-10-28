@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI Platform Services" familyname="NI Platform Services">
+  <nicomment>Errors for PXI Platfrom Framework</nicomment>
+  <nierror code="-380764">
+    <![CDATA[PXIシステム記述ファイルは存在しますが、アクセスできません。別のプロセスがこのファイルにアクセスしていることによる一時的な問題の可能性があります。問題が継続して発生する場合は、ナショナルインスツルメンツにお問い合わせください。]]>
+  </nierror>
+  <nierror code="-380763">
+    <![CDATA[PXIシステム記述ファイルが、別のプロセスによりロックされています。別のプロセスがこのファイルにアクセスしていることによる一時的な問題の可能性があります。問題が継続して発生する場合は、ナショナルインスツルメンツにお問い合わせください。]]>
+  </nierror>
+  <nierror code="-380762">
+    <![CDATA[PXIシステム情報が最新であることを確認できません。]]>
+  </nierror>
+  <nierror code="-380761">
+    <![CDATA[PXIシャーシ用PXISAトリガマネージャライブラリが見つかりませんでした。PXIシャーシ用のソフトウェアがインストールされており、最新であることを確認してください。]]>
+  </nierror>
+  <nierror code="-380760">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-380759">
+    <![CDATA[このスロットは要求されたタイプのPXIトリガバスに接続されていません。このタイプのPXIトリガバスを使用するには、デバイスを別のスロットに移動してください。]]>
+  </nierror>
+  <nierror code="-380758">
+    <![CDATA[このスロット用のPXI_Star接続はありません。これはPXIシステムタイミングスロットです。デバイスがPXIシステムタイミングコントローラ機能をサポートする場合、番号付けされたPXI_Star接続を使用してシステムタイミングスロットのPXI_Starラインにアクセスするか、デバイスを別のスロットに移動します。]]>
+  </nierror>
+  <nierror code="-380757">
+    <![CDATA[要求されたPXI情報は使用できません。システムのPXIリソースマネージャが最新であることを確認してください。NI MAXを使用して、アクティブなシステム用PXIリソースマネージャを選択します。]]>
+  </nierror>
+  <nierror code="-380756">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-380755">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-380754">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-380753">
+    <![CDATA[複数のPXIシステム記述ファイルは、内部で一貫性がありません。PXIリソースマネージャが不正なファイルを生成している可能性があります。NI MAXを使用して、アクティブなシステム用PXIリソースマネージャを選択します。]]>
+  </nierror>
+  <nierror code="-380752">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-380751">
+    <![CDATA[要求されたデバイス、シャーシ、またはコントローラはPXIサブシステムで認識されていません。]]>
+  </nierror>
+  <nierror code="-380750">
+    <![CDATA[要求されたメモリを割り当てることができませんでした。]]>
+  </nierror>
+  <nierror code="380750">
+    <![CDATA[要求されたメモリを割り当てることができませんでした。]]>
+  </nierror>
+  <nierror code="380751">
+    <![CDATA[要求されたデバイス、シャーシ、またはコントローラはPXIサブシステムで認識されていません。]]>
+  </nierror>
+  <nierror code="380752">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="380753">
+    <![CDATA[複数のPXIシステム記述ファイルは、内部で一貫性がありません。PXIリソースマネージャが不正なファイルを生成している可能性があります。NI MAXを使用して、アクティブなシステム用PXIリソースマネージャを選択します。]]>
+  </nierror>
+  <nierror code="380754">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="380755">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="380756">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="380757">
+    <![CDATA[要求されたPXI情報は使用できません。システムのPXIリソースマネージャが最新であることを確認してください。NI MAXを使用して、アクティブなシステム用PXIリソースマネージャを選択します。]]>
+  </nierror>
+  <nierror code="380758">
+    <![CDATA[このスロット用のPXI_Star接続はありません。これはPXIシステムタイミングスロットです。デバイスがPXIシステムタイミングコントローラ機能をサポートする場合、番号付けされたPXI_Star接続を使用してシステムタイミングスロットのPXI_Starラインにアクセスするか、デバイスを別のスロットに移動します。]]>
+  </nierror>
+  <nierror code="380759">
+    <![CDATA[このスロットは要求されたタイプのPXIトリガバスに接続されていません。このタイプのPXIトリガバスを使用するには、デバイスを別のスロットに移動してください。]]>
+  </nierror>
+  <nierror code="380760">
+    <![CDATA[内部ソフトウェアエラーが発生しました。]]>
+  </nierror>
+  <nierror code="380761">
+    <![CDATA[PXIシャーシ用PXISAトリガマネージャライブラリが見つかりませんでした。PXIシャーシ用のソフトウェアがインストールされており、最新であることを確認してください。]]>
+  </nierror>
+  <nierror code="380762">
+    <![CDATA[PXIシステム情報が最新であることを確認できません。]]>
+  </nierror>
+  <nierror code="380763">
+    <![CDATA[PXIシステム記述ファイルが、別のプロセスによりロックされています。別のプロセスがこのファイルにアクセスしていることによる一時的な問題の可能性があります。問題が継続して発生する場合は、ナショナルインスツルメンツにお問い合わせください。]]>
+  </nierror>
+  <nierror code="380764">
+    <![CDATA[PXIシステム記述ファイルは存在しますが、アクセスできません。別のプロセスがこのファイルにアクセスしていることによる一時的な問題の可能性があります。問題が継続して発生する場合は、ナショナルインスツルメンツにお問い合わせください。]]>
+  </nierror>
+  <nierror code="-26853">
+    <![CDATA[呼び出しを再度試してください。]]>
+  </nierror>
+  <nierror code="-26852">
+    <![CDATA[一つ以上のPXIシステムの説明が存在しません。]]>
+  </nierror>
+  <nierror code="-26851">
+    <![CDATA[既存のPXIシステムファイルを使用した初期化が完了しました。ユーザ設定によりPXIシステムファイルは再生成されませんでした。]]>
+  </nierror>
+  <nierror code="-26850">
+    <![CDATA[PXIシステムは既に初期化されています。]]>
+  </nierror>
+  <nierror code="-26809">
+    <![CDATA[1つ以上のPXIシステム記述ファイルが正しく読み込まれなかったため、PXI機能のいくつかを使用することができません。詳細については、ni.com/jp/infoでInfo Codeに「exvgq4」と入力してください。]]>
+  </nierror>
+  <nierror code="-26808">
+    <![CDATA[PXISA構成ファイルは現在ロックされているため使用できません。]]>
+  </nierror>
+  <nierror code="-26807">
+    <![CDATA[NI PXI リソースマネージャは、現在このシステムのアクティブPXIリソースマネージャではありません。]]>
+  </nierror>
+  <nierror code="-26806">
+    <![CDATA[属性が無効です。]]>
+  </nierror>
+  <nierror code="-26805">
+    <![CDATA[ハンドルが無効です。]]>
+  </nierror>
+  <nierror code="-26804">
+    <![CDATA[NI PXIリソースマネージャサービスにアクセスできません。実行中でないか、開始途中かもしれません。]]>
+  </nierror>
+  <nierror code="-26803">
+    <![CDATA[コンポーネントはPXIリソースマネージャが初期化中に再帰呼び出しをしました。]]>
+  </nierror>
+  <nierror code="-26802">
+    <![CDATA[タイムアウトが発生しました。]]>
+  </nierror>
+  <nierror code="-26801">
+    <![CDATA[PXIサブシステムに予期しないエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-26657">
+    <![CDATA[指定されたデータツリーの既知のハンドラがありません。]]>
+  </nierror>
+  <nierror code="-26656">
+    <![CDATA[要求されたデータは、指定されたデータと互換性がありません。]]>
+  </nierror>
+  <nierror code="-26655">
+    <![CDATA[ファイルは内部互換性がありません。]]>
+  </nierror>
+  <nierror code="-26654">
+    <![CDATA[子が見つかりません。]]>
+  </nierror>
+  <nierror code="-26653">
+    <![CDATA[属性が見つかりません。]]>
+  </nierror>
+  <nierror code="-26652">
+    <![CDATA[ファイルの読み取り/書き込み中にエラー。]]>
+  </nierror>
+  <nierror code="-26651">
+    <![CDATA[ファイルの読み取りエラーです。]]>
+  </nierror>
+  <nierror code="-26650">
+    <![CDATA[ファイルを開く際にエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-26600">
+    <![CDATA[MXS PXIシステムがありません]]>
+  </nierror>
+  <nierror code="-26550">
+    <![CDATA[PCI記述文字列の解析エラー]]>
+  </nierror>
+  <nierror code="-26500">
+    <![CDATA[モジュールの解析エラー]]>
+  </nierror>
+  <nierror code="-26404">
+    <![CDATA[PXIシステム記述ファイルが無効です。問題を解決するには、PXIリソースマネージャソフトウェアの開発元に連絡してください。]]>
+  </nierror>
+  <nierror code="-26403">
+    <![CDATA[システム記述仕様制限]]>
+  </nierror>
+  <nierror code="-26402">
+    <![CDATA[システム記述の書き込みエラー]]>
+  </nierror>
+  <nierror code="-26401">
+    <![CDATA[システム記述の解析エラー]]>
+  </nierror>
+  <nierror code="-26400">
+    <![CDATA[システム記述ファイルがありません]]>
+  </nierror>
+  <nierror code="-26302">
+    <![CDATA[コントローラの解析エラー]]>
+  </nierror>
+  <nierror code="-26301">
+    <![CDATA[コントローラタイプが無効です]]>
+  </nierror>
+  <nierror code="-26300">
+    <![CDATA[コントローラファイルがみつかりません]]>
+  </nierror>
+  <nierror code="-26206">
+    <![CDATA[シャーシトリガの解析エラー]]>
+  </nierror>
+  <nierror code="-26205">
+    <![CDATA[シャーシブリッジの解析エラー]]>
+  </nierror>
+  <nierror code="-26204">
+    <![CDATA[シャーシスロットの解析エラー]]>
+  </nierror>
+  <nierror code="-26203">
+    <![CDATA[シャーシセグメントの解析エラー]]>
+  </nierror>
+  <nierror code="-26202">
+    <![CDATA[シャーシの解析エラー]]>
+  </nierror>
+  <nierror code="-26201">
+    <![CDATA[シャーシブリッジがありません]]>
+  </nierror>
+  <nierror code="-26200">
+    <![CDATA[シャーシファイルがみつかりません]]>
+  </nierror>
+  <nierror code="-26113">
+    <![CDATA[バッファは要求されたデータを保持するには不十分です。]]>
+  </nierror>
+  <nierror code="-26112">
+    <![CDATA[ディレクトリを作成中にエラー。]]>
+  </nierror>
+  <nierror code="-26111">
+    <![CDATA[アクセスが拒否されました。]]>
+  </nierror>
+  <nierror code="-26110">
+    <![CDATA[ファイルパスが見つかりません。]]>
+  </nierror>
+  <nierror code="-26109">
+    <![CDATA[ファイルはすでに存在します。]]>
+  </nierror>
+  <nierror code="-26108">
+    <![CDATA[ファイルの読み取りエラーです。]]>
+  </nierror>
+  <nierror code="-26107">
+    <![CDATA[ファイルを削除中にエラー。]]>
+  </nierror>
+  <nierror code="-26106">
+    <![CDATA[ファイルをコピー中にエラー。]]>
+  </nierror>
+  <nierror code="-26105">
+    <![CDATA[ファイルを閉じることができませんでした。]]>
+  </nierror>
+  <nierror code="-26104">
+    <![CDATA[ファイルを開く際にエラーが発生しました。]]>
+  </nierror>
+  <nierror code="-26103">
+    <![CDATA[ファイルが見つかりません。]]>
+  </nierror>
+  <nierror code="-26102">
+    <![CDATA[システムが初期化されていません]]>
+  </nierror>
+  <nierror code="-26101">
+    <![CDATA[無効な構成]]>
+  </nierror>
+  <nierror code="-26100">
+    <![CDATA[割り当てエラー]]>
+  </nierror>
+  <nierror code="-26010">
+    <![CDATA[シャーシのPXISAトリガマネージャは、シャーシの接続が切断されたとレポートしています。]]>
+  </nierror>
+  <nierror code="-26009">
+    <![CDATA[シャーシのPXISAトリガマネージャは、別のアプリケーションが既にこのラインを予約しているとレポートしています。]]>
+  </nierror>
+  <nierror code="-26008">
+    <![CDATA[シャーシのPXISAトリガマネージャは、この経路の接続先が既に別のバックプレーンの経路によって使用されているとレポートしています。]]>
+  </nierror>
+  <nierror code="-26007">
+    <![CDATA[シャーシのPXISAトリガマネージャは、競合する経路が存在するためラインを再度予約することができないとレポートしています。]]>
+  </nierror>
+  <nierror code="-26006">
+    <![CDATA[シャーシのPXISAトリガマネージャは、ラインが競合する経路によって現在使用されているとレポートしています。]]>
+  </nierror>
+  <nierror code="-26005">
+    <![CDATA[シャーシのPXISAトリガマネージャは、ラインがこのアプリケーションによって既に予約されているとレポートしています。]]>
+  </nierror>
+  <nierror code="-26004">
+    <![CDATA[シャーシのPXISAトリガマネージャは、経路の接続先ラインは未予約ですが、予約するにはプログラミングによって経路を設定する必要があるとレポートしています。]]>
+  </nierror>
+  <nierror code="-26003">
+    <![CDATA[シャーシのPXISAトリガマネージャは、ラインは予約されていないとレポートしています。別のアプリケーションまたはAPIが、作成していないトリガ予約を解除していないか確認してください。]]>
+  </nierror>
+  <nierror code="-26002">
+    <![CDATA[シャーシのPXISAトリガマネージャは不正なパラメータで呼び出されました。]]>
+  </nierror>
+  <nierror code="-26001">
+    <![CDATA[シャーシのPXISAトリガマネージャは、要求された操作をサポートしません。]]>
+  </nierror>
+  <nierror code="-26000">
+    <![CDATA[シャーシのPXISAトリガマネージャは、ベンダ特有または一般的なエラーを返しました。]]>
+  </nierror>
+  <nierror code="26000">
+    <![CDATA[シャーシのPXISAトリガマネージャは、ベンダ特有または一般的なエラーを返しました。]]>
+  </nierror>
+  <nierror code="26001">
+    <![CDATA[シャーシのPXISAトリガマネージャは、要求された操作をサポートしません。]]>
+  </nierror>
+  <nierror code="26002">
+    <![CDATA[シャーシのPXISAトリガマネージャは不正なパラメータで呼び出されました。]]>
+  </nierror>
+  <nierror code="26003">
+    <![CDATA[シャーシのPXISAトリガマネージャは、ラインは予約されていないとレポートしています。別のアプリケーションまたはAPIが、作成していないトリガ予約を解除していないか確認してください。]]>
+  </nierror>
+  <nierror code="26004">
+    <![CDATA[シャーシのPXISAトリガマネージャは、経路の接続先ラインは未予約ですが、予約するにはプログラミングによって経路を設定する必要があるとレポートしています。]]>
+  </nierror>
+  <nierror code="26005">
+    <![CDATA[シャーシのPXISAトリガマネージャは、ラインがこのアプリケーションによって既に予約されているとレポートしています。]]>
+  </nierror>
+  <nierror code="26006">
+    <![CDATA[シャーシのPXISAトリガマネージャは、ラインが競合する経路によって現在使用されているとレポートしています。]]>
+  </nierror>
+  <nierror code="26007">
+    <![CDATA[シャーシのPXISAトリガマネージャは、競合する経路が存在するためラインを再度予約することができないとレポートしています。]]>
+  </nierror>
+  <nierror code="26008">
+    <![CDATA[シャーシのPXISAトリガマネージャは、この経路の接続先が既に別のバックプレーンの経路によって使用されているとレポートしています。]]>
+  </nierror>
+  <nierror code="26009">
+    <![CDATA[シャーシのPXISAトリガマネージャは、別のアプリケーションが既にこのラインを予約しているとレポートしています。]]>
+  </nierror>
+  <nierror code="26010">
+    <![CDATA[シャーシのPXISAトリガマネージャは、シャーシの接続が切断されたとレポートしています。]]>
+  </nierror>
+  <nierror code="26100">
+    <![CDATA[割り当てエラー]]>
+  </nierror>
+  <nierror code="26101">
+    <![CDATA[無効な構成]]>
+  </nierror>
+  <nierror code="26102">
+    <![CDATA[システムが初期化されていません]]>
+  </nierror>
+  <nierror code="26103">
+    <![CDATA[ファイルが見つかりません。]]>
+  </nierror>
+  <nierror code="26104">
+    <![CDATA[ファイルを開く際にエラーが発生しました。]]>
+  </nierror>
+  <nierror code="26105">
+    <![CDATA[ファイルを閉じることができませんでした。]]>
+  </nierror>
+  <nierror code="26106">
+    <![CDATA[ファイルをコピー中にエラー。]]>
+  </nierror>
+  <nierror code="26107">
+    <![CDATA[ファイルを削除中にエラー。]]>
+  </nierror>
+  <nierror code="26108">
+    <![CDATA[ファイルの読み取りエラーです。]]>
+  </nierror>
+  <nierror code="26109">
+    <![CDATA[ファイルはすでに存在します。]]>
+  </nierror>
+  <nierror code="26110">
+    <![CDATA[ファイルパスが見つかりません。]]>
+  </nierror>
+  <nierror code="26111">
+    <![CDATA[アクセスが拒否されました。]]>
+  </nierror>
+  <nierror code="26112">
+    <![CDATA[ディレクトリを作成中にエラー。]]>
+  </nierror>
+  <nierror code="26113">
+    <![CDATA[バッファは要求されたデータを保持するには不十分です。]]>
+  </nierror>
+  <nierror code="26200">
+    <![CDATA[シャーシファイルがみつかりません]]>
+  </nierror>
+  <nierror code="26201">
+    <![CDATA[シャーシブリッジがありません]]>
+  </nierror>
+  <nierror code="26202">
+    <![CDATA[シャーシの解析エラー]]>
+  </nierror>
+  <nierror code="26203">
+    <![CDATA[シャーシセグメントの解析エラー]]>
+  </nierror>
+  <nierror code="26204">
+    <![CDATA[シャーシスロットの解析エラー]]>
+  </nierror>
+  <nierror code="26205">
+    <![CDATA[シャーシブリッジの解析エラー]]>
+  </nierror>
+  <nierror code="26206">
+    <![CDATA[シャーシトリガの解析エラー]]>
+  </nierror>
+  <nierror code="26300">
+    <![CDATA[コントローラファイルがみつかりません]]>
+  </nierror>
+  <nierror code="26301">
+    <![CDATA[コントローラタイプが無効です]]>
+  </nierror>
+  <nierror code="26302">
+    <![CDATA[コントローラの解析エラー]]>
+  </nierror>
+  <nierror code="26400">
+    <![CDATA[システム記述ファイルがありません]]>
+  </nierror>
+  <nierror code="26401">
+    <![CDATA[システム記述の解析エラー]]>
+  </nierror>
+  <nierror code="26402">
+    <![CDATA[システム記述の書き込みエラー]]>
+  </nierror>
+  <nierror code="26403">
+    <![CDATA[システム記述仕様制限]]>
+  </nierror>
+  <nierror code="26404">
+    <![CDATA[PXIシステム記述ファイルが無効です。問題を解決するには、PXIリソースマネージャソフトウェアの開発元に連絡してください。]]>
+  </nierror>
+  <nierror code="26500">
+    <![CDATA[モジュールの解析エラー]]>
+  </nierror>
+  <nierror code="26550">
+    <![CDATA[PCI記述文字列の解析エラー]]>
+  </nierror>
+  <nierror code="26600">
+    <![CDATA[MXS PXIシステムがありません]]>
+  </nierror>
+  <nierror code="26650">
+    <![CDATA[ファイルを開く際にエラーが発生しました。]]>
+  </nierror>
+  <nierror code="26651">
+    <![CDATA[ファイルの読み取りエラーです。]]>
+  </nierror>
+  <nierror code="26652">
+    <![CDATA[ファイルの読み取り/書き込み中にエラー。]]>
+  </nierror>
+  <nierror code="26653">
+    <![CDATA[属性が見つかりません。]]>
+  </nierror>
+  <nierror code="26654">
+    <![CDATA[子が見つかりません。]]>
+  </nierror>
+  <nierror code="26655">
+    <![CDATA[ファイルは内部互換性がありません。]]>
+  </nierror>
+  <nierror code="26656">
+    <![CDATA[要求されたデータは、指定されたデータと互換性がありません。]]>
+  </nierror>
+  <nierror code="26657">
+    <![CDATA[指定されたデータツリーの既知のハンドラがありません。]]>
+  </nierror>
+  <nierror code="26801">
+    <![CDATA[PXIサブシステムに予期しないエラーが発生しました。]]>
+  </nierror>
+  <nierror code="26802">
+    <![CDATA[タイムアウトが発生しました。]]>
+  </nierror>
+  <nierror code="26803">
+    <![CDATA[コンポーネントはPXIリソースマネージャが初期化中に再帰呼び出しをしました。]]>
+  </nierror>
+  <nierror code="26804">
+    <![CDATA[NI PXIリソースマネージャサービスにアクセスできません。実行中でないか、開始途中かもしれません。]]>
+  </nierror>
+  <nierror code="26805">
+    <![CDATA[ハンドルが無効です。]]>
+  </nierror>
+  <nierror code="26806">
+    <![CDATA[属性が無効です。]]>
+  </nierror>
+  <nierror code="26807">
+    <![CDATA[NI PXI リソースマネージャは、現在このシステムのアクティブPXIリソースマネージャではありません。]]>
+  </nierror>
+  <nierror code="26808">
+    <![CDATA[PXISA構成ファイルは現在ロックされているため使用できません。]]>
+  </nierror>
+  <nierror code="26809">
+    <![CDATA[1つ以上のPXIシステム記述ファイルが正しく読み込まれなかったため、PXI機能のいくつかを使用することができません。詳細については、ni.com/jp/infoでInfo Codeに「exvgq4」と入力してください。]]>
+  </nierror>
+  <nierror code="26850">
+    <![CDATA[PXIシステムは既に初期化されています。]]>
+  </nierror>
+  <nierror code="26851">
+    <![CDATA[既存のPXIシステムファイルを使用した初期化が完了しました。ユーザ設定によりPXIシステムファイルは再生成されませんでした。]]>
+  </nierror>
+  <nierror code="26852">
+    <![CDATA[一つ以上のPXIシステムの説明が存在しません。]]>
+  </nierror>
+  <nierror code="26853">
+    <![CDATA[呼び出しを再度試してください。]]>
+  </nierror>
+</nidocument>

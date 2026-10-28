@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI Platform Services" familyname="NI Platform Services">
+  <nicomment>Errors for NI-PAL.</nicomment>
+  <nierror code="-50808">
+    <![CDATA[由于USB主控制器报告的传输错误，该USB传输失败。可能原因为系统USB主控制器、USB线缆或USB设备的错误。]]>
+  </nierror>
+  <nierror code="-50807">
+    <![CDATA[适用于1394总线。未找到等时缓冲区说明符或者链接磁盘流无法被连接或断开连接。]]>
+  </nierror>
+  <nierror code="-50806">
+    <![CDATA[适用于TCP连接。适用于UDP/TCP连接。使用地址非法（如发送至地址0）。注: 该TCP堆栈禁止从非环回地址连接至环回地址。]]>
+  </nierror>
+  <nierror code="-50805">
+    <![CDATA[适用于TCP连接。属于特定版本的kPALStatusConnectionRefused。在相同地址和端口已打开该流。]]>
+  </nierror>
+  <nierror code="-50804">
+    <![CDATA[适用于TCP连接。该流/设置未被正确设置（如非法缓冲区大小等），或者设备已不可用。]]>
+  </nierror>
+  <nierror code="-50803">
+    <![CDATA[适用于TCP连接。该连接已被远程对等机器中止。]]>
+  </nierror>
+  <nierror code="-50802">
+    <![CDATA[适用于TCP连接。基础设备被意外移除或者连接已被中止。]]>
+  </nierror>
+  <nierror code="-50801">
+    <![CDATA[无法连接远程主机。请确保该主机和远程主机之前的所有网络正常工作，并且远程主机可接受连接。]]>
+  </nierror>
+  <nierror code="-50800">
+    <![CDATA[适用于1394总线。提交包的生成计数不正确并且所有传输均已失败。]]>
+  </nierror>
+  <nierror code="-50700">
+    <![CDATA[等待函数已被内部或外部源中断并且已返回。该操作未根据指定情况完成，并且后续操作可能也不会被完成。]]>
+  </nierror>
+  <nierror code="-50651">
+    <![CDATA[由于消息队列为空，将无法读取任何消息。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50650">
+    <![CDATA[由于消息队列已满，将无法写入该消息。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50604">
+    <![CDATA[由于线程已退出或中止，将无法加入该线程。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50603">
+    <![CDATA[不支持指定的堆栈大小。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50602">
+    <![CDATA[尝试加入线程时，使用了错误的iThreadController实例。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50601">
+    <![CDATA[内部线程数据结构已损坏。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50600">
+    <![CDATA[指定线程无法运行。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50551">
+    <![CDATA[用于获取同步对象的线程已退出或中止。该错误适用于类似互斥的同步对象，其中用于获取同步对象的线程将拥有该对象，直到线程释放该对象。同步对象所保护的资源可能处于未知状态中。]]>
+  </nierror>
+  <nierror code="-50550">
+    <![CDATA[在时间限制内未获取同步对象。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50503">
+    <![CDATA[接收器Socket非法。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50502">
+    <![CDATA[指定的Socket侦听器非法。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50501">
+    <![CDATA[Socket侦听器已被注册。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50500">
+    <![CDATA[动态分配函数已导出。]]>
+  </nierror>
+  <nierror code="-50450">
+    <![CDATA[DMA连接事件丢失 - 可能原因是无法及时提供中断服务。将导致移动的数据不完整。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50413">
+    <![CDATA[由于用于传输的总线发生硬件错误，传输已被中止。]]>
+  </nierror>
+  <nierror code="-50412">
+    <![CDATA[由于无法在用于传输的总线所允许的重试最大次数内完成传输操作，传输已被中止。]]>
+  </nierror>
+  <nierror code="-50411">
+    <![CDATA[读取新数据时，缓冲区中已无任何数据。将导致该操作不会返回最新数据。]]>
+  </nierror>
+  <nierror code="-50410">
+    <![CDATA[写入新数据时，缓冲区中已无多余空间。将导致缓冲区中最旧的未读取数据丢失。]]>
+  </nierror>
+  <nierror code="-50409">
+    <![CDATA[硬件缓冲区已上溢。]]>
+  </nierror>
+  <nierror code="-50408">
+    <![CDATA[硬件缓冲区已下溢。]]>
+  </nierror>
+  <nierror code="-50407">
+    <![CDATA[缓冲区中无多余空间。]]>
+  </nierror>
+  <nierror code="-50406">
+    <![CDATA[缓冲区中无多余数据。]]>
+  </nierror>
+  <nierror code="-50405">
+    <![CDATA[由于客户端已中止传输，现在未进行任何传输。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50404">
+    <![CDATA[由于系统已挂起传输，现在未进行任何传输。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50403">
+    <![CDATA[正在进行传输。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50402">
+    <![CDATA[由于未初始化任何传输，现在未进行任何传输。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50401">
+    <![CDATA[尝试读取或写入设备数据时，发生一个未知或不可预期的通信错误。]]>
+  </nierror>
+  <nierror code="-50400">
+    <![CDATA[在超时时间或指定重试次数内未完成该传输操作。]]>
+  </nierror>
+  <nierror code="-50355">
+    <![CDATA[内存管理器发现一个或多个已分配内存块尚未释放。该操作已完成但可能导致系统状态不可靠。]]>
+  </nierror>
+  <nierror code="-50354">
+    <![CDATA[内存管理器发现内部数据结构损坏。系统状态可能不可靠。]]>
+  </nierror>
+  <nierror code="-50353">
+    <![CDATA[指定逻辑缓冲区的一个或多个内存页无法被锁定为物理内存。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50352">
+    <![CDATA[请求存储器无法被分配。]]>
+  </nierror>
+  <nierror code="-50351">
+    <![CDATA[指定缓冲区已对齐地址边界，该地址边界可用于防止与指定设备移动数据。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50350">
+    <![CDATA[内存配置错误将影响后台传输机制。可能原因为无法分配缓冲区或者已分配缓冲区但不属于目标总线的地址范围。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50303">
+    <![CDATA[无法初始化指定设备。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50302">
+    <![CDATA[该指定设备由软件堆栈管理，但该软件堆栈不支持与设备关联的资源或部分功能。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50301">
+    <![CDATA[指定设备不是由软件堆栈管理。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50300">
+    <![CDATA[指定设备不存在或尚未激活。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50265">
+    <![CDATA[指定功能已实现但在当前环境中被禁用。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50264">
+    <![CDATA[指定软件组件处于忙碌状态或正在被使用。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50263">
+    <![CDATA[指定软件组件已安装。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50262">
+    <![CDATA[指定软件组件无法被上传。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50261">
+    <![CDATA[指定软件组件当前尚未加载。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50260">
+    <![CDATA[指定软件组件已加载。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50259">
+    <![CDATA[指定软件组件包含循环依赖关系。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50258">
+    <![CDATA[指定软件组件初始化失败。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50257">
+    <![CDATA[由于图像已损坏，无法加载指定软件组件。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50256">
+    <![CDATA[指定功能尚未在该环境中应用。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50255">
+    <![CDATA[无法找到从另一个库中导入的函数。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50254">
+    <![CDATA[不支持指定函数。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50253">
+    <![CDATA[指定软件组件无法向后兼容尝试加载的客户端。未加载该客户端。]]>
+  </nierror>
+  <nierror code="-50252">
+    <![CDATA[指定软件组件无法向前兼容尝试加载的客户端。未加载该客户端。]]>
+  </nierror>
+  <nierror code="-50251">
+    <![CDATA[指定软件组件不可用。未加载该组件。]]>
+  </nierror>
+  <nierror code="-50250">
+    <![CDATA[由于版本不匹配，无法同时操作该软件包加载的两个或更多组件。该类型错误通常表示安装问题。未加载该软件包。]]>
+  </nierror>
+  <nierror code="-50209">
+    <![CDATA[操作指定文件时发生不确定错误。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50208">
+    <![CDATA[尝试将缓冲区写入指定文件时发生错误。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50207">
+    <![CDATA[尝试从指定文件读取缓冲区时发生错误。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50206">
+    <![CDATA[无法找到指定文件中的指定偏移量。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50205">
+    <![CDATA[无法关闭指定文件。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50204">
+    <![CDATA[无法打开指定文件。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50203">
+    <![CDATA[目标磁盘中无多余空间。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50202">
+    <![CDATA[系统调用返回一个错误。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50201">
+    <![CDATA[启动NI平台服务时，系统调用返回一个错误。无法完成NI平台服务启动。]]>
+  </nierror>
+  <nierror code="-50200">
+    <![CDATA[该操作系统中未应用该函数。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50175">
+    <![CDATA[指定数学运算将导致溢出。]]>
+  </nierror>
+  <nierror code="-50152">
+    <![CDATA[发生硬件错误。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50151">
+    <![CDATA[固件（设备中的软件）处于未知状态，该错误原因通常为一系列不可预期状态输入的级联错误。无法按指定方式完成该操作，如有可能请立即中止其他操作。]]>
+  </nierror>
+  <nierror code="-50150">
+    <![CDATA[软件处于未知状态 - 该错误原因通常为一系列不可预期状态输入的级联错误。无法按指定方式完成该操作，如有可能请立即中止其他操作。]]>
+  </nierror>
+  <nierror code="-50108">
+    <![CDATA[用于隐含范围的消息传输队列已满。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50107">
+    <![CDATA[指定资源不确定，或者根据有效属性无法确定唯一资源。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50106">
+    <![CDATA[资源正在使用。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50105">
+    <![CDATA[资源已初始化，但无法再次初始化。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50104">
+    <![CDATA[指定资源尚未初始化。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50103">
+    <![CDATA[指定资源已保留。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50102">
+    <![CDATA[指定资源未保留。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50101">
+    <![CDATA[请求资源不存在，或者该资源已存在但处于禁止保留的状态中。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50100">
+    <![CDATA[该资源由操作系统或相关系统控制，并且无法直接操作该资源。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50020">
+    <![CDATA[指定符号无效。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50019">
+    <![CDATA[指定多任务模式无效。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50018">
+    <![CDATA[库说明符无效。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50017">
+    <![CDATA[指定地址空间无效。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50016">
+    <![CDATA[指定窗口类型无效或者不适用于当前设备配置。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50015">
+    <![CDATA[指定地址类对于当前设备配置无效。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50014">
+    <![CDATA[指定计数太小或太大，或者用于写入操作的间隔尺寸错误。同样指定最大计数的其他偏移量可能来自该偏移量。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50013">
+    <![CDATA[指定偏移量超出写入操作的范围。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50012">
+    <![CDATA[指定模式不支持写入操作。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50011">
+    <![CDATA[指定计数太小或太大，或者用于读取操作的间隔尺寸错误。同样指定最大计数的其他偏移量可能来自该偏移量。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50010">
+    <![CDATA[指定偏移量超出读取操作的范围。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50009">
+    <![CDATA[指定模式不支持读取操作。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50008">
+    <![CDATA[指定计数太小或太大，或者间隔尺寸错误。同样指定最大计数的其他偏移量可能来自该偏移量。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50007">
+    <![CDATA[指定偏移量超出范围。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50006">
+    <![CDATA[不支持指定资源。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50005">
+    <![CDATA[不支持该指定数据宽度或者无法在总线中传输。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50004">
+    <![CDATA[指针类型参数无效。可能原因包括：指针为NULL但要求为非NULL；指针为非NULL但要求为NULL；指针为非NULL但未指向正确类型的对象或数据。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50003">
+    <![CDATA[选择器（通常为枚举类型）不正确或者超出范围。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50002">
+    <![CDATA[指定设备不属于有效设备。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50001">
+    <![CDATA[显式或隐式属性与当前系统状态不相关。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-50000">
+    <![CDATA[指定参数的一个值与另一个参数的状态或值存在冲突。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="50000">
+    <![CDATA[指定参数的一个值与另一个参数的状态或值存在冲突。通过忽略或重写冲突参数，已完成该操作。]]>
+  </nierror>
+  <nierror code="50001">
+    <![CDATA[显式或隐式属性与当前系统状态不相关。通过忽略或重写问题属性，已完成该操作。]]>
+  </nierror>
+  <nierror code="50002">
+    <![CDATA[指定设备不属于有效设备。通过忽略或重写设备参数，已完成该操作。]]>
+  </nierror>
+  <nierror code="50003">
+    <![CDATA[选择器（通常为枚举类型）不正确或者超出范围。通过忽略或重写选择器，已完成该操作。]]>
+  </nierror>
+  <nierror code="50004">
+    <![CDATA[指针类型参数无效。可能原因包括：指针为NULL但要求为非NULL；指针为非NULL但要求为NULL；指针为非NULL但未指向正确类型的对象或数据。通过忽略或重写指针，已完成该操作。]]>
+  </nierror>
+  <nierror code="50005">
+    <![CDATA[不支持该指定数据宽度或者无法在总线中传输。通过忽略或重写指定数据宽度，已完成该操作。]]>
+  </nierror>
+  <nierror code="50006">
+    <![CDATA[不支持指定资源。通过忽略或重写模式，已完成该操作。]]>
+  </nierror>
+  <nierror code="50007">
+    <![CDATA[指定偏移量超出范围。通过忽略或重写偏移量，已完成该操作。]]>
+  </nierror>
+  <nierror code="50008">
+    <![CDATA[指定计数太小或太大，或者间隔尺寸错误。同样指定最大计数的其他偏移量可能来自该偏移量。通过忽略或重写计数，已完成该操作。]]>
+  </nierror>
+  <nierror code="50009">
+    <![CDATA[指定模式不支持读取操作。通过忽略或重写模式，已完成该操作。]]>
+  </nierror>
+  <nierror code="50010">
+    <![CDATA[指定偏移量超出读取操作的范围。通过忽略或重写偏移量，已完成该操作。]]>
+  </nierror>
+  <nierror code="50011">
+    <![CDATA[指定计数太小或太大，或者用于读取操作的间隔尺寸错误。同样指定最大计数的其他偏移量可能来自该偏移量。通过忽略或重写计数，已完成该操作。]]>
+  </nierror>
+  <nierror code="50012">
+    <![CDATA[指定模式不支持写入操作。通过忽略或重写模式，已完成该操作。]]>
+  </nierror>
+  <nierror code="50013">
+    <![CDATA[指定偏移量超出写入操作的范围。通过忽略或重写偏移量，已完成该操作。]]>
+  </nierror>
+  <nierror code="50014">
+    <![CDATA[指定计数太小或太大，或者用于写入操作的间隔尺寸错误。同样指定最大计数的其他偏移量可能来自该偏移量。通过忽略或重写计数，已完成该操作。]]>
+  </nierror>
+  <nierror code="50015">
+    <![CDATA[指定地址类对于当前设备配置无效。通过忽略或重写地址类，已完成该操作。]]>
+  </nierror>
+  <nierror code="50016">
+    <![CDATA[指定窗口类型无效或者不适用于当前设备配置。通过忽略或重写窗口类型，已完成该操作。]]>
+  </nierror>
+  <nierror code="50019">
+    <![CDATA[指定多任务模式无效。通过忽略或重写多任务模式，已完成该操作。]]>
+  </nierror>
+  <nierror code="50100">
+    <![CDATA[该资源由操作系统或相关系统控制，并且无法直接操作该资源。该操作已完成但可能导致系统状态不可靠。]]>
+  </nierror>
+  <nierror code="50101">
+    <![CDATA[请求资源不存在，或者该资源已存在但处于禁止保留的状态中。通过保留请求资源的功能子集，已完成该操作。]]>
+  </nierror>
+  <nierror code="50102">
+    <![CDATA[指定资源未保留。通过保留资源或者忽略或重写指定资源，已完成该操作。]]>
+  </nierror>
+  <nierror code="50103">
+    <![CDATA[指定资源已保留。通过忽略或重写指定资源，已完成该操作。]]>
+  </nierror>
+  <nierror code="50104">
+    <![CDATA[指定资源尚未初始化。通过初始化资源，已完成该操作。]]>
+  </nierror>
+  <nierror code="50105">
+    <![CDATA[该资源已被初始化。通过重新初始化资源，已完成该操作，但重新初始化可能导致系统处于无效状态。]]>
+  </nierror>
+  <nierror code="50106">
+    <![CDATA[资源正在使用。已完成部分操作，但可能导致系统处于无效状态。]]>
+  </nierror>
+  <nierror code="50107">
+    <![CDATA[指定资源不确定，或者根据有效属性无法确定唯一资源。已完成操作，但可能导致系统处于无效状态。]]>
+  </nierror>
+  <nierror code="50151">
+    <![CDATA[固件（设备中的软件）处于未知状态，该错误原因通常为一系列不可预期状态输入的级联错误。通过禁用固件并将设备恢复为固有状态，已完成该操作。]]>
+  </nierror>
+  <nierror code="50152">
+    <![CDATA[发生硬件错误。通过使用其他硬件，已完成该操作。]]>
+  </nierror>
+  <nierror code="50200">
+    <![CDATA[该函数与操作系统不相关。未执行任何操作。]]>
+  </nierror>
+  <nierror code="50202">
+    <![CDATA[系统调用返回一个警告。该操作已完成但可能导致系统状态不可靠。]]>
+  </nierror>
+  <nierror code="50254">
+    <![CDATA[指定函数已被禁用。已完成该操作，但必须尽快更新源代码。]]>
+  </nierror>
+  <nierror code="50255">
+    <![CDATA[无法找到从另一个库中导入的函数。通过其他方法已完成该操作。]]>
+  </nierror>
+  <nierror code="50256">
+    <![CDATA[指定功能可能在该环境中无法按预期方式操作。已完成操作，但可能导致系统处于无效状态。]]>
+  </nierror>
+  <nierror code="50258">
+    <![CDATA[指定软件组件已初始化但返回警告。该操作已完成但可能导致系统状态不可靠。]]>
+  </nierror>
+  <nierror code="50260">
+    <![CDATA[指定软件组件已加载。]]>
+  </nierror>
+  <nierror code="50262">
+    <![CDATA[指定软件组件无法被上传。通过其他方法已完成该操作。]]>
+  </nierror>
+  <nierror code="50351">
+    <![CDATA[指定缓冲区已对齐地址边界，该地址边界可用于防止与指定设备高效移动数据。通过使用较小数据宽度，已完成该操作。]]>
+  </nierror>
+  <nierror code="50355">
+    <![CDATA[内存管理器发现一个或多个已分配内存块尚未释放。该操作已完成但可能导致系统状态不可靠。]]>
+  </nierror>
+  <nierror code="50402">
+    <![CDATA[由于未初始化任何传输，现在未进行任何传输。已完成操作，但可能导致系统处于无效状态。]]>
+  </nierror>
+  <nierror code="50403">
+    <![CDATA[正在进行传输。已完成操作，但可能导致系统处于无效状态。]]>
+  </nierror>
+  <nierror code="50404">
+    <![CDATA[由于系统已挂起传输，现在未进行任何传输。已完成操作，但可能导致系统处于无效状态。]]>
+  </nierror>
+  <nierror code="50405">
+    <![CDATA[由于客户端已中止传输，现在未进行任何传输。已完成操作，但可能导致系统处于无效状态。]]>
+  </nierror>
+  <nierror code="50406">
+    <![CDATA[缓冲区中无多余数据。]]>
+  </nierror>
+  <nierror code="50407">
+    <![CDATA[缓冲区中无多余空间。]]>
+  </nierror>
+  <nierror code="50408">
+    <![CDATA[硬件缓冲区已下溢。]]>
+  </nierror>
+  <nierror code="50409">
+    <![CDATA[硬件缓冲区已上溢。]]>
+  </nierror>
+  <nierror code="50410">
+    <![CDATA[写入新数据时，缓冲区中已无多余空间。将导致缓冲区中最旧的未读取数据丢失。]]>
+  </nierror>
+  <nierror code="50411">
+    <![CDATA[读取新数据时，缓冲区中已无任何数据。将导致该操作不会返回最新数据。]]>
+  </nierror>
+  <nierror code="50500">
+    <![CDATA[动态分配函数已导出。]]>
+  </nierror>
+  <nierror code="50551">
+    <![CDATA[用于获取同步对象的线程已退出或中止。]]>
+  </nierror>
+</nidocument>

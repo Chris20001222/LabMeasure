@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="updatefirmware">ファームウェアを更新</str>
+  <str name="firmwareupdatemode">ファームウェアの更新</str>
+  <str name="firmwareupdatemanual">手動</str>
+  <str name="firmwareupdatedriver">ドライバ制御</str>
+</uistrings>

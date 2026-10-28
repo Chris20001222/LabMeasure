@@ -1,0 +1,10 @@
+<instructions>
+   <msis>
+      <msi name="rpcSetup.msi">
+         <property name="INSTALLLEVEL" value="1000" />
+      </msi>
+      <msi name="rpcSetup64.msi">
+         <property name="INSTALLLEVEL" value="1000" />
+      </msi>
+   </msis>
+</instructions>

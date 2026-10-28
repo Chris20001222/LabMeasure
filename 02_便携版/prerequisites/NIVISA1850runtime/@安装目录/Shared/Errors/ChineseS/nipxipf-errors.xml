@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI Platform Services" familyname="NI Platform Services">
+  <nicomment>Errors for PXI Platfrom Framework</nicomment>
+  <nierror code="-380764">
+    <![CDATA[存在PXI系统描述文件，但无法访问该文件。可能是临时性的问题：另一个进程占用了该文件。如问题仍未解决，请联系NI。]]>
+  </nierror>
+  <nierror code="-380763">
+    <![CDATA[PXI系统描述文件已被其他进程锁定。可能是临时性的问题：另一个进程占用了该文件。如问题仍未解决，请联系NI。]]>
+  </nierror>
+  <nierror code="-380762">
+    <![CDATA[无法验证PXI系统信息是否为最新。]]>
+  </nierror>
+  <nierror code="-380761">
+    <![CDATA[未检测到PXI机箱的PXISA trigger manager库。请确保PXI机箱已安装最新版本的软件。]]>
+  </nierror>
+  <nierror code="-380760">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="-380759">
+    <![CDATA[该槽无法连接至PXI触发总线，请求的类型不适用。如需使用该类型的PXI触发总线，请将设备移至其他插槽。]]>
+  </nierror>
+  <nierror code="-380758">
+    <![CDATA[该槽是一个PXI系统定时插槽，因此没有PXI_Star连接。如设备支持PXI系统定时控制器功能，可通过编号的PXI_Star连接访问系统定时插槽的PXI_Star线，或将设备移至其他插槽。]]>
+  </nierror>
+  <nierror code="-380757">
+    <![CDATA[请求的PXI信息不存在。请检查并确保系统的PXI资源管理器为最新版本。可通过NI MAX为系统选择有效的PXI资源管理器。]]>
+  </nierror>
+  <nierror code="-380756">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="-380755">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="-380754">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="-380753">
+    <![CDATA[PXI系统描述文件内部不一致。PXI资源管理器生成的文件可能是错误的。可通过NI MAX为系统选择有效的PXI资源管理器。]]>
+  </nierror>
+  <nierror code="-380752">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="-380751">
+    <![CDATA[PXI子系统无法识别请求的设备、机箱或控制器。]]>
+  </nierror>
+  <nierror code="-380750">
+    <![CDATA[请求存储器无法被分配。]]>
+  </nierror>
+  <nierror code="380750">
+    <![CDATA[请求存储器无法被分配。]]>
+  </nierror>
+  <nierror code="380751">
+    <![CDATA[PXI子系统无法识别请求的设备、机箱或控制器。]]>
+  </nierror>
+  <nierror code="380752">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="380753">
+    <![CDATA[PXI系统描述文件内部不一致。PXI资源管理器生成的文件可能是错误的。可通过NI MAX为系统选择有效的PXI资源管理器。]]>
+  </nierror>
+  <nierror code="380754">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="380755">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="380756">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="380757">
+    <![CDATA[请求的PXI信息不存在。请检查并确保系统的PXI资源管理器为最新版本。可通过NI MAX为系统选择有效的PXI资源管理器。]]>
+  </nierror>
+  <nierror code="380758">
+    <![CDATA[该槽是一个PXI系统定时插槽，因此没有PXI_Star连接。如设备支持PXI系统定时控制器功能，可通过编号的PXI_Star连接访问系统定时插槽的PXI_Star线，或将设备移至其他插槽。]]>
+  </nierror>
+  <nierror code="380759">
+    <![CDATA[该槽无法连接至PXI触发总线，请求的类型不适用。如需使用该类型的PXI触发总线，请将设备移至其他插槽。]]>
+  </nierror>
+  <nierror code="380760">
+    <![CDATA[发生内部软件错误。]]>
+  </nierror>
+  <nierror code="380761">
+    <![CDATA[未检测到PXI机箱的PXISA trigger manager库。请确保PXI机箱已安装最新版本的软件。]]>
+  </nierror>
+  <nierror code="380762">
+    <![CDATA[无法验证PXI系统信息是否为最新。]]>
+  </nierror>
+  <nierror code="380763">
+    <![CDATA[PXI系统描述文件已被其他进程锁定。可能是临时性的问题：另一个进程占用了该文件。如问题仍未解决，请联系NI。]]>
+  </nierror>
+  <nierror code="380764">
+    <![CDATA[存在PXI系统描述文件，但无法访问该文件。可能是临时性的问题：另一个进程占用了该文件。如问题仍未解决，请联系NI。]]>
+  </nierror>
+  <nierror code="-26853">
+    <![CDATA[必须重试调用。]]>
+  </nierror>
+  <nierror code="-26852">
+    <![CDATA[丢失至少一个PXI系统描述文件。]]>
+  </nierror>
+  <nierror code="-26851">
+    <![CDATA[使用现有PXI系统文件完成初始化。由于用户设置，将不会重新生成PXI系统文件。]]>
+  </nierror>
+  <nierror code="-26850">
+    <![CDATA[已重新初始化PXI系统。]]>
+  </nierror>
+  <nierror code="-26809">
+    <![CDATA[无法读取一个或多个PXI系统描述文件，因此无法使用某些PXI功能。如需获取更多信息，请访问ni.com/info并输入信息代码"exvgq4"。]]>
+  </nierror>
+  <nierror code="-26808">
+    <![CDATA[PXISA配置文件当前已被锁定，无法访问。]]>
+  </nierror>
+  <nierror code="-26807">
+    <![CDATA[当前系统启用的PXI资源管理器不是National Instruments PXI Resource Manager。]]>
+  </nierror>
+  <nierror code="-26806">
+    <![CDATA[属性无效。]]>
+  </nierror>
+  <nierror code="-26805">
+    <![CDATA[句柄无效。]]>
+  </nierror>
+  <nierror code="-26804">
+    <![CDATA[无法访问NI PXI资源管理器服务，可能原因为该服务尚未运行或者正在启动。]]>
+  </nierror>
+  <nierror code="-26803">
+    <![CDATA[PXI资源管理器在初始化时递归调用某个组件。]]>
+  </nierror>
+  <nierror code="-26802">
+    <![CDATA[发生超时。]]>
+  </nierror>
+  <nierror code="-26801">
+    <![CDATA[PXI子系统中出现未指定错误。]]>
+  </nierror>
+  <nierror code="-26657">
+    <![CDATA[指定数据树不存在已知处理器。]]>
+  </nierror>
+  <nierror code="-26656">
+    <![CDATA[请求的数据无法兼容指定的数据类型。]]>
+  </nierror>
+  <nierror code="-26655">
+    <![CDATA[文件内部不一致。]]>
+  </nierror>
+  <nierror code="-26654">
+    <![CDATA[未找到子项。]]>
+  </nierror>
+  <nierror code="-26653">
+    <![CDATA[未找到属性。]]>
+  </nierror>
+  <nierror code="-26652">
+    <![CDATA[读取或写入文件出错。]]>
+  </nierror>
+  <nierror code="-26651">
+    <![CDATA[读取文件出错。]]>
+  </nierror>
+  <nierror code="-26650">
+    <![CDATA[打开文件出错。]]>
+  </nierror>
+  <nierror code="-26600">
+    <![CDATA[未找到MXS PXI系统]]>
+  </nierror>
+  <nierror code="-26550">
+    <![CDATA[PCI描述字符串解析出错]]>
+  </nierror>
+  <nierror code="-26500">
+    <![CDATA[模块解析出错]]>
+  </nierror>
+  <nierror code="-26404">
+    <![CDATA[PXI系统描述文件无效。请联系PXI资源管理软件供应商，解决该问题。]]>
+  </nierror>
+  <nierror code="-26403">
+    <![CDATA[系统说明规范限制]]>
+  </nierror>
+  <nierror code="-26402">
+    <![CDATA[系统说明写入出错]]>
+  </nierror>
+  <nierror code="-26401">
+    <![CDATA[系统说明解析出错]]>
+  </nierror>
+  <nierror code="-26400">
+    <![CDATA[未找到系统说明文件]]>
+  </nierror>
+  <nierror code="-26302">
+    <![CDATA[控制器解析出错]]>
+  </nierror>
+  <nierror code="-26301">
+    <![CDATA[控制器类型无效]]>
+  </nierror>
+  <nierror code="-26300">
+    <![CDATA[未找到控制器文件]]>
+  </nierror>
+  <nierror code="-26206">
+    <![CDATA[机箱触发解析出错]]>
+  </nierror>
+  <nierror code="-26205">
+    <![CDATA[机箱桥解析出错]]>
+  </nierror>
+  <nierror code="-26204">
+    <![CDATA[机箱插槽解析出错]]>
+  </nierror>
+  <nierror code="-26203">
+    <![CDATA[机箱部分解析出错]]>
+  </nierror>
+  <nierror code="-26202">
+    <![CDATA[机箱解析出错]]>
+  </nierror>
+  <nierror code="-26201">
+    <![CDATA[未找到机箱桥]]>
+  </nierror>
+  <nierror code="-26200">
+    <![CDATA[未找到机箱文件]]>
+  </nierror>
+  <nierror code="-26113">
+    <![CDATA[提供缓冲区不足，无法保存请求数据。]]>
+  </nierror>
+  <nierror code="-26112">
+    <![CDATA[创建目录出错。]]>
+  </nierror>
+  <nierror code="-26111">
+    <![CDATA[拒绝访问]]>
+  </nierror>
+  <nierror code="-26110">
+    <![CDATA[未找到文件路径。]]>
+  </nierror>
+  <nierror code="-26109">
+    <![CDATA[文件已存在。]]>
+  </nierror>
+  <nierror code="-26108">
+    <![CDATA[读取文件出错。]]>
+  </nierror>
+  <nierror code="-26107">
+    <![CDATA[删除文件出错。]]>
+  </nierror>
+  <nierror code="-26106">
+    <![CDATA[复制文件出错。]]>
+  </nierror>
+  <nierror code="-26105">
+    <![CDATA[无法关闭文件。]]>
+  </nierror>
+  <nierror code="-26104">
+    <![CDATA[打开文件出错。]]>
+  </nierror>
+  <nierror code="-26103">
+    <![CDATA[文件未找到。]]>
+  </nierror>
+  <nierror code="-26102">
+    <![CDATA[系统未初始化]]>
+  </nierror>
+  <nierror code="-26101">
+    <![CDATA[非法配置]]>
+  </nierror>
+  <nierror code="-26100">
+    <![CDATA[分配出错]]>
+  </nierror>
+  <nierror code="-26010">
+    <![CDATA[机箱的PXISA trigger manager报告机箱已经断开连接。]]>
+  </nierror>
+  <nierror code="-26009">
+    <![CDATA[机箱的PXISA trigger manager for the chassis报告另一个应用程序已对该线进行预留。]]>
+  </nierror>
+  <nierror code="-26008">
+    <![CDATA[机箱的PXISA trigger manager报告连线路径的目标已被另一个背板连线路径占用。]]>
+  </nierror>
+  <nierror code="-26007">
+    <![CDATA[机箱的PXISA trigger manager报告连线路径有冲突，无法对线进行预留。]]>
+  </nierror>
+  <nierror code="-26006">
+    <![CDATA[机箱的PXISA trigger manager报告线已被一个冲突的连线路径占用。]]>
+  </nierror>
+  <nierror code="-26005">
+    <![CDATA[机箱的PXISA trigger manager报告当前应用程序已对线进行预留。]]>
+  </nierror>
+  <nierror code="-26004">
+    <![CDATA[机箱的PXISA trigger manager报告连线路径的目标线未被预留，但如需对连线路径进行编程，则必须先对目标线进行预留。]]>
+  </nierror>
+  <nierror code="-26003">
+    <![CDATA[机箱的PXISA trigger manager报告尚未对线进行预留。检查并确保其他应用程序/API所清理的都是应用程序/API本身所创建的触发预留。]]>
+  </nierror>
+  <nierror code="-26002">
+    <![CDATA[调用机箱的PXISA trigger manager时提供的一个参数无效。]]>
+  </nierror>
+  <nierror code="-26001">
+    <![CDATA[机箱的PXISA trigger manager不支持请求的操作。]]>
+  </nierror>
+  <nierror code="-26000">
+    <![CDATA[机箱的PXISA trigger manager返回了一个供应商相关的错误，或一般错误。]]>
+  </nierror>
+  <nierror code="26000">
+    <![CDATA[机箱的PXISA trigger manager返回了一个供应商相关的错误，或一般错误。]]>
+  </nierror>
+  <nierror code="26001">
+    <![CDATA[机箱的PXISA trigger manager不支持请求的操作。]]>
+  </nierror>
+  <nierror code="26002">
+    <![CDATA[调用机箱的PXISA trigger manager时提供的一个参数无效。]]>
+  </nierror>
+  <nierror code="26003">
+    <![CDATA[机箱的PXISA trigger manager报告尚未对线进行预留。检查并确保其他应用程序/API所清理的都是应用程序/API本身所创建的触发预留。]]>
+  </nierror>
+  <nierror code="26004">
+    <![CDATA[机箱的PXISA trigger manager报告连线路径的目标线未被预留，但如需对连线路径进行编程，则必须先对目标线进行预留。]]>
+  </nierror>
+  <nierror code="26005">
+    <![CDATA[机箱的PXISA trigger manager报告当前应用程序已对线进行预留。]]>
+  </nierror>
+  <nierror code="26006">
+    <![CDATA[机箱的PXISA trigger manager报告线已被一个冲突的连线路径占用。]]>
+  </nierror>
+  <nierror code="26007">
+    <![CDATA[机箱的PXISA trigger manager报告连线路径有冲突，无法对线进行预留。]]>
+  </nierror>
+  <nierror code="26008">
+    <![CDATA[机箱的PXISA trigger manager报告连线路径的目标已被另一个背板连线路径占用。]]>
+  </nierror>
+  <nierror code="26009">
+    <![CDATA[机箱的PXISA trigger manager for the chassis报告另一个应用程序已对该线进行预留。]]>
+  </nierror>
+  <nierror code="26010">
+    <![CDATA[机箱的PXISA trigger manager报告机箱已经断开连接。]]>
+  </nierror>
+  <nierror code="26100">
+    <![CDATA[分配出错]]>
+  </nierror>
+  <nierror code="26101">
+    <![CDATA[非法配置]]>
+  </nierror>
+  <nierror code="26102">
+    <![CDATA[系统未初始化]]>
+  </nierror>
+  <nierror code="26103">
+    <![CDATA[文件未找到。]]>
+  </nierror>
+  <nierror code="26104">
+    <![CDATA[打开文件出错。]]>
+  </nierror>
+  <nierror code="26105">
+    <![CDATA[无法关闭文件。]]>
+  </nierror>
+  <nierror code="26106">
+    <![CDATA[复制文件出错。]]>
+  </nierror>
+  <nierror code="26107">
+    <![CDATA[删除文件出错。]]>
+  </nierror>
+  <nierror code="26108">
+    <![CDATA[读取文件出错。]]>
+  </nierror>
+  <nierror code="26109">
+    <![CDATA[文件已存在。]]>
+  </nierror>
+  <nierror code="26110">
+    <![CDATA[未找到文件路径。]]>
+  </nierror>
+  <nierror code="26111">
+    <![CDATA[拒绝访问。]]>
+  </nierror>
+  <nierror code="26112">
+    <![CDATA[创建目录出错。]]>
+  </nierror>
+  <nierror code="26113">
+    <![CDATA[提供缓冲区不足，无法保存请求数据。]]>
+  </nierror>
+  <nierror code="26200">
+    <![CDATA[未找到机箱文件]]>
+  </nierror>
+  <nierror code="26201">
+    <![CDATA[未找到机箱桥]]>
+  </nierror>
+  <nierror code="26202">
+    <![CDATA[机箱解析出错]]>
+  </nierror>
+  <nierror code="26203">
+    <![CDATA[机箱部分解析出错]]>
+  </nierror>
+  <nierror code="26204">
+    <![CDATA[机箱插槽解析出错]]>
+  </nierror>
+  <nierror code="26205">
+    <![CDATA[机箱桥解析出错]]>
+  </nierror>
+  <nierror code="26206">
+    <![CDATA[机箱触发解析出错]]>
+  </nierror>
+  <nierror code="26300">
+    <![CDATA[未找到控制器文件]]>
+  </nierror>
+  <nierror code="26301">
+    <![CDATA[控制器类型无效]]>
+  </nierror>
+  <nierror code="26302">
+    <![CDATA[控制器解析出错]]>
+  </nierror>
+  <nierror code="26400">
+    <![CDATA[未找到系统说明文件]]>
+  </nierror>
+  <nierror code="26401">
+    <![CDATA[系统说明解析出错]]>
+  </nierror>
+  <nierror code="26402">
+    <![CDATA[系统说明写入出错]]>
+  </nierror>
+  <nierror code="26403">
+    <![CDATA[系统说明规范限制]]>
+  </nierror>
+  <nierror code="26404">
+    <![CDATA[PXI系统描述文件无效。请联系PXI资源管理软件供应商，解决该问题。]]>
+  </nierror>
+  <nierror code="26500">
+    <![CDATA[模块解析出错]]>
+  </nierror>
+  <nierror code="26550">
+    <![CDATA[PCI描述字符串解析出错]]>
+  </nierror>
+  <nierror code="26600">
+    <![CDATA[未找到MXS PXI系统]]>
+  </nierror>
+  <nierror code="26650">
+    <![CDATA[打开文件出错。]]>
+  </nierror>
+  <nierror code="26651">
+    <![CDATA[读取文件出错。]]>
+  </nierror>
+  <nierror code="26652">
+    <![CDATA[读取或写入文件出错。]]>
+  </nierror>
+  <nierror code="26653">
+    <![CDATA[未找到属性。]]>
+  </nierror>
+  <nierror code="26654">
+    <![CDATA[未找到子项。]]>
+  </nierror>
+  <nierror code="26655">
+    <![CDATA[文件内部不一致。]]>
+  </nierror>
+  <nierror code="26656">
+    <![CDATA[请求的数据无法兼容指定的数据类型。]]>
+  </nierror>
+  <nierror code="26657">
+    <![CDATA[指定数据树不存在已知处理器。]]>
+  </nierror>
+  <nierror code="26801">
+    <![CDATA[PXI子系统中出现未指定错误。]]>
+  </nierror>
+  <nierror code="26802">
+    <![CDATA[发生超时。]]>
+  </nierror>
+  <nierror code="26803">
+    <![CDATA[PXI资源管理器在初始化时递归调用某个组件。]]>
+  </nierror>
+  <nierror code="26804">
+    <![CDATA[无法访问NI PXI资源管理器服务，可能原因为该服务尚未运行或者正在启动。]]>
+  </nierror>
+  <nierror code="26805">
+    <![CDATA[句柄无效。]]>
+  </nierror>
+  <nierror code="26806">
+    <![CDATA[属性无效。]]>
+  </nierror>
+  <nierror code="26807">
+    <![CDATA[当前系统启用的PXI资源管理器不是National Instruments PXI Resource Manager。]]>
+  </nierror>
+  <nierror code="26808">
+    <![CDATA[PXISA配置文件当前已被锁定，无法访问。]]>
+  </nierror>
+  <nierror code="26809">
+    <![CDATA[无法读取一个或多个PXI系统描述文件，因此无法使用某些PXI功能。如需获取更多信息，请访问ni.com/info并输入信息代码"exvgq4"。]]>
+  </nierror>
+  <nierror code="26850">
+    <![CDATA[已重新初始化PXI系统。]]>
+  </nierror>
+  <nierror code="26851">
+    <![CDATA[使用现有PXI系统文件完成初始化。由于用户设置，将不会重新生成PXI系统文件。]]>
+  </nierror>
+  <nierror code="26852">
+    <![CDATA[丢失至少一个PXI系统描述文件。]]>
+  </nierror>
+  <nierror code="26853">
+    <![CDATA[必须重试调用。]]>
+  </nierror>
+</nidocument>

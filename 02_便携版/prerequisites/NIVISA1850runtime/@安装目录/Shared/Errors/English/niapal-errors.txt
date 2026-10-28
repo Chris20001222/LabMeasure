@@ -1,0 +1,203 @@
+<?xml version="1.0">
+<nidocument>
+<nicomment>
+<nifamily displayname="NI Platform Services" familyname="NI Platform Services">
+</nifamily>
+</nicomment>
+<nierror code="-52031">
+The specified resource is currently in use.
+</nierror>
+<nierror code="-52030">
+The current application development environment is not supported.
+</nierror>
+<nierror code="-52029">
+The specified format is not supported.
+</nierror>
+<nierror code="-52028">
+The specified language is not supported.
+</nierror>
+<nierror code="-52027">
+The specified string contains characters that cannot be interpreted due to the installed language support and system locale settings.
+
+If possible, do not use this character. Otherwise, ensure that the appropriate language support is installed on the system, and that the system locale is set correctly. For most Windows operating systems, this is done through the Regional Settings option in the Control Panel. For LabVIEW RT targets, install Language Support for LabVIEW RT and change the locale setting for the remote system on the System Settings tab in MAX.
+</nierror>
+<nierror code="-52026">
+The operation could not be completed because the user does not have sufficient permissions.  Consider running as an administrator.
+</nierror>
+<nierror code="-52025">
+The operation was interrupted by a user mode signal.
+</nierror>
+<nierror code="-52024">
+An unknown or unexpected communication fault occurred while attempting to read data from or write data to a device.
+</nierror>
+<nierror code="-52023">
+No transfer is in progress because the transfer was aborted by the client. The operation could not be completed as specified.
+</nierror>
+<nierror code="-52022">
+IO processing is not active.
+</nierror>
+<nierror code="-52021">
+There is not enough power to complete the requested operation.
+</nierror>
+<nierror code="-52020">
+The requested resource has been removed.
+</nierror>
+<nierror code="-52019">
+The supplied buffer is too small.
+</nierror>
+<nierror code="-52018">
+A hardware failure has occurred. The operation could not be completed as specified.
+</nierror>
+<nierror code="-52017">
+The operation you requested is redundant or invalid when the object is in this state.
+</nierror>
+<nierror code="-52016">
+The thread was running when you attempted to start it (redundant state change).
+</nierror>
+<nierror code="-52015">
+The acquisition of the synchronization object failed.
+</nierror>
+<nierror code="-52014">
+The synchronization object was abandoned by the previous holder.
+</nierror>
+<nierror code="-52013">
+The name or handle requested has already been reserved by another client.
+</nierror>
+<nierror code="-52012">
+There is no more data available to read or no more space available in which to write.
+</nierror>
+<nierror code="-52011">
+The operation has begun and will complete asynchronously.
+</nierror>
+<nierror code="-52010">
+The requested resource must be initialized before use.
+</nierror>
+<nierror code="-52009">
+The requested resource has been marked for deletion and is rejecting new requests.
+</nierror>
+<nierror code="-52008">
+An unexpected operating system error occurred.
+</nierror>
+<nierror code="-52007">
+The requested operation did not complete in time.
+</nierror>
+<nierror code="-52006">
+The requested resource was not located.
+</nierror>
+<nierror code="-52005">
+The parameter received by the function is not valid.
+</nierror>
+<nierror code="-52004">
+The dynamic cast operation failed.
+</nierror>
+<nierror code="-52003">
+An unexpected software error occurred.
+</nierror>
+<nierror code="-52002">
+The requested feature is not supported.
+</nierror>
+<nierror code="-52001">
+The memory could not be page locked.
+</nierror>
+<nierror code="-52000">
+The specified number of bytes could not be allocated.
+</nierror>
+<nierror code="52000">
+The specified number of bytes could not be allocated.
+</nierror>
+<nierror code="52001">
+The memory could not be page locked.
+</nierror>
+<nierror code="52002">
+The requested feature is not supported.
+</nierror>
+<nierror code="52003">
+An unexpected software error occurred.
+</nierror>
+<nierror code="52004">
+The dynamic cast operation failed.
+</nierror>
+<nierror code="52005">
+The parameter received by the function is not valid.
+</nierror>
+<nierror code="52006">
+The requested resource was not located.
+</nierror>
+<nierror code="52007">
+The requested operation did not complete in time.
+</nierror>
+<nierror code="52008">
+An unexpected operating system error occurred.
+</nierror>
+<nierror code="52009">
+The requested resource has been marked for deletion and is rejecting new requests.
+</nierror>
+<nierror code="52010">
+The requested resource must be initialized before use.
+</nierror>
+<nierror code="52011">
+The operation has begun and will complete asynchronously.
+</nierror>
+<nierror code="52012">
+There is no more data available to read or no more space available in which to write.
+</nierror>
+<nierror code="52013">
+The name or handle requested has already been reserved by another client.
+</nierror>
+<nierror code="52014">
+The synchronization object was abandoned by the previous holder.
+</nierror>
+<nierror code="52015">
+The acquisition of the synchronization object failed.
+</nierror>
+<nierror code="52016">
+The thread was running when you attempted to start it (redundant state change).
+</nierror>
+<nierror code="52017">
+The operation you requested is redundant or invalid when the object is in this state.
+</nierror>
+<nierror code="52018">
+A hardware failure has occurred. The operation could not be completed as specified.
+</nierror>
+<nierror code="52019">
+The supplied buffer is too small.
+</nierror>
+<nierror code="52020">
+The requested resource has been removed.
+</nierror>
+<nierror code="52021">
+There is not enough power to complete the requested operation.
+</nierror>
+<nierror code="52022">
+IO processing is not active.
+</nierror>
+<nierror code="52023">
+No transfer is in progress because the transfer was aborted by the client. The operation could not be completed as specified.
+</nierror>
+<nierror code="52024">
+An unknown or unexpected communication fault occurred while attempting to read data from or write data to a device.
+</nierror>
+<nierror code="52025">
+The operation was interrupted by a user mode signal.
+</nierror>
+<nierror code="52026">
+The operation could not be completed because the user does not have sufficient permissions.  Consider running as an administrator.
+</nierror>
+<nierror code="52027">
+The specified string contains characters that cannot be interpreted due to the installed language support and system locale settings.
+
+If possible, do not use this character. Otherwise, ensure that the appropriate language support is installed on the system, and that the system locale is set correctly. For most Windows operating systems, this is done through the Regional Settings option in the Control Panel. For LabVIEW RT targets, install Language Support for LabVIEW RT and change the locale setting for the remote system on the System Settings tab in MAX.
+</nierror>
+<nierror code="52028">
+The specified language is not supported.
+</nierror>
+<nierror code="52029">
+The specified format is not supported.
+</nierror>
+<nierror code="52030">
+The current application development environment is not supported.
+</nierror>
+<nierror code="52031">
+The specified resource is currently in use.
+</nierror>
+</nidocument>

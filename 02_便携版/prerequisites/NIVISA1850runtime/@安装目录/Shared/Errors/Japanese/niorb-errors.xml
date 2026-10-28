@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-ORB" familyname="NI-ORB">
+  <nierror code="-88908">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88907">
+    <![CDATA[NI サービスロケータに登録できませんでした。
+
+NI サービスロケータサービスがインストールされており、開始されていることを確認してください。]]>
+  </nierror>
+  <nierror code="-88906">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88905">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88904">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88903">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88902">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88901">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88900">
+    <![CDATA[指定されたリモートターゲットに到達できません。
+
+ターゲットが実行中であることを確認してください。]]>
+  </nierror>
+  <nierror code="-88800">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88361">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88360">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88313">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88312">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88311">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88310">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88309">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88308">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88307">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88306">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88305">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88304">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88303">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88302">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88301">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+  <nierror code="-88300">
+    <![CDATA[内部エラーが発生しました。]]>
+  </nierror>
+</nidocument>

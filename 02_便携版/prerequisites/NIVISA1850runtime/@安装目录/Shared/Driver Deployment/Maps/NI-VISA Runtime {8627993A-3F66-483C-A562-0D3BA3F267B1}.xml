@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<?DriverMap version="1.0.0"?>
+<!-- This file maps dependencies discovered by Application Builder to NI installer upgrade codes recommended for inclusion in ADE-built installers -->
+
+<Installer Name="NI-VISA Runtime" Description="optional" UpgradeCode="{8627993A-3F66-483C-A562-0D3BA3F267B1}">
+   <Key ADE="LabVIEW">resource\visarc</Key>
+   <Key ADE="CVI">visa.lib</Key>
+</Installer>

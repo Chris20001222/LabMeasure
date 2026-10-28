@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <group id="settings" weight="0">
+    <property id="hostname" caption="{hostname}" sysattr="16928768" order="100" writable="true" />
+    <property id="landevicename" caption="{landevicename}" sysattr="67141632" order="45000" writable="true" />
+    <property id="portnumber" caption="{portnumber}" sysattr="67145728" order="45010" writable="true" />
+  </group>
+</item>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<instructions>
+    <msis>
+        <msi name="MStudioCommonRuntime.v400.msi">
+            <property name="INSTALLLEVEL" value="1000" />
+        </msi>
+    </msis>
+</instructions>

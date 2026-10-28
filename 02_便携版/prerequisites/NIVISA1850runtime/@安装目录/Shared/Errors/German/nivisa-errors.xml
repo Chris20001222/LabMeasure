@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="VISA" familyname="VISA">
+  <nicomment>None</nicomment>
+  <nierror code="-1073807360">
+    <![CDATA[VISA:  (Hex 0xBFFF0000) Unbekannter Systemfehler (verschiedene Fehler).]]>
+  </nierror>
+  <nierror code="-1073807346">
+    <![CDATA[VISA:  (Hex 0xBFFF000E) Die angegebene Session oder Objektreferenz ist ungültig.]]>
+  </nierror>
+  <nierror code="-1073807345">
+    <![CDATA[VISA:  (Hex 0xBFFF000F) Die angegebene Art von Sperre kann nicht ausgeführt werden oder die angegebene Operation kann nicht durchgeführt werden, da die Ressource gesperrt ist.]]>
+  </nierror>
+  <nierror code="-1073807344">
+    <![CDATA[VISA:  (Hex 0xBFFF0010) Für die Suche wurde ein ungültiger Ausdruck angegeben.]]>
+  </nierror>
+  <nierror code="-1073807343">
+    <![CDATA[VISA:  (Hex 0xBFFF0011) Unzureichende Angaben zum Speicherort oder das Gerät/die Ressource ist nicht im System vorhanden.]]>
+  </nierror>
+  <nierror code="-1073807342">
+    <![CDATA[VISA:  (Hex 0xBFFF0012) Es wurde eine ungültige Ressourcenreferenz angegeben. Parsing-Fehler.]]>
+  </nierror>
+  <nierror code="-1073807341">
+    <![CDATA[VISA:  (Hex 0xBFFF0013) Ungültiger Zugriffsmodus.]]>
+  </nierror>
+  <nierror code="-1073807339">
+    <![CDATA[VISA:  (Hex 0xBFFF0015) Timeout ist vor Vervollständigung der Operation abgelaufen.]]>
+  </nierror>
+  <nierror code="-1073807338">
+    <![CDATA[VISA:  (Hex 0xBFFF0016) Der VISA-Treiber hat die Session oder Objektreferenz nicht ordnungsgemäß geschlossen. Mögliche Ursachen dafür sind Fehler beim Freigeben von internen oder Betriebssystemressourcen, eine fehlerhafte Netzwerkverbindung oder ein Fehler eines Low-Level-Treibers oder des Betriebssystems.]]>
+  </nierror>
+  <nierror code="-1073807333">
+    <![CDATA[VISA:  (Hex 0xBFFF001B) Angegebener Grad ist ungültig.]]>
+  </nierror>
+  <nierror code="-1073807332">
+    <![CDATA[VISA:  (Hex 0xBFFF001C) Die angegebene Kennung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1073807331">
+    <![CDATA[VISA:  (Hex 0xBFFF001D) Das angegebene Attribut ist nicht definiert oder wird von der Ressource nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1073807330">
+    <![CDATA[VISA:  (Hex 0xBFFF001E) Der angegebene Zustand des Attributs ist ungültig oder wird nicht von der Ressource unterstützt.]]>
+  </nierror>
+  <nierror code="-1073807329">
+    <![CDATA[VISA:  (Hex 0xBFFF001F) Das angegebene Attribut ist schreibgeschützt.]]>
+  </nierror>
+  <nierror code="-1073807328">
+    <![CDATA[VISA:  (Hex 0xBFFF0020) Die angegebene Art von Sperre wird von dieser Ressource nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1073807327">
+    <![CDATA[VISA:  (Hex 0xBFFF0021) Der Zugriffsschlüssel für die angegebene Ressource ist ungültig.]]>
+  </nierror>
+  <nierror code="-1073807322">
+    <![CDATA[VISA:  (Hex 0xBFFF0026) Der angegebene Ereignistyp wird nicht von der Ressource unterstützt.]]>
+  </nierror>
+  <nierror code="-1073807321">
+    <![CDATA[VISA:  (Hex 0xBFFF0027) Es wurde ein ungültiger Mechanismus angegeben.]]>
+  </nierror>
+  <nierror code="-1073807320">
+    <![CDATA[VISA:  (Hex 0xBFFF0028) Ein Handler wurde nicht installiert.]]>
+  </nierror>
+  <nierror code="-1073807319">
+    <![CDATA[VISA:  (Hex 0xBFFF0029) Die angegebene Handler-Referenz ist ungültig.]]>
+  </nierror>
+  <nierror code="-1073807318">
+    <![CDATA[VISA:  (Hex 0xBFFF002A) Der Kontext des angegebenen Ereignisses ist ungültig.]]>
+  </nierror>
+  <nierror code="-1073807315">
+    <![CDATA[VISA:  (Hex 0xBFFF002D) Die Ereignis-Queue für den angegebenen Typ ist übergelaufen. Die Ursache dafür liegt in der Regel darin, dass vorherige Ereignisse nicht geschlossen wurden.]]>
+  </nierror>
+  <nierror code="-1073807313">
+    <![CDATA[VISA:  (Hex 0xBFFF002F) Ihr System muss für Ereignisse des angegebenen Typs aktiviert sein, um diese empfangen zu können.]]>
+  </nierror>
+  <nierror code="-1073807312">
+    <![CDATA[VISA:  (Hex 0xBFFF0030) Abbruch durch den Benutzer während der Übertragung.]]>
+  </nierror>
+  <nierror code="-1073807308">
+    <![CDATA[VISA:  (Hex 0xBFFF0034) Während der Übertragung wurde das Protokoll zum Schreiben von unkonvertierten Daten verletzt.]]>
+  </nierror>
+  <nierror code="-1073807307">
+    <![CDATA[VISA:  (Hex 0xBFFF0035) Während der Übertragung wurde das Protokoll zum Lesen von unkonvertierten Daten verletzt.]]>
+  </nierror>
+  <nierror code="-1073807306">
+    <![CDATA[VISA:  (Hex 0xBFFF0036) Das Gerät hat einen Fehler des Ausgabeprotokolls während der Übertragung gemeldet.]]>
+  </nierror>
+  <nierror code="-1073807305">
+    <![CDATA[VISA:  (Hex 0xBFFF0037) Das Gerät hat einen Fehler des Eingabeprotokolls während der Übertragung gemeldet.]]>
+  </nierror>
+  <nierror code="-1073807304">
+    <![CDATA[VISA:  (Hex 0xBFFF0038) Während der Übertragung ist ein Busfehler aufgetreten.]]>
+  </nierror>
+  <nierror code="-1073807303">
+    <![CDATA[VISA:  (Hex 0xBFFF0039) Die asynchrone Operation kann nicht in die Queue eingereiht werden, da bereits eine Operation ausgeführt wird.]]>
+  </nierror>
+  <nierror code="-1073807302">
+    <![CDATA[VISA:  (Hex 0xBFFF003A) Die Operation konnte nicht gestartet werden, da die Einstellungen ungültig sind (es liegt ein Konflikt der Attributzustände vor).]]>
+  </nierror>
+  <nierror code="-1073807301">
+    <![CDATA[VISA:  (Hex 0xBFFF003B) Asynchrone Operation kann nicht in die Queue eingereiht werden (normalerweise aufgrund der fehlenden Aktivierung des Abschließens eines I/O-Ereignisses oder unzureichenden Platzes in der Queue der Session).]]>
+  </nierror>
+  <nierror code="-1073807300">
+    <![CDATA[VISA:  (Hex 0xBFFF003C) Unzureichende Systemressourcen, um notwendige Speicherzuweisung durchzuführen.]]>
+  </nierror>
+  <nierror code="-1073807299">
+    <![CDATA[VISA:  (Hex 0xBFFF003D) Es wurde eine ungültige Puffermaske angegeben.]]>
+  </nierror>
+  <nierror code="-1073807298">
+    <![CDATA[VISA:  (Hex 0xBFFF003E) Operation konnte aufgrund eines I/O-Fehlers nicht ausgeführt werden.]]>
+  </nierror>
+  <nierror code="-1073807297">
+    <![CDATA[VISA:  (Hex 0xBFFF003F) Ein Formatbezeichner im Format-String ist ungültig.]]>
+  </nierror>
+  <nierror code="-1073807295">
+    <![CDATA[VISA:  (Hex 0xBFFF0041) Ein Formatbezeichner im Format-String ist nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1073807294">
+    <![CDATA[VISA:  (Hex 0xBFFF0042) Die angegebene Trigger-Leitung wird gerade verwendet.]]>
+  </nierror>
+  <nierror code="-1073807293">
+    <![CDATA[VISA:  (Hex 0xBFFF0043) Die angegebene Trigger-Leitung wurde nicht reserviert.]]>
+  </nierror>
+  <nierror code="-1073807290">
+    <![CDATA[VISA:  (Hex 0xBFFF0046) Der angegebene Modus wird von dieser VISA-Anwendung nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1073807286">
+    <![CDATA[VISA:  (Hex 0xBFFF004A) Für diese Session wurde keine Service-Anfrage empfangen.]]>
+  </nierror>
+  <nierror code="-1073807282">
+    <![CDATA[VISA:  (Hex 0xBFFF004E) Es wurde ein ungültiger Adressraum angegeben.]]>
+  </nierror>
+  <nierror code="-1073807279">
+    <![CDATA[VISA:  (Hex 0xBFFF0051) Es wurde ein ungültiger Offset angegeben.]]>
+  </nierror>
+  <nierror code="-1073807278">
+    <![CDATA[VISA:  (Hex 0xBFFF0052) Es wurde eine ungültige Zugriffsbreite angegeben.]]>
+  </nierror>
+  <nierror code="-1073807276">
+    <![CDATA[VISA:  (Hex 0xBFFF0054) Von dieser Hardware kann nicht auf den angegebenen Offset zugegriffen werden.]]>
+  </nierror>
+  <nierror code="-1073807275">
+    <![CDATA[VISA:  (Hex 0xBFFF0055) Unterschiedliche Quell- und Zielbreiten werden nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1073807273">
+    <![CDATA[VISA:  (Hex 0xBFFF0057) Die angegebene Session ist gegenwärtig nicht zugeordnet.]]>
+  </nierror>
+  <nierror code="-1073807271">
+    <![CDATA[VISA:  (Hex 0xBFFF0059) Eine vorherige Antwort wird noch bearbeitet. Daher tritt ein Abfragefehler auf.]]>
+  </nierror>
+  <nierror code="-1073807265">
+    <![CDATA[VISA:  (Hex 0xBFFF005F) Es wurde keine Listener-Bedingung erkannt (NRFD und NDAC sind aufgehoben).]]>
+  </nierror>
+  <nierror code="-1073807264">
+    <![CDATA[VISA:  (Hex 0xBFFF0060) Die Schnittstelle, die zu dieser Session gehört, ist gegenwärtig nicht der aktive Controller (CIC).]]>
+  </nierror>
+  <nierror code="-1073807263">
+    <![CDATA[VISA:  (Hex 0xBFFF0061) Die Schnittstelle, die zu dieser Session gehört, ist nicht der System-Controller.]]>
+  </nierror>
+  <nierror code="-1073807257">
+    <![CDATA[VISA:  (Hex 0xBFFF0067) Die angegebene Session oder Objektreferenz unterstützt diese Operation nicht.]]>
+  </nierror>
+  <nierror code="-1073807256">
+    <![CDATA[VISA:  (Hex 0xBFFF0068) Ein Interrupt von einem vorherigen Aufruf wird noch ausgeführt.]]>
+  </nierror>
+  <nierror code="-1073807254">
+    <![CDATA[VISA:  (Hex 0xBFFF006A) Während der Übertragung ist ein Paritätsfehler aufgetreten.]]>
+  </nierror>
+  <nierror code="-1073807253">
+    <![CDATA[VISA:  (Hex 0xBFFF006B) Während der Übertragung ist ein Rahmenfehler aufgetreten.]]>
+  </nierror>
+  <nierror code="-1073807252">
+    <![CDATA[VISA:  (Hex 0xBFFF006C) Während der Übertragung ist ein Überlauffehler aufgetreten. Ein Zeichen wurde nicht vor dem Eintreffen des nächsten Zeichens von der Hardware gelesen.]]>
+  </nierror>
+  <nierror code="-1073807250">
+    <![CDATA[VISA:  (Hex 0xBFFF006E) Der Pfad von trigSrc nach trigDest ist gegenwärtig nicht zugeordnet.]]>
+  </nierror>
+  <nierror code="-1073807248">
+    <![CDATA[VISA:  (Hex 0xBFFF0070) Der angegebene Offset ist nicht ordnungsgemäß für die Zugriffsbreite der Operation ausgerichtet.]]>
+  </nierror>
+  <nierror code="-1073807247">
+    <![CDATA[VISA:  (Hex 0xBFFF0071) Ein angegebener Benutzerpuffer ist ungültig oder nicht in der angegebenen Größe verfügbar.]]>
+  </nierror>
+  <nierror code="-1073807246">
+    <![CDATA[VISA:  (Hex 0xBFFF0072) Die Ressource ist zwar gültig, aber VISA kann im Moment nicht darauf zugreifen.]]>
+  </nierror>
+  <nierror code="-1073807242">
+    <![CDATA[VISA:  (Hex 0xBFFF0076) Die angegebene Breite wird von dieser Hardware nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1073807240">
+    <![CDATA[VISA:  (Hex 0xBFFF0078) Der Wert eines Parameters ist ungültig. Es ist aber nicht bekannt, um welchen Parameter es sich handelt.]]>
+  </nierror>
+  <nierror code="-1073807239">
+    <![CDATA[VISA:  (Hex 0xBFFF0079) Das angegebene Protokoll ist ungültig.]]>
+  </nierror>
+  <nierror code="-1073807237">
+    <![CDATA[VISA:  (Hex 0xBFFF007B) Es wurde eine ungültige Fenstergröße angegeben.]]>
+  </nierror>
+  <nierror code="-1073807232">
+    <![CDATA[VISA:  (Hex 0xBFFF0080) Die angegebene Session enthält derzeit ein zugeordnetes Fenster.]]>
+  </nierror>
+  <nierror code="-1073807231">
+    <![CDATA[VISA:  (Hex 0xBFFF0081) Diese Operation ist nicht implementiert.]]>
+  </nierror>
+  <nierror code="-1073807229">
+    <![CDATA[VISA:  (Hex 0xBFFF0083) Es wurde eine ungültige Länge angegeben.]]>
+  </nierror>
+  <nierror code="-1073807215">
+    <![CDATA[VISA:  (Hex 0xBFFF0091) Es wurde ein ungültiger Modus angegeben.]]>
+  </nierror>
+  <nierror code="-1073807204">
+    <![CDATA[VISA:  (Hex 0xBFFF009C) Die aktuelle Session hatte keine Sperre für die Ressource.]]>
+  </nierror>
+  <nierror code="-1073807203">
+    <![CDATA[VISA:  (Hex 0xBFFF009D) Das Gerät exportiert keinen Speicher.]]>
+  </nierror>
+  <nierror code="-1073807202">
+    <![CDATA[VISA:  (Hex 0xBFFF009E) VISA oder eine von VISA erforderliche Code-Bibliothek konnte nicht gefunden oder geladen werden.  Das liegt in der Regel daran, dass ein benötigter Treiber nicht installiert ist.]]>
+  </nierror>
+  <nierror code="-1073807201">
+    <![CDATA[VISA:  (Hex 0xBFFF009F) Die Schnittstelle kann keinen Interrupt am angeforderten Level oder mit dem angeforderten Status-ID-Wert erzeugen.]]>
+  </nierror>
+  <nierror code="-1073807200">
+    <![CDATA[VISA:  (Hex 0xBFFF00A0) Der vom Zeilenparameter angegebene Wert ungültig.]]>
+  </nierror>
+  <nierror code="-1073807199">
+    <![CDATA[VISA:  (Hex 0xBFFF00A1) Fehler beim Öffnen der angegebenen Datei. Möglicherweise ist ein Pfad ungültig oder es fehlen bestimmte Zugriffsrechte.]]>
+  </nierror>
+  <nierror code="-1073807198">
+    <![CDATA[VISA:  (Hex 0xBFFF00A2) Fehler bei einer I/O-Operation an der angegebenen Datei.]]>
+  </nierror>
+  <nierror code="-1073807197">
+    <![CDATA[VISA:  (Hex 0xBFFF00A3) Eine der angegebenen Leitungen (trigSrc oder trigDest) wird von dieser VISA-Anwendung nicht unterstützt oder die Kombination der Leitungen ist keine gültige Zuordnung.]]>
+  </nierror>
+  <nierror code="-1073807196">
+    <![CDATA[VISA:  (Hex 0xBFFF00A4) Der angegebene Mechanismus wird für diesen Ereignistyp nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1073807195">
+    <![CDATA[VISA:  (Hex 0xBFFF00A5) Die Art der Schnittstelle ist zwar gültig, aber die angegebene Schnittstellennummer ist nicht konfiguriert.]]>
+  </nierror>
+  <nierror code="-1073807194">
+    <![CDATA[VISA:  (Hex 0xBFFF00A6) Die Verbindung für die angegebene Session ist abgebrochen.]]>
+  </nierror>
+  <nierror code="-1073807193">
+    <![CDATA[VISA:  (Hex 0xBFFF00A7) Der Netzwerkcomputer existiert nicht oder lässt keine Verbindungen zu. Wenn der NI-VISA-Server auf dem Netzwerkrechner installiert ist und ausgeführt wird, verwendet er möglicherweise eine inkompatible Version oder wartet an einem anderen Port auf Signale.]]>
+  </nierror>
+  <nierror code="-1073807192">
+    <![CDATA[VISA:  (Hex 0xBFFF00A8) Der Zugriff auf die Ressource oder den Netzwerkrechner wurde verweigert. Die Ursache dafür sind unzureichende Rechte für den aktuellen Benutzer oder Rechner.]]>
+  </nierror>
+  <nierror code="-1073807190">
+    <![CDATA[VISA:  (Hex 0xBFFF00AA) Ein systemnaher Treiber hat gemeldet, dass diese Ressource eine raubkopierte Schnittstelle ist oder mit einer solchen verbunden ist. Weitere Informationen erhalten Sie über den technischen Support von National Instruments.]]>
+  </nierror>
+  <nierror code="0">
+    <![CDATA[VISA:  (Hex 0x0) Operation wurde erfolgreich abgeschlossen.]]>
+  </nierror>
+  <nierror code="1073676290">
+    <![CDATA[VISA:  (Hex 0x3FFF0002) Das angegebene Ereignis wurde bereits für mindestens einen der angegebenen Mechanismen aktiviert.]]>
+  </nierror>
+  <nierror code="1073676291">
+    <![CDATA[VISA:  (Hex 0x3FFF0003) Das angegebene Ereignis wurde bereits für mindestens einen der angegebenen Mechanismen deaktiviert.]]>
+  </nierror>
+  <nierror code="1073676292">
+    <![CDATA[VISA:  (Hex 0x3FFF0004) Die Operation wurde erfolgreich durchgeführt, die Queue war aber bereits leer.]]>
+  </nierror>
+  <nierror code="1073676293">
+    <![CDATA[VISA:  (Hex 0x3FFF0005) Das angegebene Abschlusszeichen wurde gelesen.]]>
+  </nierror>
+  <nierror code="1073676294">
+    <![CDATA[VISA:  (Hex 0x3FFF0006) Die Anzahl der übertragenen Bytes entspricht der angeforderten Eingangsmenge. Möglicherweise liegen weitere Daten vor.]]>
+  </nierror>
+  <nierror code="1073676300">
+    <![CDATA[VISA:  (Hex 0x3FFF000C) VISA hat mehr Ereignisinformationen des angegebenen Typs empfangen, als die Queue mit der konfigurierten Größe aufnehmen kann.]]>
+  </nierror>
+  <nierror code="1073676407">
+    <![CDATA[VISA:  (Hex 0x3FFF0077) Die angegebene Konfiguration ist entweder nicht vorhanden oder konnte nicht geladen werden. Es werden von VISA festgelegte Standardwerte verwendet.]]>
+  </nierror>
+  <nierror code="1073676413">
+    <![CDATA[VISA:  (Hex 0x3FFF007D) Die Session wurde erfolgreich gestartet, aber das Gerät an der angegebenen Adresse antwortet nicht.]]>
+  </nierror>
+  <nierror code="1073676414">
+    <![CDATA[VISA:  (Hex 0x3FFF007E) Der Pfad von trigSrc nach trigDest wurde schon zugeordnet.]]>
+  </nierror>
+  <nierror code="1073676416">
+    <![CDATA[VISA:  (Hex 0x3FFF0080) Das Warten wurde beim Empfang der Ereignisbenachrichtigung erfolgreich beendet. Es ist mindestens noch eine weitere Ereignis-Occurrence des von inEventType festgelegten Typs für diese Session vorhanden.]]>
+  </nierror>
+  <nierror code="1073676418">
+    <![CDATA[VISA:  (Hex 0x3FFF0082) Die angegebene Objektreferenz ist nicht initialisiert.]]>
+  </nierror>
+  <nierror code="1073676420">
+    <![CDATA[VISA:  (Hex 0x3FFF0084) Obwohl der angegebene Zustand des Attributs gültig ist, wird er nicht von dieser Ressource unterstützt.]]>
+  </nierror>
+  <nierror code="1073676421">
+    <![CDATA[VISA:  (Hex 0x3FFF0085) Der an die Operation weitergeleitete Fehlercode konnte nicht interpretiert werden.]]>
+  </nierror>
+  <nierror code="1073676424">
+    <![CDATA[VISA:  (Hex 0x3FFF0088) Der angegebene I/O-Puffer wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="1073676440">
+    <![CDATA[VISA:  (Hex 0x3FFF0098) Ereignis wurde erfolgreich verarbeitet. Rufen Sie für dieses Ereignis keine weiteren Handler in dieser Session auf.]]>
+  </nierror>
+  <nierror code="1073676441">
+    <![CDATA[VISA:  (Hex 0x3FFF0099) Die Operation wurde erfolgreich beendet und diese Session hat verschachtelte gemeinsam genutzte Sperren.]]>
+  </nierror>
+  <nierror code="1073676442">
+    <![CDATA[VISA:  (Hex 0x3FFF009A) Die Operation wurde erfolgreich beendet und diese Session hat verschachtelte exklusive Sperren.]]>
+  </nierror>
+  <nierror code="1073676443">
+    <![CDATA[VISA:  (Hex 0x3FFF009B) Die Operation wurde zwar erfolgreich beendet, war aber synchron und nicht asynchron.]]>
+  </nierror>
+  <nierror code="1073676457">
+    <![CDATA[VISA:  (Hex 0x3FFF00A9) Die Operation war erfolgreich, aber ein Low-Level-Treiber hat den erweiterten Funktionsumfang nicht implementiert.]]>
+  </nierror>
+</nidocument>

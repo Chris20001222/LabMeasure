@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-ORB" familyname="NI-ORB">
+</nifamily>
+</nicomment>
+<nierror code="-88908">
+An internal error occurred.
+</nierror>
+<nierror code="-88907">
+Could not register with the NI Service Locator.
+
+Ensure that the NI Service Locator service is installed and started.
+</nierror>
+<nierror code="-88906">
+An internal error occurred.
+</nierror>
+<nierror code="-88905">
+An internal error occurred.
+</nierror>
+<nierror code="-88904">
+An internal error occurred.
+</nierror>
+<nierror code="-88903">
+An internal error occurred.
+</nierror>
+<nierror code="-88902">
+An internal error occurred.
+</nierror>
+<nierror code="-88901">
+An internal error occurred.
+</nierror>
+<nierror code="-88900">
+The specified remote target is not reachable.
+
+Ensure that the target is running.
+</nierror>
+<nierror code="-88800">
+An internal error occurred.
+</nierror>
+<nierror code="-88361">
+An internal error occurred.
+</nierror>
+<nierror code="-88360">
+An internal error occurred.
+</nierror>
+<nierror code="-88313">
+An internal error occurred.
+</nierror>
+<nierror code="-88312">
+An internal error occurred.
+</nierror>
+<nierror code="-88311">
+An internal error occurred.
+</nierror>
+<nierror code="-88310">
+An internal error occurred.
+</nierror>
+<nierror code="-88309">
+An internal error occurred.
+</nierror>
+<nierror code="-88308">
+An internal error occurred.
+</nierror>
+<nierror code="-88307">
+An internal error occurred.
+</nierror>
+<nierror code="-88306">
+An internal error occurred.
+</nierror>
+<nierror code="-88305">
+An internal error occurred.
+</nierror>
+<nierror code="-88304">
+An internal error occurred.
+</nierror>
+<nierror code="-88303">
+An internal error occurred.
+</nierror>
+<nierror code="-88302">
+An internal error occurred.
+</nierror>
+<nierror code="-88301">
+An internal error occurred.
+</nierror>
+<nierror code="-88300">
+An internal error occurred.
+</nierror>
+</nidocument>

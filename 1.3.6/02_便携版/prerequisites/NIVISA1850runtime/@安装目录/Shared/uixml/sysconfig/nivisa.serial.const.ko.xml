@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="serialportbinding">포트 연결</str>
+  <str name="serialportdesc">포트 설명</str>
+  <str name="portsettings">포트 셋팅</str>
+  <str name="serialbaud">보 전송속도</str>
+  <str name="serialdata">데이터 비트</str>
+  <str name="serialparity">패리티</str>
+  <str name="serialparitynone">없음</str>
+  <str name="serialparityodd">홀수</str>
+  <str name="serialparityeven">짝수</str>
+  <str name="serialparitymark">표시</str>
+  <str name="serialparityspace">스페이스</str>
+  <str name="serialstop">정지 비트</str>
+  <str name="serialstoponeandhalf">1.5</str>
+  <str name="serialflow">흐름 제어</str>
+  <str name="serialflownone">없음</str>
+  <str name="serialflowxonxoff">XON/XOFF</str>
+  <str name="serialflowrtscts">하드웨어(RTS/CTS)</str>
+  <str name="serialflowdtrdsr">하드웨어(DTR/DSR)</str>
+</uistrings>

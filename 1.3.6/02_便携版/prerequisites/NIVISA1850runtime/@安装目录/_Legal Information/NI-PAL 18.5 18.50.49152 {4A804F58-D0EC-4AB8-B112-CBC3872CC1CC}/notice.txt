@@ -1,0 +1,20 @@
+﻿NI-PAL
+
+This product uses the following technologies licensed under the corresponding licenses.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR NATIONAL INSTRUMENTS SOFTWARE
+
+This product is licensed to you by National Instruments pursuant to the applicable National Instruments software license agreement.
+
+****************************************
+
+DOCUMENTATION NOTICE FOR STLPORT
+
+This product includes code from STLport 4.6.2 licensed by a third party or parties pursuant to the STLport software license, which can be found at "..\..\Shared\MDF\Legal\license\STLPort\1.0.0" and that is subject to the following notice(s):
+
+Copyright 1999,2000 Boris Fomitchev
+Copyright 1994 Hewlett-Packard Company
+Copyright 1996,97 Silicon Graphics Computer Systems, Inc.
+Copyright 1997 Moscow Center for SPARC Technology.

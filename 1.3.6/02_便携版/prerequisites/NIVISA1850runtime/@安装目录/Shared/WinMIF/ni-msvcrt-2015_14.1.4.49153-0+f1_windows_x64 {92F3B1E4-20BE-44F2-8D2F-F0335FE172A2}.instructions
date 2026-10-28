@@ -1,0 +1,10 @@
+<instructions>
+   <msis>
+      <msi name="VC2015Core.msi"/>
+   </msis>
+   <customExecutes>
+      <customExecute exeName="SystemRequirementsError.exe" inPackage="y" schedule="pre" wait="y" condition='NOT KB2919355DETECTED="YES"' returnCodeConvention="installer"/>
+      <customExecute exeName="VCRunTimeInstaller.exe" arguments="x86" inPackage="y" schedule="pre" wait="y" returnCodeConvention="installer"/>
+      <customExecute exeName="VCRunTimeInstaller.exe" arguments="x64" inPackage="y" schedule="pre" wait="y" returnCodeConvention="installer"/>
+   </customExecutes>
+</instructions>

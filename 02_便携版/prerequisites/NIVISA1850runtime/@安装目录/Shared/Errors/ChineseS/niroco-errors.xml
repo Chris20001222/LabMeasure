@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-MRU" familyname="NI-MRU">
+  <nicomment>Errors for Atomic Routing, MRU and DIM.</nicomment>
+  <nierror code="-89169">
+    <![CDATA[不再支持已安装的该设备驱动版本。安装该设备的新版本驱动。]]>
+  </nierror>
+  <nierror code="-89168">
+    <![CDATA[无法连接NI Route Coordinator服务。请确保NI Route Coordinator服务已正确安装且已启动。]]>
+  </nierror>
+  <nierror code="-89167">
+    <![CDATA[仅允许位于系统定时插槽中的设备将PXIe_DStar<n>（A、B或C）作为目标接线端使用。
+
+如需使用PXIe_DStar A、B或C（不包括任何数字），请不要指定星形线数量。如需使用PXIe_DStar<n>（A、B或C），请将设备移至系统定时插槽中。]]>
+  </nierror>
+  <nierror code="-89166">
+    <![CDATA[仅允许位于系统定时插槽中的设备将PXIe_DStar<n>（A、B或C）作为源接线端使用。
+
+如需使用PXIe_DStar A、B或C（不包括任何数字），请不要指定星形线数量。如需使用PXIe_DStar<n>（A、B或C），请将设备移至系统定时插槽中。]]>
+  </nierror>
+  <nierror code="-89165">
+    <![CDATA[在设备当前插槽中无法将PXIe_DStar（A、B或C）作为源接线端使用。
+
+将设备移至与DStar触发总线相连的插槽中，或者选择其他源接线端。]]>
+  </nierror>
+  <nierror code="-89164">
+    <![CDATA[在设备当前插槽中无法将PXIe_DStar（A、B或C）作为目标接线端使用。
+
+将设备移至与DStar触发总线相连的插槽中，或者选择其他目标接线端。]]>
+  </nierror>
+  <nierror code="-89162">
+    <![CDATA[仅允许位于星形触发插槽的设备将PXI_Clk10In作为目标接线端使用。
+
+将设备移至星形触发插槽。]]>
+  </nierror>
+  <nierror code="-89161">
+    <![CDATA[仅允许位于系统定时插槽的设备将PXI_Clk10In作为目标接线端使用。
+
+将设备移至系统定时插槽。]]>
+  </nierror>
+  <nierror code="-89160">
+    <![CDATA[仅允许位于星形触发插槽的设备将PXI_Star<n>作为目标接线端使用。
+
+如需使用PXI_Star（不包括任何数字），请不要指定星形线数量。如需使用PXI_Star<n>，将设备移至星形触发插槽。]]>
+  </nierror>
+  <nierror code="-89159">
+    <![CDATA[仅允许位于系统定时插槽的设备将PXI_Star<n>作为目标接线端使用。
+
+如需使用PXI_Star（不包括任何数字），请不要指定星形线数量。如需使用PXI_Star<n>，将设备移至系统定时插槽。]]>
+  </nierror>
+  <nierror code="-89158">
+    <![CDATA[仅允许位于星形触发插槽的设备将PXI_Star<n>作为源接线端使用。
+
+如需使用PXI_Star（不包括任何数字），请不要指定星形线数量。如需使用PXI_Star<n>，将设备移至星形触发插槽。]]>
+  </nierror>
+  <nierror code="-89157">
+    <![CDATA[仅允许位于系统定时插槽的设备将PXI_Star<n>作为源接线端使用。
+
+如需使用PXI_Star（不包括任何数字），请不要指定星形线数量。如需使用PXI_Star<n>，将设备移至系统定时插槽。]]>
+  </nierror>
+  <nierror code="-89156">
+    <![CDATA[在设备当前插槽中无法将PXI_Star作为源接线端使用。
+
+将设备移至与星形触发总线相连的任一个插槽中，或者选择其他源接线端。]]>
+  </nierror>
+  <nierror code="-89155">
+    <![CDATA[在设备当前插槽中无法将PXI_Star作为目标接线端使用。
+
+将设备移至与星形触发总线相连的任一个插槽中，或者选择其他目标接线端。]]>
+  </nierror>
+  <nierror code="-89154">
+    <![CDATA[在位于星形触发插槽的设备中无法将PXI_Star作为目标接线端使用。星形触发插槽已指定PXI_Star<n>线，例如PXI_Star3。
+
+将设备移至连接至星形触发总线的其他插槽中，或者选择其他目标接线端。]]>
+  </nierror>
+  <nierror code="-89153">
+    <![CDATA[在位于系统定时插槽的设备中无法将PXI_Star作为目标接线端使用。系统定时插槽已指定PXI_Star<n>线，例如PXI_Star3。
+
+将设备移至连接至星形触发总线的其他插槽中，或者选择其他目标接线端。]]>
+  </nierror>
+  <nierror code="-89152">
+    <![CDATA[在位于星形触发插槽的设备中无法将PXI_Star作为源接线端使用。星形触发插槽已指定PXI_Star<n>线，例如PXI_Star3。
+
+将设备移至连接至星形触发总线的其他插槽中，或者选择其他源接线端。]]>
+  </nierror>
+  <nierror code="-89151">
+    <![CDATA[在位于系统定时插槽的设备中无法将PXI_Star作为源接线端使用。系统定时插槽已指定PXI_Star<n>线，例如PXI_Star3。
+
+将设备移至连接至星形触发总线的其他插槽中，或者选择其他源接线端。]]>
+  </nierror>
+  <nierror code="-89150">
+    <![CDATA[指定值不存在对应的接线端连接操作。]]>
+  </nierror>
+  <nierror code="-89149">
+    <![CDATA[仅允许位于星形触发控制器插槽（槽2）中的设备将PXI_Clk10In作为目标接线端使用。
+
+将设备移至PXI插槽2。]]>
+  </nierror>
+  <nierror code="-89148">
+    <![CDATA[仅允许将星形触发控制器插槽（槽2）中的设备将PXI_Star<n>作为目标接线端使用。
+
+如需使用PXI_Star（不包括任何数字），请不要指定星形线数量。如需使用PXI_Star<n>，将设备移至插槽2。]]>
+  </nierror>
+  <nierror code="-89147">
+    <![CDATA[仅允许将星形触发控制器插槽（槽2）中的设备将PXI_Star<n>作为源接线端使用。
+
+如需使用PXI_Star（不包括任何数字），请不要指定星形线数量。如需使用PXI_Star<n>，将设备移至插槽2。]]>
+  </nierror>
+  <nierror code="-89146">
+    <![CDATA[位于PXI插槽16或以上插槽的设备无法将PXI_Star作为源接线端。
+
+将设备移至插槽3至15间的任一个插槽，或者选择其他源接线端。]]>
+  </nierror>
+  <nierror code="-89145">
+    <![CDATA[位于PXI插槽16或以上插槽的设备无法将PXI_Star作为目标接线端。
+
+将设备移至插槽3至15间的任一个插槽，或者选择其他目标接线端。]]>
+  </nierror>
+  <nierror code="-89144">
+    <![CDATA[位于PXI插槽2的设备无法将PXI_Star作为目标接线端。PXI插槽2已指定PXI_Star<n>线，例如PXI_Star3。
+
+将设备移至插槽3至15间的任一个插槽，或者选择其他目标接线端。]]>
+  </nierror>
+  <nierror code="-89143">
+    <![CDATA[位于PXI插槽2的设备无法将PXI_Star作为源接线端。PXI插槽2已指定PXI_Star<n>线，例如PXI_Star3。
+
+将设备移至插槽3至15间的任一个插槽，或者选择其他源接线端。]]>
+  </nierror>
+  <nierror code="-89142">
+    <![CDATA[由于无法识别PXI机箱，路由已失败。现有目标接线端依赖于是否识别机箱。
+
+通过Measurements & Automation Explorer (MAX)识别该机箱。]]>
+  </nierror>
+  <nierror code="-89141">
+    <![CDATA[由于无法识别PXI机箱，路由已失败。现有源接线端依赖于是否识别机箱。
+
+通过Measurements & Automation Explorer (MAX)识别该机箱。]]>
+  </nierror>
+  <nierror code="-89140">
+    <![CDATA[由于完成路由的唯一方式需要使用触发总线，但在MAX中该设备尚未配置任何触发总线，因此驱动无法完成路由操作。
+
+如使用PXI机箱，请确保在MAX中已正确识别该机箱。如使用PCI设备，即使不使用任何RTSI线缆，请在MAX中创建包含该PCI设备的RTSI线缆。]]>
+  </nierror>
+  <nierror code="-89139">
+    <![CDATA[两个设备间不存在任何同时适用于该设备的共享触发总线。两个设备均可支持部分共享触发线，但不存在任何同时支持两个设备指定属性或对应值的共享触发线。
+
+可考虑在两个设备的I/O连接器间使用路由信号。]]>
+  </nierror>
+  <nierror code="-89138">
+    <![CDATA[指定路由无法满足要求，因为所需资源正在被任务中的其他路由使用。]]>
+  </nierror>
+  <nierror code="-89137">
+    <![CDATA[指定路由无法满足要求，因为所需资源正在被其他路由使用。]]>
+  </nierror>
+  <nierror code="-89136">
+    <![CDATA[指定路由无法满足要求，因为硬件无法支持。]]>
+  </nierror>
+  <nierror code="-89135">
+    <![CDATA[指定取反操作无法满足要求，因为所需资源正在被任务中的其他路由使用。]]>
+  </nierror>
+  <nierror code="-89134">
+    <![CDATA[指定取反操作无法满足要求，因为所需资源正在被其他路由使用。]]>
+  </nierror>
+  <nierror code="-89133">
+    <![CDATA[指定取反操作无法满足要求，因为硬件无法支持。]]>
+  </nierror>
+  <nierror code="-89132">
+    <![CDATA[无法使用指定属性值，因为所需资源正在被使用。]]>
+  </nierror>
+  <nierror code="-89131">
+    <![CDATA[当源和目标为相同接线端时，已尝试执行路由。
+
+大多数情况下，如配置外部时钟或计时源，必须将PFI、PXI触发或RTSI线作为源接线端。]]>
+  </nierror>
+  <nierror code="-89130">
+    <![CDATA[设备无法用于路由。可能原因为设备需要重置或设备正在被重置。
+
+如正在重置设备，请等待重置完成。
+
+例如，如通过Traditional NI-DAQ使用设备，在请求路由操作前必须重置该设备。对于SCXI设备，必须重置通信DAQ设备。调用Traditional NI-DAQ Device Reset VI或Init_DA_Brds函数。如需重置Traditional NI-DAQ中的全部设备，在MAX中可右键单击Traditional NI-DAQ设备文件夹并选择重置Traditional NI-DAQ驱动。]]>
+  </nierror>
+  <nierror code="-89129">
+    <![CDATA[用于设备的接线端无效。]]>
+  </nierror>
+  <nierror code="-89128">
+    <![CDATA[由于硬件不支持该接线端三态，无法将该接线端作为三态。]]>
+  </nierror>
+  <nierror code="-89127">
+    <![CDATA[由于处于忙碌状态，无法将该接线端作为三态。
+
+断开连接至该接线端的任意路由，或者停止使用接线端。]]>
+  </nierror>
+  <nierror code="-89126">
+    <![CDATA[请求的触发线已被使用，将无法保留该触发线。]]>
+  </nierror>
+  <nierror code="-89125">
+    <![CDATA[路由中设备间无法找到注册的触发线。
+
+如使用PXI机箱，请确保在MAX中正确识别并配置该机箱。如使用PCI设备，请确保已连接至RTSI线缆，并且在MAX中注册该RTSI线缆。否则请确保在设备间共享的触发总线中存在可用触发线。]]>
+  </nierror>
+  <nierror code="-89124">
+    <![CDATA[源和目标接线端间无法实现路由操作。
+
+可能硬件不支持该路由或者其他路由影响该路由。]]>
+  </nierror>
+  <nierror code="-89123">
+    <![CDATA[该路由所需的硬件已被其他路由使用。]]>
+  </nierror>
+  <nierror code="-89122">
+    <![CDATA[无法实现请求的取反操作。
+
+可能源和目标接线端间的硬件不支持该取反操作，或者其他路由可能影响该路由。]]>
+  </nierror>
+  <nierror code="-89121">
+    <![CDATA[无法在设备中找到用于路由的目标接线端。
+
+请确保用于指定设备的接线端名称有效。有效接线端名称的信息见Measurement & Automation Explorer或硬件文档。]]>
+  </nierror>
+  <nierror code="-89120">
+    <![CDATA[无法在设备中找到用于路由的源接线端。
+
+请确保用于指定设备的接线端名称有效。有效接线端名称见Measurement & Automation Explorer。]]>
+  </nierror>
+  <nierror code="-89119">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89118">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89117">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89116">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89115">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89114">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89113">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89112">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89111">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89110">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89109">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89108">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89107">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89106">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89105">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89104">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89103">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89102">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89101">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-89100">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54023">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54022">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54021">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54020">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54012">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54011">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54010">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54002">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54001">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-54000">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+</nidocument>

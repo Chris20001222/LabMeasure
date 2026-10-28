@@ -1,0 +1,8 @@
+<instructions>
+   <msis>
+      <msi name="NIVISADotNetRuntime.msi">
+         <property name="INSTALLLEVEL" value="1000" />
+      </msi>
+   </msis>
+</instructions>
+

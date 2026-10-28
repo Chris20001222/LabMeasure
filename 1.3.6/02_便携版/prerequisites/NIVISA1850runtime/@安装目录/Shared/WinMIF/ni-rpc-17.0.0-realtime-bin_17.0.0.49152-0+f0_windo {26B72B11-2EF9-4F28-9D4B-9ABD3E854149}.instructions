@@ -1,0 +1,7 @@
+<instructions>
+   <msis>
+      <msi name="rpcSetupLVRT.msi">
+         <property name="INSTALLLEVEL" value="1000" />
+      </msi>
+   </msis>
+</instructions>

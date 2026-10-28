@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI Platform Services" familyname="NI Platform Services">
+  <nicomment>Errors for APAL and atomic components.</nicomment>
+  <nierror code="-52031">
+    <![CDATA[指定资源已被使用。]]>
+  </nierror>
+  <nierror code="-52030">
+    <![CDATA[不支持当前应用开发环境。]]>
+  </nierror>
+  <nierror code="-52029">
+    <![CDATA[不支持指定格式。]]>
+  </nierror>
+  <nierror code="-52028">
+    <![CDATA[不支持指定的语言。]]>
+  </nierror>
+  <nierror code="-52027">
+    <![CDATA[由于安装的语言支持和系统区域设置，指定的字符串包含无法解析的字符。
+
+尽可能不要使用该字符。否则，请检查并确保系统上已安装必要的语言支持，且系统区域设置正确。在大多数Windows操作系统上，可通过控制面板的区域设置选项对系统区域进行设置。对于LabVIEW RT终端，在MAX中可安装LabVIEW RT终端的语言支持，修改远程系统的区域设置。]]>
+  </nierror>
+  <nierror code="-52026">
+    <![CDATA[用户没有足够权限，操作无法完成。尝试以管理员权限运行。]]>
+  </nierror>
+  <nierror code="-52025">
+    <![CDATA[该操作已被用户模式信号中断。]]>
+  </nierror>
+  <nierror code="-52024">
+    <![CDATA[尝试读取或写入设备数据时，发生一个未知或不可预期的通信错误。]]>
+  </nierror>
+  <nierror code="-52023">
+    <![CDATA[由于客户端已中止传输，现在未进行任何传输。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-52022">
+    <![CDATA[IO处理为非活动状态。]]>
+  </nierror>
+  <nierror code="-52021">
+    <![CDATA[完成请求操作所需功率不足。]]>
+  </nierror>
+  <nierror code="-52020">
+    <![CDATA[请求的资源已被删除。]]>
+  </nierror>
+  <nierror code="-52019">
+    <![CDATA[提供缓冲区太小。]]>
+  </nierror>
+  <nierror code="-52018">
+    <![CDATA[发生硬件错误。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="-52017">
+    <![CDATA[当对象处于该状态时，请求的操作冗余或无效。]]>
+  </nierror>
+  <nierror code="-52016">
+    <![CDATA[尝试开始该线程时（冗余状态更改），该线程正在运行。]]>
+  </nierror>
+  <nierror code="-52015">
+    <![CDATA[同步对象采集失败。]]>
+  </nierror>
+  <nierror code="-52014">
+    <![CDATA[该同步对象已由上一个所有者放弃。]]>
+  </nierror>
+  <nierror code="-52013">
+    <![CDATA[请求的名称或句柄已被其他客户端保留。]]>
+  </nierror>
+  <nierror code="-52012">
+    <![CDATA[不存在用于读取的数据或者用于写入的空间。]]>
+  </nierror>
+  <nierror code="-52011">
+    <![CDATA[该操作已开始并将异步结束。]]>
+  </nierror>
+  <nierror code="-52010">
+    <![CDATA[请求资源在使用前必须先初始化。]]>
+  </nierror>
+  <nierror code="-52009">
+    <![CDATA[请求资源已被标记为删除，并将拒绝其他新请求。]]>
+  </nierror>
+  <nierror code="-52008">
+    <![CDATA[发生不可预期操作系统错误。]]>
+  </nierror>
+  <nierror code="-52007">
+    <![CDATA[请求操作未能及时完成。]]>
+  </nierror>
+  <nierror code="-52006">
+    <![CDATA[无法找到请求资源。]]>
+  </nierror>
+  <nierror code="-52005">
+    <![CDATA[该函数获取的参数非法。]]>
+  </nierror>
+  <nierror code="-52004">
+    <![CDATA[动态转换操作失败。]]>
+  </nierror>
+  <nierror code="-52003">
+    <![CDATA[发生不可预期的软件错误。]]>
+  </nierror>
+  <nierror code="-52002">
+    <![CDATA[不支持请求的组件。]]>
+  </nierror>
+  <nierror code="-52001">
+    <![CDATA[存储器无法被按页锁定。]]>
+  </nierror>
+  <nierror code="-52000">
+    <![CDATA[无法分配指定数量的字节。]]>
+  </nierror>
+  <nierror code="52000">
+    <![CDATA[无法分配指定数量的字节。]]>
+  </nierror>
+  <nierror code="52001">
+    <![CDATA[存储器无法被按页锁定。]]>
+  </nierror>
+  <nierror code="52002">
+    <![CDATA[不支持请求的组件。]]>
+  </nierror>
+  <nierror code="52003">
+    <![CDATA[发生不可预期的软件错误。]]>
+  </nierror>
+  <nierror code="52004">
+    <![CDATA[动态转换操作失败。]]>
+  </nierror>
+  <nierror code="52005">
+    <![CDATA[该函数获取的参数非法。]]>
+  </nierror>
+  <nierror code="52006">
+    <![CDATA[无法找到请求资源。]]>
+  </nierror>
+  <nierror code="52007">
+    <![CDATA[请求操作未能及时完成。]]>
+  </nierror>
+  <nierror code="52008">
+    <![CDATA[发生不可预期操作系统错误。]]>
+  </nierror>
+  <nierror code="52009">
+    <![CDATA[请求资源已被标记为删除，并将拒绝其他新请求。]]>
+  </nierror>
+  <nierror code="52010">
+    <![CDATA[请求资源在使用前必须先初始化。]]>
+  </nierror>
+  <nierror code="52011">
+    <![CDATA[该操作已开始并将异步结束。]]>
+  </nierror>
+  <nierror code="52012">
+    <![CDATA[不存在用于读取的数据或者用于写入的空间。]]>
+  </nierror>
+  <nierror code="52013">
+    <![CDATA[请求的名称或句柄已被其他客户端保留。]]>
+  </nierror>
+  <nierror code="52014">
+    <![CDATA[该同步对象已由上一个所有者放弃。]]>
+  </nierror>
+  <nierror code="52015">
+    <![CDATA[同步对象采集失败。]]>
+  </nierror>
+  <nierror code="52016">
+    <![CDATA[尝试开始该线程时（冗余状态更改），该线程正在运行。]]>
+  </nierror>
+  <nierror code="52017">
+    <![CDATA[当对象处于该状态时，请求的操作冗余或无效。]]>
+  </nierror>
+  <nierror code="52018">
+    <![CDATA[发生硬件错误。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="52019">
+    <![CDATA[提供缓冲区太小。]]>
+  </nierror>
+  <nierror code="52020">
+    <![CDATA[请求的资源已被删除。]]>
+  </nierror>
+  <nierror code="52021">
+    <![CDATA[完成请求操作所需功率不足。]]>
+  </nierror>
+  <nierror code="52022">
+    <![CDATA[IO处理为非活动状态。]]>
+  </nierror>
+  <nierror code="52023">
+    <![CDATA[由于客户端已中止传输，现在未进行任何传输。无法按指定方式完成该操作。]]>
+  </nierror>
+  <nierror code="52024">
+    <![CDATA[尝试读取或写入设备数据时，发生一个未知或不可预期的通信错误。]]>
+  </nierror>
+  <nierror code="52025">
+    <![CDATA[该操作已被用户模式信号中断。]]>
+  </nierror>
+  <nierror code="52026">
+    <![CDATA[用户没有足够权限，操作无法完成。尝试以管理员权限运行。]]>
+  </nierror>
+  <nierror code="52027">
+    <![CDATA[由于安装的语言支持和系统区域设置，指定的字符串包含无法解析的字符。
+
+尽可能不要使用该字符。否则，请检查并确保系统上已安装必要的语言支持，且系统区域设置正确。在大多数Windows操作系统上，可通过控制面板的区域设置选项对系统区域进行设置。对于LabVIEW RT终端，在MAX中可安装LabVIEW RT终端的语言支持，修改远程系统的区域设置。]]>
+  </nierror>
+  <nierror code="52028">
+    <![CDATA[不支持指定的语言。]]>
+  </nierror>
+  <nierror code="52029">
+    <![CDATA[不支持指定格式。]]>
+  </nierror>
+  <nierror code="52030">
+    <![CDATA[不支持当前应用开发环境。]]>
+  </nierror>
+  <nierror code="52031">
+    <![CDATA[指定资源已被使用。]]>
+  </nierror>
+</nidocument>

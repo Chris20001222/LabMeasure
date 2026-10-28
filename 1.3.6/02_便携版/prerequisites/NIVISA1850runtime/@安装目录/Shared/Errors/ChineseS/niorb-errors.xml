@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-ORB" familyname="NI-ORB">
+  <nierror code="-88908">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88907">
+    <![CDATA[无法注册NI服务定位器。
+
+请确保已安装并启动NI服务定位器服务。]]>
+  </nierror>
+  <nierror code="-88906">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88905">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88904">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88903">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88902">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88901">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88900">
+    <![CDATA[无法连接指定的远程终端。
+
+确保指定的终端在运行。]]>
+  </nierror>
+  <nierror code="-88800">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88361">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88360">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88313">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88312">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88311">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88310">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88309">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88308">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88307">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88306">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88305">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88304">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88303">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88302">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88301">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+  <nierror code="-88300">
+    <![CDATA[发生内部错误。]]>
+  </nierror>
+</nidocument>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="updatefirmware">펌웨어 업데이트</str>
+  <str name="firmwareupdatemode">펌웨어 업데이트</str>
+  <str name="firmwareupdatemanual">수동</str>
+  <str name="firmwareupdatedriver">드라이버 자동 업데이트</str>
+</uistrings>

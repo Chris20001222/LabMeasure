@@ -1,0 +1,11 @@
+<instructions>
+   <msis>
+      <msi name="VisaNetSharedComponentsWrapperCore.msi">
+         <property name="INSTALLLEVEL" value="1000" />
+      </msi>
+   </msis>
+   <customExecutes>
+      <customExecute exeName="VisaNetSharedComponentsInstaller.exe" arguments="VisaNetSharedComponents32.msi" inPackage="y" schedule="pre" wait="y" condition="NOT VersionNT64" returnCodeConvention="installer"/>
+      <customExecute exeName="VisaNetSharedComponentsInstaller.exe" arguments="VisaNetSharedComponents64.msi" inPackage="y" schedule="pre" wait="y" condition="VersionNT64" returnCodeConvention="installer"/>
+   </customExecutes>
+</instructions>

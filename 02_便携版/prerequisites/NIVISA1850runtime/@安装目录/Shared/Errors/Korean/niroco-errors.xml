@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-MRU" familyname="NI-MRU">
+  <nicomment>Errors for Atomic Routing, MRU and DIM.</nicomment>
+  <nierror code="-89169">
+    <![CDATA[설치되어 있는 이 디바이스의 드라이버 버전이 더 이상 지원되지 않습니다. 이 디바이스의 현재 드라이버 버전을 설치하십시오.]]>
+  </nierror>
+  <nierror code="-89168">
+    <![CDATA[NI Route Coordinator 서비스에 연결할 수 없습니다.  NI Route Coordinator 서비스가 설치되어 있고 시작했는지 확인하십시오.]]>
+  </nierror>
+  <nierror code="-89167">
+    <![CDATA[시스템 타이밍 슬롯의 디바이스에만 대상 터미널로 PXIe_DStar<n>(A, B 또는 C)을 이용할 수 있습니다.
+
+PXIe_DStar A, B 또는 C(번호 없음)를 사용하려면, 스타 라인 번호를 지정하지 마십시오. PXIe_DStar<n>(A, B 또는 C)을 사용하려면, 디바이스를 시스템 타이밍 슬롯으로 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89166">
+    <![CDATA[시스템 타이밍 슬롯의 디바이스에만 소스 터미널로 PXIe_DStar<n>(A, B 또는 C)을 이용할 수 있습니다.
+
+PXIe_DStar A, B 또는 C(번호 없음)를 사용하려면, 스타 라인 번호를 지정하지 마십시오. PXIe_DStar<n>(A, B 또는 C)을 사용하려면, 디바이스를 시스템 타이밍 슬롯으로 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89165">
+    <![CDATA[PXIe_DStar(A, B 또는 C)는 디바이스의 현재 슬롯에서 소스 터미널로 이용할 수 없습니다.
+
+디바이스를 DStar 트리거 버스에 연결되어 있는 슬롯 중 하나로 이동시키거나, 다른 소스 터미널을 선택합니다.]]>
+  </nierror>
+  <nierror code="-89164">
+    <![CDATA[PXIe_DStar(A, B 또는 C)는 디바이스의 현재 슬롯에서 대상 터미널로 이용할 수 없습니다.
+
+디바이스를 DStar 트리거 버스에 연결되어 있는 슬롯 중 하나로 이동시키거나, 다른 대상 터미널을 선택합니다.]]>
+  </nierror>
+  <nierror code="-89162">
+    <![CDATA[스타 트리거 슬롯의 디바이스에만 대상 터미널로 PXI_Clk10In을 이용할 수 있습니다.
+
+디바이스를 스타 트리거 슬롯으로 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89161">
+    <![CDATA[시스템 타이밍 슬롯의 디바이스에만 대상 터미널로 PXI_Clk10In을 이용할 수 있습니다.
+
+디바이스를 시스템 타이밍 슬롯으로 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89160">
+    <![CDATA[스타 트리거 슬롯의 디바이스에만 대상 터미널로 PXI_Star<n>을 이용할 수 있습니다.
+
+PXI_Star(번호 없음)을 사용하여 스타 라인 번호를 지정하지 마십시오. PXI_Star<n>을 사용하여 디바이스를 스타 트리거 슬롯에 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89159">
+    <![CDATA[시스템 타이밍 슬롯의 디바이스에만 대상 터미널로 PXI_Star<n>을 이용할 수 있습니다.
+
+PXI_Star(번호 없음)을 사용하여 스타 라인 번호를 지정하지 마십시오. PXI_Star<n>을 사용하여 디바이스를 시스템 타이밍 슬롯에 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89158">
+    <![CDATA[스타 트리거 슬롯의 디바이스에만 소스 터미널로 PXI_Star<n>을 이용할 수 있습니다.
+
+PXI_Star(번호 없음)을 사용하여 스타 라인 번호를 지정하지 마십시오. PXI_Star<n>을 사용하여 디바이스를 스타 트리거 슬롯에 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89157">
+    <![CDATA[시스템 타이밍 슬롯의 디바이스에만 소스 터미널로 PXI_Star<n>을 이용할 수 있습니다.
+
+PXI_Star(번호 없음)을 사용하여 스타 라인 번호를 지정하지 마십시오. PXI_Star<n>을 사용하여 디바이스를 시스템 타이밍 슬롯에 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89156">
+    <![CDATA[PXI_Star는 디바이스의 현재 슬롯의 소스 터미널로 이용할 수 없습니다.
+
+디바이스를 Star 트리거 버스에 연결되어 있는 슬롯 중 하나로 이동시키거나 다른 소스 터미널을 선택합니다.]]>
+  </nierror>
+  <nierror code="-89155">
+    <![CDATA[PXI_Star는 디바이스의 현재 슬롯의 대상 터미널로 이용할 수 없습니다.
+
+디바이스를 Star 트리거 버스에 연결되어 있는 슬롯 중 하나로 이동시키거나 다른 대상 터미널을 선택합니다.]]>
+  </nierror>
+  <nierror code="-89154">
+    <![CDATA[PXI_Star는 스타 트리거 슬롯의 디바이스를 위한 대상 터미널로 이용할 수 없습니다. 스타 트리거 슬롯은 PXI_Star3과 같은 특정 PXI_Star<n> 라인을 가지고 있습니다.
+
+디바이스를 Star 트리거 버스에 연결되어 있는 다른 슬롯 중 하나로 이동시키거나 다른 대상 터미널을 선택합니다.]]>
+  </nierror>
+  <nierror code="-89153">
+    <![CDATA[PXI_Star는 시스템 타이밍 슬롯의 디바이스를 위한 대상 터미널로 이용할 수 없습니다. 시스템 타이밍 슬롯은 PXI_Star3과 같은 특정 PXI_Star<n> 라인을 가지고 있습니다.
+
+디바이스를 Star 트리거 버스에 연결되어 있는 다른 슬롯 중 하나로 이동시키거나 다른 대상 터미널을 선택합니다.]]>
+  </nierror>
+  <nierror code="-89152">
+    <![CDATA[PXI_Star는 스타 트리거 슬롯의 디바이스를 위한 소스 터미널로 이용할 수 없습니다. 스타 트리거 슬롯은 PXI_Star3과 같은 특정 PXI_Star<n> 라인을 가지고 있습니다.
+
+디바이스를 Star 트리거 버스에 연결되어 있는 다른 슬롯 중 하나로 이동시키거나 다른 소스 터미널을 선택합니다.]]>
+  </nierror>
+  <nierror code="-89151">
+    <![CDATA[PXI_Star는 시스템 타이밍 슬롯의 디바이스를 위한 소스 터미널로 이용할 수 없습니다. 시스템 타이밍 슬롯은 PXI_Star3과 같은 특정 PXI_Star<n> 라인을 가지고 있습니다.
+
+디바이스를 Star 트리거 버스에 연결되어 있는 다른 슬롯 중 하나로 이동시키거나 다른 소스 터미널을 선택합니다.]]>
+  </nierror>
+  <nierror code="-89150">
+    <![CDATA[지정된 값이 터미널 연결 동작에 상응하지 않습니다.]]>
+  </nierror>
+  <nierror code="-89149">
+    <![CDATA[스타 트리거 컨트롤러 슬롯(슬롯 2)의 디바이스에만 대상 터미널로 PXI_Clk10In을 이용할 수 있습니다.
+
+디바이스를 PXI 슬롯 2로 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89148">
+    <![CDATA[스타 트리거 컨트롤러 슬롯(슬롯 2)의 디바이스에만 대상 터미널로 PXI_Star<n>을 이용할 수 있습니다.
+
+PXI_Star(번호 없음)을 사용하여 스타 라인 번호를 지정하지 마십시오. PXI_Star<n>을 사용하여 디바이스를 슬롯 2로 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89147">
+    <![CDATA[스타 트리거 컨트롤러 슬롯(슬롯 2)의 디바이스에만 소스 터미널로 PXI_Star<n>를 이용할 수 있습니다.
+
+PXI_Star(번호 없음)을 사용하여 스타 라인 번호를 지정하지 마십시오. PXI_Star<n>을 사용하여 디바이스를 슬롯 2로 이동시키십시오.]]>
+  </nierror>
+  <nierror code="-89146">
+    <![CDATA[PXI_Star는 PXI 슬롯 16과 그 이상의 디바이스에 대한 소스 터미널로 이용할 수 없습니다.
+
+슬롯 3에서 15 중 하나로 디바이스를 이동시키거나 다른 소스 터미널을 선택하십시오.]]>
+  </nierror>
+  <nierror code="-89145">
+    <![CDATA[PXI_Star는 PXI 슬롯 16과 그 이상의 디바이스에 대한 대상 터미널로 이용할 수 없습니다.
+
+슬롯 3에서 15 중 하나로 디바이스를 이동시키거나 다른 대상 터미널을 선택하십시오.]]>
+  </nierror>
+  <nierror code="-89144">
+    <![CDATA[PXI_Star는 PXI 슬롯 2의 디바이스에 대한 대상 터미널로 이용할 수 없습니다. PXI 슬롯 2는 PXI_Star3과 같이 특정한 PXI_Star<n> 라인을 가지고 있습니다.
+
+슬롯 3에서 15 중 하나로 디바이스를 이동시키거나 다른 대상 터미널을 선택하십시오.]]>
+  </nierror>
+  <nierror code="-89143">
+    <![CDATA[PXI_Star는 PXI 슬롯 2의 디바이스에 대한 소스 터미널로 이용할 수 없습니다. PXI 슬롯 2는 PXI_Star3과 같이 특정한 PXI_Star<n> 라인을 가지고 있습니다.
+
+슬롯 3에서 15 중 하나로 디바이스를 이동시키거나 다른 소스 터미널을 선택하십시오.]]>
+  </nierror>
+  <nierror code="-89142">
+    <![CDATA[PXI 섀시를 인식하지 못하였기 때문에 경로를 정하는데 실패했습니다. 대상 터미널의 존재는 섀시를 인식하는지의 여부에 달려 있습니다.
+
+Measurements & Automation Explorer (MAX)를 사용하여 섀시를 식별합니다.]]>
+  </nierror>
+  <nierror code="-89141">
+    <![CDATA[PXI 섀시를 인식하지 못하였기 때문에 경로를 정하는데 실패했습니다. 소스 터미널의 존재는 섀시를 인식하는지의 여부에 달려 있습니다.
+
+Measurements & Automation Explorer(MAX)를 사용하여 섀시를 식별합니다.]]>
+  </nierror>
+  <nierror code="-89140">
+    <![CDATA[라우팅을 만드는 유일한 방법이 트리거 버스 라인을 필요로 하고 더이상 이 디바이스를 위해 MAX에서 트리거 버스를 설정할 수 없기 때문에 드라이버는 라우팅을 완료할 수 없습니다.
+
+PXI 섀시를 가지고 있다면 MAX에서 적절히 인식하였는지 확인합니다. PCI 디바이스를 사용한다면, RTSI 케이블을 사용하지 않는다고 해도 PCI 디바이스를 포함하는 RTSI 케이블을 MAX에서 생성합니다.]]>
+  </nierror>
+  <nierror code="-89139">
+    <![CDATA[두 개 디바이스에 모두 허용되는 공유 트리거 라인이 디바이스 사이에 없습니다. 각 디바이스는 일부 공유 트리거 라인만 지원하고, 지정된 프로퍼티와 상응하는 값에 대해 두 디바이스에서 모두 작동하는 공유 트리거 라인은 없습니다.
+
+가능하면 이 두 디바이스의 I/O 커넥터를 통해 신호를 연결해 보십시오.]]>
+  </nierror>
+  <nierror code="-89138">
+    <![CDATA[이 태스크 내에서 다른 라우팅에서 현재 사용 중에 있는 리소스를 요구하기 때문에 지정된 라우팅을 사용할 수 없습니다.]]>
+  </nierror>
+  <nierror code="-89137">
+    <![CDATA[다른 라우팅에서 현재 사용 중에 있는 리소스를 요구하기 때문에 지정된 라우팅을 사용할 수 없습니다.]]>
+  </nierror>
+  <nierror code="-89136">
+    <![CDATA[하드웨어가 지정된 경로를 지원하지 않기 때문에 이 경로를 사용할 수 없습니다.]]>
+  </nierror>
+  <nierror code="-89135">
+    <![CDATA[이 태스크 내에서 다른 라우팅에서 현재 사용 중에 있는 리소스를 요구하기 때문에 지정된 반전을 사용할 수 없습니다.]]>
+  </nierror>
+  <nierror code="-89134">
+    <![CDATA[다른 라우팅에서 현재 사용 중에 있는 리소스를 요구하기 때문에 지정된 반전을 사용할 수 없습니다.]]>
+  </nierror>
+  <nierror code="-89133">
+    <![CDATA[하드웨어가 지원하지 않기 때문에 지정된 반전을 사용할 수 없습니다.]]>
+  </nierror>
+  <nierror code="-89132">
+    <![CDATA[지정된 프로퍼티 값을 사용할 수 없는데 그 이유는 현재 사용 중인 리소스를 요구하기 때문입니다.]]>
+  </nierror>
+  <nierror code="-89131">
+    <![CDATA[소스와 대상이 같은 터미널일 때 라우팅을 수행하려고 시도하였습니다.
+
+외부 클럭 또는 카운터 소스를 설정할 때와 같이 많은 경우에 소스 터미널로 PFI, PXI 트리거, RTSI 라인을 선택해야 합니다.]]>
+  </nierror>
+  <nierror code="-89130">
+    <![CDATA[디바이스를 라우팅을 위해 사용할 수 없습니다.  디바이스를 리셋할 필요가 있거나 디바이스를 리셋하는 중일 수 있습니다.
+
+디바이스를 리셋하는 중이면, 리셋 과정이 완료될 때까지 기다리십시오.
+
+예를 들어, Traditional NI-DAQ을 통해 디바이스를 사용한 경우, 요청된 라우팅을 끝내기 전에 디바이스를 리셋해야 합니다.  SCXI 디바이스의 경우 통신장비 DAQ 디바이스를 리셋해야 합니다. Traditional NI-DAQ Device Reset VI 또는 Init_DA_Brds 함수를 호출합니다. Traditional NI-DAQ에서 모든 디바이스를 리셋하려면 MAX의 Traditional NI-DAQ Devices 폴더에서 마우스 오른쪽 버튼을 클릭하고 Reset Driver for Traditional NI-DAQ을 선택합니다.]]>
+  </nierror>
+  <nierror code="-89129">
+    <![CDATA[디바이스의 터미널이 유효하지 않습니다.]]>
+  </nierror>
+  <nierror code="-89128">
+    <![CDATA[하드웨어가 이 터미널을 3상태로 만들 수 없기 때문에 터미널이 3상태가 될 수 없습니다.]]>
+  </nierror>
+  <nierror code="-89127">
+    <![CDATA[터미널이 사용 중에 있기 때문에 3상태가 될 수 없습니다.
+
+이 터미널에 확장되어 있는 라우팅에 연결을 해제하거나 이 터미널을 사용하지 마십시오.]]>
+  </nierror>
+  <nierror code="-89126">
+    <![CDATA[요청된 트리거 라인이 이미 사용 중에 있기 때문에 예약할 수 없습니다.]]>
+  </nierror>
+  <nierror code="-89125">
+    <![CDATA[등록된 트리거 라인을 라우팅의 디바이스 사이에서 찾을 수 없습니다.
+
+PXI 섀시를 가지고 있다면 MAX에서 섀시를 올바르게 인식하고 적절히 설정하였는지 확인하십시오. PCI 디바이스를 사용하고 있다면, 이 디바이스가 RTSI 케이블과 연결되어 있고 RTSI 케이블이 MAX에 등록되어 있는지 확인하십시오. 그렇지 않은 경우, 디바이스 간 공유되는 트리거 버스에 사용 가능한 트리거 라인이 있는지 확인하십시오.]]>
+  </nierror>
+  <nierror code="-89124">
+    <![CDATA[소스와 대상 터미널 사이에 라우팅을 만들 수 없습니다.
+
+하드웨어가 이 라우팅을 지원하지 않거나 다른 라우팅이 이 라우팅을 간섭할 수 있습니다.]]>
+  </nierror>
+  <nierror code="-89123">
+    <![CDATA[이 경로에서 필요한 하드웨어가 다른 경로에서 사용 중에 있습니다.]]>
+  </nierror>
+  <nierror code="-89122">
+    <![CDATA[요청된 반전이 가능하지 않습니다.
+
+소스와 대상 터미널 사이에 하드웨어가 반전을 지원하지 않거나 다른 라우팅이 이 라우팅을 간섭할 수 있습니다.]]>
+  </nierror>
+  <nierror code="-89121">
+    <![CDATA[라우팅되는 대상 터미널을 디바이스에서 찾을 수 없습니다.
+
+터미널 이름이 지정된 디바이스에서 유효한지 확인하십시오. 유효한 터미널 이름은 Measurement & Automation Explorer 또는 하드웨어 문서를 참조하십시오.]]>
+  </nierror>
+  <nierror code="-89120">
+    <![CDATA[라우팅되는 소스 터미널을 디바이스에서 찾을 수 없습니다.
+
+터미널 이름이 지정된 디바이스에서 유효한지 확인하십시오. 유효한 터미널 이름은 Measurement & Automation Explorer를 참조하십시오.]]>
+  </nierror>
+  <nierror code="-89119">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89118">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89117">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89116">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89115">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89114">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89113">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89112">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89111">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89110">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89109">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89108">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89107">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89106">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89105">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89104">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89103">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89102">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89101">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-89100">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54023">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54022">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54021">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54020">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54012">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54011">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54010">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54002">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54001">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+  <nierror code="-54000">
+    <![CDATA[내부 에러가 발생했습니다.]]>
+  </nierror>
+</nidocument>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="landevicename">Nom du périphérique LAN</str>
+  <str name="portnumber">Numéro de port</str>
+</uistrings>

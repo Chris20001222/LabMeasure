@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+	<str name="moduleprogrammode">프로그램 모드</str>
+	<str name="moduleprogrammode_unsupported">지원되지 않음</str>
+	<str name="moduleprogrammode_realtime">Real-Time CPU</str>
+	<str name="moduleprogrammode_realtimescan">Real-Time Scan Engine</str>
+	<str name="moduleprogrammode_fpga">LabVIEW FPGA</str>
+</uistrings>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+  <and>
+    <!-- sysattr=SupportModuleProgramModes -->
+    <has sysattr="17444864"/>
+    <not>
+      <eq sysattr="17444864" value="0"/>
+    </not>
+  </and>
+</binding>

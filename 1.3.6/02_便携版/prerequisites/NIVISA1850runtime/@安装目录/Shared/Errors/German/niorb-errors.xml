@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-ORB" familyname="NI-ORB">
+  <nierror code="-88908">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88907">
+    <![CDATA[Registrierung im NI Service Locator nicht möglich.
+
+Vergewissern Sie sich, dass der Dienst "NI Service Locator" installiert und gestartet wurde.]]>
+  </nierror>
+  <nierror code="-88906">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88905">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88904">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88903">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88902">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88901">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88900">
+    <![CDATA[Das angegebene Zielsystem ist nicht erreichbar.
+
+Prüfen Sie, ob das Zielsystem läuft.]]>
+  </nierror>
+  <nierror code="-88800">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88361">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88360">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88313">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88312">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88311">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88310">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88309">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88308">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88307">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88306">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88305">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88304">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88303">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88302">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88301">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+  <nierror code="-88300">
+    <![CDATA[Es trat ein interner Fehler auf.]]>
+  </nierror>
+</nidocument>

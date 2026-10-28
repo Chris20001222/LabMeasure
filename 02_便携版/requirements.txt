@@ -1,0 +1,7 @@
+PySide6>=6.8,<7
+pyqtgraph>=0.13.7,<0.15
+PyVISA>=1.14,<2
+matplotlib>=3.9,<4
+openpyxl>=3.1.5,<4
+pytest>=8,<10
+pyinstaller>=6.11,<7

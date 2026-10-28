@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI-MRU" familyname="NI-MRU">
+  <nicomment>Errors for Atomic Routing, MRU and DIM.</nicomment>
+  <nierror code="-89169">
+    <![CDATA[The installed version of the driver for this device is no longer supported. Install the current version of the driver for this device.]]>
+  </nierror>
+  <nierror code="-89168">
+    <![CDATA[Could not connect to the NI Route Coordinator service.  Ensure that the NI Route Coordinator service is installed and started.]]>
+  </nierror>
+  <nierror code="-89167">
+    <![CDATA[PXIe_DStar<n> (A, B, or C) is available as a destination terminal only for devices in a system timing slot.
+
+To use PXIe_DStar A, B, or C (without any numbers), do not specify a star line number. To use PXIe_DStar<n> (A, B, or C), move your device to a system timing slot.]]>
+  </nierror>
+  <nierror code="-89166">
+    <![CDATA[PXIe_DStar<n> (A, B, or C) is available as a source terminal only for devices in a system timing slot.
+
+To use PXIe_DStar A, B, or C (without any numbers), do not specify a star line number. To use PXIe_DStar<n> (A, B, or C), move your device to a system timing slot.]]>
+  </nierror>
+  <nierror code="-89165">
+    <![CDATA[PXIe_DStar (A, B, or C) is not available as a source terminal in your device's current slot.
+
+Move your device to one of the slots connected to the DStar Trigger bus, or select a different source terminal.]]>
+  </nierror>
+  <nierror code="-89164">
+    <![CDATA[PXIe_DStar (A, B, or C) is not available as a destination terminal in your device's current slot.
+
+Move your device to one of the slots connected to the DStar Trigger bus, or select a different destination terminal.]]>
+  </nierror>
+  <nierror code="-89162">
+    <![CDATA[PXI_Clk10In is available as a destination terminal only for devices in a star trigger slot.
+
+Move your device to a star trigger slot.]]>
+  </nierror>
+  <nierror code="-89161">
+    <![CDATA[PXI_Clk10In is available as a destination terminal only for devices in a system timing slot.
+
+Move your device to a system timing slot.]]>
+  </nierror>
+  <nierror code="-89160">
+    <![CDATA[PXI_Star<n> is available as a destination terminal only for devices in a star trigger slot.
+
+To use PXI_Star (without any numbers), do not specify a star line number. To use PXI_Star<n>, move your device to a star trigger slot.]]>
+  </nierror>
+  <nierror code="-89159">
+    <![CDATA[PXI_Star<n> is available as a destination terminal only for devices in a system timing slot.
+
+To use PXI_Star (without any numbers), do not specify a star line number. To use PXI_Star<n>, move your device to a system timing slot.]]>
+  </nierror>
+  <nierror code="-89158">
+    <![CDATA[PXI_Star<n> is available as a source terminal only for devices in a star trigger slot.
+
+To use PXI_Star (without any numbers), do not specify a star line number. To use PXI_Star<n>, move your device to a star trigger slot.]]>
+  </nierror>
+  <nierror code="-89157">
+    <![CDATA[PXI_Star<n> is available as a source terminal only for devices in a system timing slot.
+
+To use PXI_Star (without any numbers), do not specify a star line number. To use PXI_Star<n>, move your device to a system timing slot.]]>
+  </nierror>
+  <nierror code="-89156">
+    <![CDATA[PXI_Star is not available as a source terminal in your device's current slot.
+
+Move your device to one of the slots connected to the Star Trigger bus, or select a different source terminal.]]>
+  </nierror>
+  <nierror code="-89155">
+    <![CDATA[PXI_Star is not available as a destination terminal in your device's current slot.
+
+Move your device to one of the slots connected to the Star Trigger bus, or select a different destination terminal.]]>
+  </nierror>
+  <nierror code="-89154">
+    <![CDATA[PXI_Star is not available as a destination terminal for devices in a star trigger slot. A star trigger slot has specific PXI_Star<n> lines, such as PXI_Star3.
+
+Move your device to one of the other slots connected to the Star Trigger bus, or select a different destination terminal.]]>
+  </nierror>
+  <nierror code="-89153">
+    <![CDATA[PXI_Star is not available as a destination terminal for devices in a system timing slot. A system timing slot has specific PXI_Star<n> lines, such as PXI_Star3.
+
+Move your device to one of the other slots connected to the Star Trigger bus, or select a different destination terminal.]]>
+  </nierror>
+  <nierror code="-89152">
+    <![CDATA[PXI_Star is not available as a source terminal for devices in a star trigger slot. A star trigger slot has specific PXI_Star<n> lines, such as PXI_Star3.
+
+Move your device to one of the other slots connected to the Star Trigger bus, or select a different source terminal.]]>
+  </nierror>
+  <nierror code="-89151">
+    <![CDATA[PXI_Star is not available as a source terminal for devices in a system timing slot. A system timing slot has specific PXI_Star<n> lines, such as PXI_Star3.
+
+Move your device to one of the other slots connected to the Star Trigger bus, or select a different source terminal.]]>
+  </nierror>
+  <nierror code="-89150">
+    <![CDATA[The value specified does not correspond to any terminal connection behavior.]]>
+  </nierror>
+  <nierror code="-89149">
+    <![CDATA[PXI_Clk10In is available as a destination terminal only for devices in the star trigger controller slot (slot 2).
+
+Move your device to PXI slot 2.]]>
+  </nierror>
+  <nierror code="-89148">
+    <![CDATA[PXI_Star<n> is available as a destination terminal only for devices in the star trigger controller slot (slot 2).
+
+To use PXI_Star (without any numbers), do not specify a star line number. To use PXI_Star<n>, move your device to slot 2.]]>
+  </nierror>
+  <nierror code="-89147">
+    <![CDATA[PXI_Star<n> is available as a source terminal only for devices in the star trigger controller slot (slot 2).
+
+To use PXI_Star (without any numbers), do not specify a star line number. To use PXI_Star<n>, move your device to slot 2.]]>
+  </nierror>
+  <nierror code="-89146">
+    <![CDATA[PXI_Star is not available as a source terminal for devices in PXI slots 16 and above.
+
+Move your device to one of slots 3 through 15, or select a different source terminal.]]>
+  </nierror>
+  <nierror code="-89145">
+    <![CDATA[PXI_Star is not available as a destination terminal for devices in PXI slots 16 and above.
+
+Move your device to one of slots 3 through 15, or select a different destination terminal.]]>
+  </nierror>
+  <nierror code="-89144">
+    <![CDATA[PXI_Star is not available as a destination terminal for devices in PXI slot 2. PXI slot 2 has specific PXI_Star<n> lines, such as PXI_Star3.
+
+Move your device to one of slots 3 through 15, or select a different destination terminal.]]>
+  </nierror>
+  <nierror code="-89143">
+    <![CDATA[PXI_Star is not available as a source terminal for devices in PXI slot 2. PXI slot 2 has specific PXI_Star<n> lines, such as PXI_Star3.
+
+Move your device to one of slots 3 through 15, or select a different source terminal.]]>
+  </nierror>
+  <nierror code="-89142">
+    <![CDATA[Route failed because the PXI chassis is not identified. The existence of the destination terminal depends on the chassis being identified.
+
+Use the Measurements & Automation Explorer (MAX) to identify your chassis.]]>
+  </nierror>
+  <nierror code="-89141">
+    <![CDATA[Route failed because the PXI chassis is not identified. The existence of the source terminal depends on the chassis being identified.
+
+Use the Measurements & Automation Explorer (MAX) to identify your chassis.]]>
+  </nierror>
+  <nierror code="-89140">
+    <![CDATA[Driver cannot complete the route, because the only way to make the route requires a trigger bus line, and no trigger bus has been configured in MAX for this device.
+
+If you have a PXI chassis, make sure it has been properly identified in MAX. If you are using a PCI device, create a RTSI cable in MAX that includes your PCI device even if you are not using any RTSI cables.]]>
+  </nierror>
+  <nierror code="-89139">
+    <![CDATA[There are no shared trigger lines between the two devices which are acceptable to both devices. While each of these two devices support some shared trigger lines, none of these shared trigger lines work for both devices for the specified property and corresponding value.
+
+Consider routing the signal through the I/O connectors of the two devices, if applicable.]]>
+  </nierror>
+  <nierror code="-89138">
+    <![CDATA[Specified route cannot be satisfied, because it requires resources that are currently in use by another route within this task.]]>
+  </nierror>
+  <nierror code="-89137">
+    <![CDATA[Specified route cannot be satisfied, because it requires resources that are currently in use by another route.]]>
+  </nierror>
+  <nierror code="-89136">
+    <![CDATA[Specified route cannot be satisfied, because the hardware does not support it.]]>
+  </nierror>
+  <nierror code="-89135">
+    <![CDATA[Specified inversion cannot be satisfied, because it requires resources that are currently in use by another route within this task.]]>
+  </nierror>
+  <nierror code="-89134">
+    <![CDATA[Specified inversion cannot be satisfied, because it requires resources that are currently in use by another route.]]>
+  </nierror>
+  <nierror code="-89133">
+    <![CDATA[Specified inversion cannot be satisfied, because the hardware does not support it.]]>
+  </nierror>
+  <nierror code="-89132">
+    <![CDATA[Specified property value cannot be used, because it requires resources that are currently in use.]]>
+  </nierror>
+  <nierror code="-89131">
+    <![CDATA[An attempt has been made to perform a route when the source and the destination are the same terminal.
+
+In many cases, such as when configuring an external clock or a counter source, you must select a PFI, PXI Trigger, or RTSI line as the source terminal.]]>
+  </nierror>
+  <nierror code="-89130">
+    <![CDATA[Device not available for routing.  It is possible that the device needs to be reset or that the device is being reset.
+
+If you are resetting the device, wait for the reset to complete.
+
+For example, if you have used the device through Traditional NI-DAQ, you must reset the device before the requested route can be made.  For SCXI devices, you must reset the communicator DAQ device. Call the Traditional NI-DAQ Device Reset VI or the Init_DA_Brds function. To reset all devices in Traditional NI-DAQ, right-click the Traditional NI-DAQ Devices folder in MAX and select Reset Driver for Traditional NI-DAQ.]]>
+  </nierror>
+  <nierror code="-89129">
+    <![CDATA[Terminal for the device is invalid.]]>
+  </nierror>
+  <nierror code="-89128">
+    <![CDATA[Terminal could not be tristated because the hardware cannot tristate this terminal.]]>
+  </nierror>
+  <nierror code="-89127">
+    <![CDATA[Terminal cannot be tristated because it is busy.
+
+Disconnect any routes spanning this terminal, or stop using this terminal.]]>
+  </nierror>
+  <nierror code="-89126">
+    <![CDATA[Trigger line requested could not be reserved because it is already in use.]]>
+  </nierror>
+  <nierror code="-89125">
+    <![CDATA[No registered trigger lines could be found between the devices in the route.
+
+If you have a PXI chassis, identify the chassis correctly in MAX, and make sure it has been configured properly. If you are using PCI devices, make sure they are connected with a RTSI cable and that the RTSI cable is registered in MAX. Otherwise, make sure there is an available trigger line on the trigger bus shared between the devices.]]>
+  </nierror>
+  <nierror code="-89124">
+    <![CDATA[Route cannot be made between the source and destination terminals.
+
+Either the hardware does not support this route or other routes might be interfering with this route.]]>
+  </nierror>
+  <nierror code="-89123">
+    <![CDATA[Hardware necessary for this route is in use by another route or routes.]]>
+  </nierror>
+  <nierror code="-89122">
+    <![CDATA[Inversion requested is not possible.
+
+Either the hardware between the source and destination terminals does not support the inversion, or other routes might be interfering with this route.]]>
+  </nierror>
+  <nierror code="-89121">
+    <![CDATA[Destination terminal to be routed could not be found on the device.
+
+Make sure the terminal name is valid for the specified device. Refer to Measurement & Automation Explorer or your hardware documentation for valid terminal names.]]>
+  </nierror>
+  <nierror code="-89120">
+    <![CDATA[Source terminal to be routed could not be found on the device.
+
+Make sure the terminal name is valid for the specified device. Refer to Measurement & Automation Explorer for valid terminal names.]]>
+  </nierror>
+  <nierror code="-89119">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89118">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89117">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89116">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89115">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89114">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89113">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89112">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89111">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89110">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89109">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89108">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89107">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89106">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89105">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89104">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89103">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89102">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89101">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-89100">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54023">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54022">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54021">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54020">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54012">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54011">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54010">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54002">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54001">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+  <nierror code="-54000">
+    <![CDATA[An internal error occurred.]]>
+  </nierror>
+</nidocument>

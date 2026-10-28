@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+	<str name="moduleprogrammode">Mode de programme</str>
+	<str name="moduleprogrammode_unsupported">Non supporté</str>
+	<str name="moduleprogrammode_realtime">Processeur Real-Time</str>
+	<str name="moduleprogrammode_realtimescan">Balayage temps réel</str>
+	<str name="moduleprogrammode_fpga">LabVIEW FPGA</str>
+</uistrings>

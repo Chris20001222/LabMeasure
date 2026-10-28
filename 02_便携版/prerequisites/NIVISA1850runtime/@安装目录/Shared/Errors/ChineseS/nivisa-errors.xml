@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="VISA" familyname="VISA">
+  <nicomment>None</nicomment>
+  <nierror code="-1073807360">
+    <![CDATA[VISA:  (Hex 0xBFFF0000) 未知系统错误（其他错误）。]]>
+  </nierror>
+  <nierror code="-1073807346">
+    <![CDATA[VISA:  (Hex 0xBFFF000E) 会话或对象引用无效。]]>
+  </nierror>
+  <nierror code="-1073807345">
+    <![CDATA[VISA:  (Hex 0xBFFF000F) 资源被锁定，无法获取指定的锁定类型，无法实现指定操作。]]>
+  </nierror>
+  <nierror code="-1073807344">
+    <![CDATA[VISA:  (Hex 0xBFFF0010) 搜索的表达式非法。]]>
+  </nierror>
+  <nierror code="-1073807343">
+    <![CDATA[VISA:  (Hex 0xBFFF0011) 位置信息不足或系统中不存在设备或资源。]]>
+  </nierror>
+  <nierror code="-1073807342">
+    <![CDATA[VISA:  (Hex 0xBFFF0012) 指定的资源引用非法。解析出错。]]>
+  </nierror>
+  <nierror code="-1073807341">
+    <![CDATA[VISA:  (Hex 0xBFFF0013) 非法访问模式。]]>
+  </nierror>
+  <nierror code="-1073807339">
+    <![CDATA[VISA:  (Hex 0xBFFF0015) 操作完成前发生超时。]]>
+  </nierror>
+  <nierror code="-1073807338">
+    <![CDATA[VISA:  (Hex 0xBFFF0016) VISA驱动关闭会话句柄或对象引用失败。可能由于以下原因出错：释放内部或系统资源时出错、网络连接错误、底层驱动或操作系统错误。]]>
+  </nierror>
+  <nierror code="-1073807333">
+    <![CDATA[VISA:  (Hex 0xBFFF001B) 指定的等级无效。]]>
+  </nierror>
+  <nierror code="-1073807332">
+    <![CDATA[VISA:  (Hex 0xBFFF001C) 指定的工作标识符无效。]]>
+  </nierror>
+  <nierror code="-1073807331">
+    <![CDATA[VISA:  (Hex 0xBFFF001D) 引用资源未定义或不支持所指定的属性。]]>
+  </nierror>
+  <nierror code="-1073807330">
+    <![CDATA[VISA:  (Hex 0xBFFF001E) 属性的特定状态无效，或者所定义的资源不支持该状态。]]>
+  </nierror>
+  <nierror code="-1073807329">
+    <![CDATA[VISA:  (Hex 0xBFFF001F) 指定的属性为只读。]]>
+  </nierror>
+  <nierror code="-1073807328">
+    <![CDATA[VISA:  (Hex 0xBFFF0020) 该资源不支持所指定的锁定类型。]]>
+  </nierror>
+  <nierror code="-1073807327">
+    <![CDATA[VISA:  (Hex 0xBFFF0021) 用于指定资源的访问键无效。]]>
+  </nierror>
+  <nierror code="-1073807322">
+    <![CDATA[VISA:  (Hex 0xBFFF0026) 资源不支持指定的事件类型。]]>
+  </nierror>
+  <nierror code="-1073807321">
+    <![CDATA[VISA:  (Hex 0xBFFF0027) 指定的机制非法。]]>
+  </nierror>
+  <nierror code="-1073807320">
+    <![CDATA[VISA:  (Hex 0xBFFF0028) 未安装句柄。]]>
+  </nierror>
+  <nierror code="-1073807319">
+    <![CDATA[VISA:  (Hex 0xBFFF0029) 句柄引用无效。]]>
+  </nierror>
+  <nierror code="-1073807318">
+    <![CDATA[VISA:  (Hex 0xBFFF002A) 指定的事件说明无效。]]>
+  </nierror>
+  <nierror code="-1073807315">
+    <![CDATA[VISA:  (Hex 0xBFFF002D) 指定类型的事件队列已溢出。可能原因为尚未关闭之前事件。]]>
+  </nierror>
+  <nierror code="-1073807313">
+    <![CDATA[VISA:  (Hex 0xBFFF002F) 必须启用指定事件才可以进行接收。]]>
+  </nierror>
+  <nierror code="-1073807312">
+    <![CDATA[VISA:  (Hex 0xBFFF0030) 传输过程中用户中止。]]>
+  </nierror>
+  <nierror code="-1073807308">
+    <![CDATA[VISA:  (Hex 0xBFFF0034) 传输时违反RAW写入协议。]]>
+  </nierror>
+  <nierror code="-1073807307">
+    <![CDATA[VISA:  (Hex 0xBFFF0035) 传输时违反RAW读取协议。]]>
+  </nierror>
+  <nierror code="-1073807306">
+    <![CDATA[VISA:  (Hex 0xBFFF0036) 传输时设备提交一个输出协议错误。]]>
+  </nierror>
+  <nierror code="-1073807305">
+    <![CDATA[VISA:  (Hex 0xBFFF0037) 传输时设备提交一个输入协议错误。]]>
+  </nierror>
+  <nierror code="-1073807304">
+    <![CDATA[VISA:  (Hex 0xBFFF0038) 传输过程中发生总线错误。]]>
+  </nierror>
+  <nierror code="-1073807303">
+    <![CDATA[VISA:  (Hex 0xBFFF0039) 无法对异步操作进行排队，因为当前已存在该操作。]]>
+  </nierror>
+  <nierror code="-1073807302">
+    <![CDATA[VISA:  (Hex 0xBFFF003A) 由于安装程序非法（属性已被设置为不一致状态），将无法开始操作。]]>
+  </nierror>
+  <nierror code="-1073807301">
+    <![CDATA[VISA:  (Hex 0xBFFF003B) 无法对异步操作进行排队（通常原因为没有启用I/O结束事件或会话队列中空间不足）。]]>
+  </nierror>
+  <nierror code="-1073807300">
+    <![CDATA[VISA:  (Hex 0xBFFF003C) 执行必需内存分配所需系统资源不足。]]>
+  </nierror>
+  <nierror code="-1073807299">
+    <![CDATA[VISA:  (Hex 0xBFFF003D) 指定的缓存掩码非法。]]>
+  </nierror>
+  <nierror code="-1073807298">
+    <![CDATA[VISA:  (Hex 0xBFFF003E) 由于I/O错误，将无法执行相应操作。]]>
+  </nierror>
+  <nierror code="-1073807297">
+    <![CDATA[VISA:  (Hex 0xBFFF003F) 格式字符串中存在非法格式说明符。]]>
+  </nierror>
+  <nierror code="-1073807295">
+    <![CDATA[VISA:  (Hex 0xBFFF0041) 格式字符串中存在不支持的格式说明符。]]>
+  </nierror>
+  <nierror code="-1073807294">
+    <![CDATA[VISA:  (Hex 0xBFFF0042) 指定的触发线当前正在使用。]]>
+  </nierror>
+  <nierror code="-1073807293">
+    <![CDATA[VISA:  (Hex 0xBFFF0043) 指定的触发线当前未被预留。]]>
+  </nierror>
+  <nierror code="-1073807290">
+    <![CDATA[VISA:  (Hex 0xBFFF0046) 该VISA应用不支持所指定的模式。]]>
+  </nierror>
+  <nierror code="-1073807286">
+    <![CDATA[VISA:  (Hex 0xBFFF004A) 该会话并没有接收到服务请求。]]>
+  </nierror>
+  <nierror code="-1073807282">
+    <![CDATA[VISA:  (Hex 0xBFFF004E) 指定的地址空间无效。]]>
+  </nierror>
+  <nierror code="-1073807279">
+    <![CDATA[VISA:  (Hex 0xBFFF0051) 指定的偏移无效。]]>
+  </nierror>
+  <nierror code="-1073807278">
+    <![CDATA[VISA:  (Hex 0xBFFF0052) 指定的访问宽度无效。]]>
+  </nierror>
+  <nierror code="-1073807276">
+    <![CDATA[VISA:  (Hex 0xBFFF0054) 无法从硬件访问指定的偏移量。]]>
+  </nierror>
+  <nierror code="-1073807275">
+    <![CDATA[VISA:  (Hex 0xBFFF0055) 源宽度和目标宽度不同时无法支持。]]>
+  </nierror>
+  <nierror code="-1073807273">
+    <![CDATA[VISA:  (Hex 0xBFFF0057) 当前尚未映射指定的会话。]]>
+  </nierror>
+  <nierror code="-1073807271">
+    <![CDATA[VISA:  (Hex 0xBFFF0059) 正在处理之前响应，这将导致多次查询引起的错误。]]>
+  </nierror>
+  <nierror code="-1073807265">
+    <![CDATA[VISA:  (Hex 0xBFFF005F) 未检测到侦听器（NRFD和NDAC均被置为无效）。]]>
+  </nierror>
+  <nierror code="-1073807264">
+    <![CDATA[VISA:  (Hex 0xBFFF005F) 控制器当前并未控制与本会话相关的接口。]]>
+  </nierror>
+  <nierror code="-1073807263">
+    <![CDATA[VISA:  (Hex 0xBFFF0061) 与本会话相关的接口不属于系统控制器。]]>
+  </nierror>
+  <nierror code="-1073807257">
+    <![CDATA[VISA:  (Hex 0xBFFF0067) 所给会话句柄或对象引用不支持该操作。]]>
+  </nierror>
+  <nierror code="-1073807256">
+    <![CDATA[VISA:  (Hex 0xBFFF0068) 之前调用仍在处理某个中断。]]>
+  </nierror>
+  <nierror code="-1073807254">
+    <![CDATA[VISA:  (Hex 0xBFFF006A) 传输过程中发生奇偶校验错误。]]>
+  </nierror>
+  <nierror code="-1073807253">
+    <![CDATA[VISA:  (Hex 0xBFFF006B) 传输过程中发生成帧错误。]]>
+  </nierror>
+  <nierror code="-1073807252">
+    <![CDATA[VISA:  (Hex 0xBFFF006C) 传输时发生超出限度错误。在下一个字符到达之前，未从硬件读取该字符。]]>
+  </nierror>
+  <nierror code="-1073807250">
+    <![CDATA[VISA:  (Hex 0xBFFF006E) 从触发源至触发目标的路径当前未被映射。]]>
+  </nierror>
+  <nierror code="-1073807248">
+    <![CDATA[VISA:  (Hex 0xBFFF0070) 指定的偏移量未根据操作的访问宽度正确对齐。]]>
+  </nierror>
+  <nierror code="-1073807247">
+    <![CDATA[VISA:  (Hex 0xBFFF0071) 指定的用户缓冲区非法或者无法访问所需大小。]]>
+  </nierror>
+  <nierror code="-1073807246">
+    <![CDATA[VISA:  (Hex 0xBFFF0072) 资源合法但VISA当前无法对其进行访问。]]>
+  </nierror>
+  <nierror code="-1073807242">
+    <![CDATA[VISA:  (Hex 0xBFFF0076) 该硬件不支持指定的宽度。]]>
+  </nierror>
+  <nierror code="-1073807240">
+    <![CDATA[VISA:  (Hex 0xBFFF0078) 部分未知参数的值非法。]]>
+  </nierror>
+  <nierror code="-1073807239">
+    <![CDATA[VISA:  (Hex 0xBFFF0079) 指定的协议无效。]]>
+  </nierror>
+  <nierror code="-1073807237">
+    <![CDATA[VISA:  (Hex 0xBFFF007B) 指定的窗口大小无效。]]>
+  </nierror>
+  <nierror code="-1073807232">
+    <![CDATA[VISA:  (Hex 0xBFFF0080) 所指定的会话当前包含一个映射窗口。]]>
+  </nierror>
+  <nierror code="-1073807231">
+    <![CDATA[VISA:  (Hex 0xBFFF0081) 所给操作未实施。]]>
+  </nierror>
+  <nierror code="-1073807229">
+    <![CDATA[VISA:  (Hex 0xBFFF0083) 指定的长度无效。]]>
+  </nierror>
+  <nierror code="-1073807215">
+    <![CDATA[VISA:  (Hex 0xBFFF0091) 指定的模式无效。]]>
+  </nierror>
+  <nierror code="-1073807204">
+    <![CDATA[VISA:  (Hex 0xBFFF009C) 当前会话无法锁定该资源。]]>
+  </nierror>
+  <nierror code="-1073807203">
+    <![CDATA[VISA:  (Hex 0xBFFF009D) 设备未导出任何内存。]]>
+  </nierror>
+  <nierror code="-1073807202">
+    <![CDATA[VISA:  (Hex 0xBFFF009E) 无法找到或加载VISA或VISA的代码库。这通常是因为系统上未安装所需的驱动程序。]]>
+  </nierror>
+  <nierror code="-1073807201">
+    <![CDATA[VISA:  (Hex 0xBFFF009F) 接口无法产生所需等级或带所需状态ID值的中断。]]>
+  </nierror>
+  <nierror code="-1073807200">
+    <![CDATA[VISA:  (Hex 0xBFFF00A0) 行参数指定的值无效。]]>
+  </nierror>
+  <nierror code="-1073807199">
+    <![CDATA[VISA:  (Hex 0xBFFF00A1) 打开指定文件时发生错误。可能原因为无效路径或缺少访问权限。]]>
+  </nierror>
+  <nierror code="-1073807198">
+    <![CDATA[VISA:  (Hex 0xBFFF00A2) 执行特定文件的I/O操作时出现错误。]]>
+  </nierror>
+  <nierror code="-1073807197">
+    <![CDATA[VISA:  (Hex 0xBFFF00A3) 该VISA应用不支持某个指定行、触发源或触发目标，或者行组合的映射非法。]]>
+  </nierror>
+  <nierror code="-1073807196">
+    <![CDATA[VISA:  (Hex 0xBFFF00A4) 所给事件类型不支持特定机制。]]>
+  </nierror>
+  <nierror code="-1073807195">
+    <![CDATA[VISA:  (Hex 0xBFFF00A5) 接口类型非法，但未配置指定的接口数量。]]>
+  </nierror>
+  <nierror code="-1073807194">
+    <![CDATA[VISA:  (Hex 0xBFFF00A6) 给定会话的连接已丢失。]]>
+  </nierror>
+  <nierror code="-1073807193">
+    <![CDATA[VISA:  (Hex 0xBFFF00A7) 远程机器不存在或无法接受任何连接。如远程机器中已安装并运行NI-VISA服务器，可能使用不兼容版本或已侦听其他端口。]]>
+  </nierror>
+  <nierror code="-1073807192">
+    <![CDATA[VISA:  (Hex 0xBFFF00A8) 访问资源或远程机器被拒绝。可能原因为当前用户或机器缺少足够权限。]]>
+  </nierror>
+  <nierror code="-1073807190">
+    <![CDATA[VISA:  (Hex 0xBFFF00AA) 较低级别的驱动程序报告该资源对应于或已连接到非正版界面。如需更多信息，请联系National Instruments技术支持。]]>
+  </nierror>
+  <nierror code="0">
+    <![CDATA[VISA:  (Hex 0x0) 操作成功完成。]]>
+  </nierror>
+  <nierror code="1073676290">
+    <![CDATA[VISA:  (Hex 0x3FFF0002) 指定事件已为至少一个特定机制启用。]]>
+  </nierror>
+  <nierror code="1073676291">
+    <![CDATA[VISA:  (Hex 0x3FFF0003) VISA:  (Hex 0x3FFF0002) 指定事件已为至少一个特定机制禁用。]]>
+  </nierror>
+  <nierror code="1073676292">
+    <![CDATA[VISA:  (Hex 0x3FFF0004) 操作成功完成，但队列已经为空。]]>
+  </nierror>
+  <nierror code="1073676293">
+    <![CDATA[VISA:  (Hex 0x3FFF0005) 已读取指定的结束字符。]]>
+  </nierror>
+  <nierror code="1073676294">
+    <![CDATA[VISA:  (Hex 0x3FFF0006) 传输的字符数量与所要求的输入计数相同。可能可使用更多数据。]]>
+  </nierror>
+  <nierror code="1073676300">
+    <![CDATA[VISA:  (Hex 0x3FFF000C) VISA接收指定类型的事件信息已超出配置队列大小。]]>
+  </nierror>
+  <nierror code="1073676407">
+    <![CDATA[VISA:  (Hex 0x3FFF0077) 指定的配置不存在或无法加载。将使用VISA默认设置。]]>
+  </nierror>
+  <nierror code="1073676413">
+    <![CDATA[VISA:  (Hex 0x3FFF007D) 成功打开会话，但指定地址的设备未响应。]]>
+  </nierror>
+  <nierror code="1073676414">
+    <![CDATA[VISA:  (Hex 0x3FFF007E) 从触发源至触发目标的路径当前未被映射。]]>
+  </nierror>
+  <nierror code="1073676416">
+    <![CDATA[VISA:  (Hex 0x3FFF0080) 等待接收事件通知已成功中止。至少存在一个或多个由inEventType指定的事件发生类型可用于本会话。]]>
+  </nierror>
+  <nierror code="1073676418">
+    <![CDATA[VISA:  (Hex 0x3FFF0082) 指定对象引用已反初始化。]]>
+  </nierror>
+  <nierror code="1073676420">
+    <![CDATA[VISA:  (Hex 0x3FFF0084) 虽然属性的指定状态合法，但当前资源应用不支持该状态。]]>
+  </nierror>
+  <nierror code="1073676421">
+    <![CDATA[VISA:  (Hex 0x3FFF0085) 无法解析传递至该操作的状态代码。]]>
+  </nierror>
+  <nierror code="1073676424">
+    <![CDATA[VISA:  (Hex 0x3FFF0088) 不支持指定的I/O缓冲区。]]>
+  </nierror>
+  <nierror code="1073676440">
+    <![CDATA[VISA:  (Hex 0x3FFF0098) 成功处理事件。在本会话中不要调用其他事件处理器。]]>
+  </nierror>
+  <nierror code="1073676441">
+    <![CDATA[VISA:  (Hex 0x3FFF0099) 操作成功完成，本会话已嵌套共享锁。]]>
+  </nierror>
+  <nierror code="1073676442">
+    <![CDATA[VISA:  (Hex 0x3FFF009A) 操作成功完成，本会话已嵌套共享排他锁。]]>
+  </nierror>
+  <nierror code="1073676443">
+    <![CDATA[VISA:  (Hex 0x3FFF009B) 操作成功完成，但实际上操作属于同步而不是异步。]]>
+  </nierror>
+  <nierror code="1073676457">
+    <![CDATA[VISA:  (Hex 0x3FFF00A9) 操作成功，但一个低层驱动没有实现扩展功能。]]>
+  </nierror>
+</nidocument>

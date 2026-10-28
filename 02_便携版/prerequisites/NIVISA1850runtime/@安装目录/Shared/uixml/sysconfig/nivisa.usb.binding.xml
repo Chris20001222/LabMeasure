@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding sysexpert="ni-visa">
+	<and>
+		<!-- sysattr=ItemIsDevice -->
+		<eq sysattr="16781312" value="true"/>
+		<!-- sysattr=ConnectsToBusType value=USB -->
+		<eq sysattr="16785408" value="2" />
+	</and>
+</binding>

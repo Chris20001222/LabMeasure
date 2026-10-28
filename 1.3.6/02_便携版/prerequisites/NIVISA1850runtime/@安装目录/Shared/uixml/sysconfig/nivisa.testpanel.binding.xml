@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<binding>
+  <or>
+    <and>
+      <!-- sysattr=ItemIsDevice -->
+      <eq sysattr="16781312" value="true" />
+      <!-- sysattr=DriverProgName0 -->
+      <eq sysattr="16900096" value="ni-visa" />
+    </and>
+    <and>
+      <!-- sysattr=ItemIsChassis -->
+      <eq sysattr="16941056" value="true" />
+      <!-- sysattr=ProvidesBusType value=PciPxi -->
+      <eq sysattr="16932864" value="1" />
+      <!-- sysattr=SimulatedVirtual -->
+      <eq sysattr="16814080" value="false" />
+    </and>
+  </or>
+</binding>

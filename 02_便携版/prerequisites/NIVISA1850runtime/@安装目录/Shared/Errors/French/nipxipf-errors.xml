@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="NI Platform Services" familyname="NI Platform Services">
+  <nicomment>Errors for PXI Platfrom Framework</nicomment>
+  <nierror code="-380764">
+    <![CDATA[Les fichiers de description de système PXI sont présents mais inaccessibles. C'est peut-être un problème temporaire dû au fait qu'un autre processus accède aux fichiers. Contactez National Instruments si le problème persiste.]]>
+  </nierror>
+  <nierror code="-380763">
+    <![CDATA[Les fichiers de description de système PXI sont verrouillés par un autre processus. C'est peut-être un problème temporaire dû au fait qu'un autre processus accède aux fichiers. Contactez National Instruments si le problème persiste.]]>
+  </nierror>
+  <nierror code="-380762">
+    <![CDATA[Impossible de vérifier si les informations du système PXI sont à jour.]]>
+  </nierror>
+  <nierror code="-380761">
+    <![CDATA[La bibliothèque du gestionnaire de déclenchement PXISA pour le châssis PXI est introuvable. Vérifiez que le logiciel du châssis PXI est installé et à jour.]]>
+  </nierror>
+  <nierror code="-380760">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="-380759">
+    <![CDATA[Cet emplacement n'est pas connecté au type de bus de déclenchement PXI demandé. Pour utiliser ce type de bus de déclenchement PXI, installez votre périphérique dans un autre emplacement.]]>
+  </nierror>
+  <nierror code="-380758">
+    <![CDATA[Il n'y a pas de connexion PXI_Star pour cet emplacement car c'est un emplacement de cadencement de système PXI. Si le périphérique supporte la fonctionnalité de contrôleur de cadencement de système PXI, utilisez une connexion PXI_Star numérotée pour accéder aux lignes PXI_Star de l'emplacement de cadencement de système PXI ; sinon, installez le périphérique dans un autre emplacement.]]>
+  </nierror>
+  <nierror code="-380757">
+    <![CDATA[Les informations PXI demandées ne sont pas disponibles. Vérifiez que le gestionnaire de ressources PXI du système est à jour. Utilisez NI MAX pour sélectionner le gestionnaire de ressources PXI actif du système.]]>
+  </nierror>
+  <nierror code="-380756">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="-380755">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="-380754">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="-380753">
+    <![CDATA[Les fichiers de description de système PXI contiennent des incohérences. Le gestionnaire de ressources PXI génère peut-être des fichiers incorrects. Utilisez NI MAX pour sélectionner le gestionnaire de ressources PXI actif du système.]]>
+  </nierror>
+  <nierror code="-380752">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="-380751">
+    <![CDATA[Le sous-système PXI ne reconnaît pas le périphérique, châssis ou contrôleur demandé.]]>
+  </nierror>
+  <nierror code="-380750">
+    <![CDATA[La mémoire demandée n'a pas pu être allouée.]]>
+  </nierror>
+  <nierror code="380750">
+    <![CDATA[La mémoire demandée n'a pas pu être allouée.]]>
+  </nierror>
+  <nierror code="380751">
+    <![CDATA[Le sous-système PXI ne reconnaît pas le périphérique, châssis ou contrôleur demandé.]]>
+  </nierror>
+  <nierror code="380752">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="380753">
+    <![CDATA[Les fichiers de description de système PXI contiennent des incohérences. Le gestionnaire de ressources PXI génère peut-être des fichiers incorrects. Utilisez NI MAX pour sélectionner le gestionnaire de ressources PXI actif du système.]]>
+  </nierror>
+  <nierror code="380754">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="380755">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="380756">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="380757">
+    <![CDATA[Les informations PXI demandées ne sont pas disponibles. Vérifiez que le gestionnaire de ressources PXI du système est à jour. Utilisez NI MAX pour sélectionner le gestionnaire de ressources PXI actif du système.]]>
+  </nierror>
+  <nierror code="380758">
+    <![CDATA[Il n'y a pas de connexion PXI_Star pour cet emplacement car c'est un emplacement de cadencement de système PXI. Si le périphérique supporte la fonctionnalité de contrôleur de cadencement de système PXI, utilisez une connexion PXI_Star numérotée pour accéder aux lignes PXI_Star de l'emplacement de cadencement de système PXI ; sinon, installez le périphérique dans un autre emplacement.]]>
+  </nierror>
+  <nierror code="380759">
+    <![CDATA[Cet emplacement n'est pas connecté au type de bus de déclenchement PXI demandé. Pour utiliser ce type de bus de déclenchement PXI, installez votre périphérique dans un autre emplacement.]]>
+  </nierror>
+  <nierror code="380760">
+    <![CDATA[Une erreur logicielle interne s'est produite.]]>
+  </nierror>
+  <nierror code="380761">
+    <![CDATA[La bibliothèque du gestionnaire de déclenchement PXISA pour le châssis PXI est introuvable. Vérifiez que le logiciel du châssis PXI est installé et à jour.]]>
+  </nierror>
+  <nierror code="380762">
+    <![CDATA[Impossible de vérifier si les informations du système PXI sont à jour.]]>
+  </nierror>
+  <nierror code="380763">
+    <![CDATA[Les fichiers de description de système PXI sont verrouillés par un autre processus. C'est peut-être un problème temporaire dû au fait qu'un autre processus accède aux fichiers. Contactez National Instruments si le problème persiste.]]>
+  </nierror>
+  <nierror code="380764">
+    <![CDATA[Les fichiers de description de système PXI sont présents mais inaccessibles. C'est peut-être un problème temporaire dû au fait qu'un autre processus accède aux fichiers. Contactez National Instruments si le problème persiste.]]>
+  </nierror>
+  <nierror code="-26853">
+    <![CDATA[Réessayez l'appel.]]>
+  </nierror>
+  <nierror code="-26852">
+    <![CDATA[Un ou plusieurs fichiers de description de système PXI n'existe pas.]]>
+  </nierror>
+  <nierror code="-26851">
+    <![CDATA[L'initialisation a été réalisée avec les fichiers systèmes PXI existants.  Un paramétrage utilisateur a empêché la regénération des fichiers systèmes PXI.]]>
+  </nierror>
+  <nierror code="-26850">
+    <![CDATA[Le système PXI a déjà été initialisé.]]>
+  </nierror>
+  <nierror code="-26809">
+    <![CDATA[Certaines fonctionnalités PXI ne sont pas disponibles car un ou plusieurs fichiers de description de système PXI n'ont pas pu être lus.  Pour obtenir de plus amples informations, allez sur ni.com/frinfo et entrez l'info-code  exvgq4.]]>
+  </nierror>
+  <nierror code="-26808">
+    <![CDATA[Le fichier de configuration PXISA est verrouillé et inaccessible pour le moment.]]>
+  </nierror>
+  <nierror code="-26807">
+    <![CDATA[Le gestionnaire de ressources PXI National Instruments n'est pas le gestionnaire de ressources PXI actif du système.]]>
+  </nierror>
+  <nierror code="-26806">
+    <![CDATA[L'attribut n'est pas valide.]]>
+  </nierror>
+  <nierror code="-26805">
+    <![CDATA[Le handle n'est pas valide.]]>
+  </nierror>
+  <nierror code="-26804">
+    <![CDATA[Le service NI PXI Resource Manager n'est pas accessible. Cause probable : il n'a pas été démarré ou il est encore en train de démarré.]]>
+  </nierror>
+  <nierror code="-26803">
+    <![CDATA[Un appel récursif d'une composante au gestionnaire de ressources PXI a eu lieu pendant l'initialisation.]]>
+  </nierror>
+  <nierror code="-26802">
+    <![CDATA[Un timeout est survenu.]]>
+  </nierror>
+  <nierror code="-26801">
+    <![CDATA[Une erreur non spécifiée s'est produite dans le sous-système PXI.]]>
+  </nierror>
+  <nierror code="-26657">
+    <![CDATA[Il n'existe pas de gestionnaire connu pour l'arborescence de données spécifiée.]]>
+  </nierror>
+  <nierror code="-26656">
+    <![CDATA[Les données demandées sont incompatibles avec le type de données spécifié.]]>
+  </nierror>
+  <nierror code="-26655">
+    <![CDATA[Le fichier a des incohérences internes.]]>
+  </nierror>
+  <nierror code="-26654">
+    <![CDATA[Enfant introuvable.]]>
+  </nierror>
+  <nierror code="-26653">
+    <![CDATA[Attribut introuvable.]]>
+  </nierror>
+  <nierror code="-26652">
+    <![CDATA[Erreur à la lecture ou à l'écriture du fichier.]]>
+  </nierror>
+  <nierror code="-26651">
+    <![CDATA[Erreur à la lecture du fichier.]]>
+  </nierror>
+  <nierror code="-26650">
+    <![CDATA[Erreur à l'ouverture du fichier.]]>
+  </nierror>
+  <nierror code="-26600">
+    <![CDATA[Système PXI MXS introuvable]]>
+  </nierror>
+  <nierror code="-26550">
+    <![CDATA[Erreur d'analyse de chaîne de description PCI]]>
+  </nierror>
+  <nierror code="-26500">
+    <![CDATA[Erreur d'analyse de module]]>
+  </nierror>
+  <nierror code="-26404">
+    <![CDATA[Le fichier de description de système PXI n'est pas valide. Contactez le fournisseur de votre logiciel de gestionnaire de ressources PXI pour résoudre le problème.]]>
+  </nierror>
+  <nierror code="-26403">
+    <![CDATA[Limitation des spéc. de description de système]]>
+  </nierror>
+  <nierror code="-26402">
+    <![CDATA[Erreur d'écriture de description de système]]>
+  </nierror>
+  <nierror code="-26401">
+    <![CDATA[Erreur d'analyse de description de système]]>
+  </nierror>
+  <nierror code="-26400">
+    <![CDATA[Fichier de description de système introuvable]]>
+  </nierror>
+  <nierror code="-26302">
+    <![CDATA[Erreur d'analyse de contrôleur]]>
+  </nierror>
+  <nierror code="-26301">
+    <![CDATA[Type de contrôleur non valide]]>
+  </nierror>
+  <nierror code="-26300">
+    <![CDATA[Fichier de contrôleur introuvable]]>
+  </nierror>
+  <nierror code="-26206">
+    <![CDATA[Erreur d'analyse de déclenchement de châssis]]>
+  </nierror>
+  <nierror code="-26205">
+    <![CDATA[Erreur d'analyse de pont de châssis]]>
+  </nierror>
+  <nierror code="-26204">
+    <![CDATA[Erreur d'analyse d'emplacement de châssis]]>
+  </nierror>
+  <nierror code="-26203">
+    <![CDATA[Erreur d'analyse de segment de châssis]]>
+  </nierror>
+  <nierror code="-26202">
+    <![CDATA[Erreur d'analyse de châssis]]>
+  </nierror>
+  <nierror code="-26201">
+    <![CDATA[Pont de châssis introuvable]]>
+  </nierror>
+  <nierror code="-26200">
+    <![CDATA[Fichier de châssis introuvable]]>
+  </nierror>
+  <nierror code="-26113">
+    <![CDATA[Le buffer est trop petit pour contenir les données demandées.]]>
+  </nierror>
+  <nierror code="-26112">
+    <![CDATA[Erreur lors de la création du répertoire.]]>
+  </nierror>
+  <nierror code="-26111">
+    <![CDATA[Accès refusé]]>
+  </nierror>
+  <nierror code="-26110">
+    <![CDATA[Chemin de fichier introuvable.]]>
+  </nierror>
+  <nierror code="-26109">
+    <![CDATA[Le fichier existe déjà.]]>
+  </nierror>
+  <nierror code="-26108">
+    <![CDATA[Erreur à la lecture du fichier.]]>
+  </nierror>
+  <nierror code="-26107">
+    <![CDATA[Erreur lors de la suppression du fichier.]]>
+  </nierror>
+  <nierror code="-26106">
+    <![CDATA[Erreur lors de la copie du fichier.]]>
+  </nierror>
+  <nierror code="-26105">
+    <![CDATA[Le fichier n'a pas pu être fermé.]]>
+  </nierror>
+  <nierror code="-26104">
+    <![CDATA[Erreur à l'ouverture du fichier.]]>
+  </nierror>
+  <nierror code="-26103">
+    <![CDATA[Fichier introuvable.]]>
+  </nierror>
+  <nierror code="-26102">
+    <![CDATA[Le système n'a pas été initialisé.]]>
+  </nierror>
+  <nierror code="-26101">
+    <![CDATA[Configuration non valide]]>
+  </nierror>
+  <nierror code="-26100">
+    <![CDATA[Erreur d'allocation]]>
+  </nierror>
+  <nierror code="-26010">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que ce dernier a été déconnecté.]]>
+  </nierror>
+  <nierror code="-26009">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte qu'une autre application a déjà réservé la ligne.]]>
+  </nierror>
+  <nierror code="-26008">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la destination de ce routage est déjà utilisée par un autre routage de fond de panier.]]>
+  </nierror>
+  <nierror code="-26007">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte qu'il y a un conflit de routage et que la ligne n'a pas pu être réservée.]]>
+  </nierror>
+  <nierror code="-26006">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la ligne est utilisée par un routage en conflit.]]>
+  </nierror>
+  <nierror code="-26005">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la ligne est déjà réservée par cette application.]]>
+  </nierror>
+  <nierror code="-26004">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la ligne de destination du routage n'est pas réservée alors que la réservation est requise pour programmer le routage.]]>
+  </nierror>
+  <nierror code="-26003">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la ligne n'a pas été réservée. Vérifiez qu'aucune autre application ou API n'est en train de libérer des réservations qu'elle n'a pas créées.]]>
+  </nierror>
+  <nierror code="-26002">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis a été appelé avec un paramètre non valide.]]>
+  </nierror>
+  <nierror code="-26001">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis ne supporte pas l'opération demandée.]]>
+  </nierror>
+  <nierror code="-26000">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis a renvoyé une erreur spécifique au fabricant ou générique.]]>
+  </nierror>
+  <nierror code="26000">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis a renvoyé une erreur spécifique au fabricant ou générique.]]>
+  </nierror>
+  <nierror code="26001">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis ne supporte pas l'opération demandée.]]>
+  </nierror>
+  <nierror code="26002">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis a été appelé avec un paramètre non valide.]]>
+  </nierror>
+  <nierror code="26003">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la ligne n'a pas été réservée. Vérifiez qu'aucune autre application ou API n'est en train de libérer des réservations qu'elle n'a pas créées.]]>
+  </nierror>
+  <nierror code="26004">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la ligne de destination du routage n'est pas réservée alors que la réservation est requise pour programmer le routage.]]>
+  </nierror>
+  <nierror code="26005">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la ligne est déjà réservée par cette application.]]>
+  </nierror>
+  <nierror code="26006">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la ligne est utilisée par un routage en conflit.]]>
+  </nierror>
+  <nierror code="26007">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte qu'il y a un conflit de routage et que la ligne n'a pas pu être réservée.]]>
+  </nierror>
+  <nierror code="26008">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que la destination de ce routage est déjà utilisée par un autre routage de fond de panier.]]>
+  </nierror>
+  <nierror code="26009">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte qu'une autre application a déjà réservé la ligne.]]>
+  </nierror>
+  <nierror code="26010">
+    <![CDATA[Le gestionnaire de déclenchements PXISA du châssis rapporte que ce dernier a été déconnecté.]]>
+  </nierror>
+  <nierror code="26100">
+    <![CDATA[Erreur d'allocation]]>
+  </nierror>
+  <nierror code="26101">
+    <![CDATA[Configuration non valide]]>
+  </nierror>
+  <nierror code="26102">
+    <![CDATA[Le système n'a pas été initialisé.]]>
+  </nierror>
+  <nierror code="26103">
+    <![CDATA[Fichier introuvable.]]>
+  </nierror>
+  <nierror code="26104">
+    <![CDATA[Erreur à l'ouverture du fichier.]]>
+  </nierror>
+  <nierror code="26105">
+    <![CDATA[Le fichier n'a pas pu être fermé.]]>
+  </nierror>
+  <nierror code="26106">
+    <![CDATA[Erreur lors de la copie du fichier.]]>
+  </nierror>
+  <nierror code="26107">
+    <![CDATA[Erreur lors de la suppression du fichier.]]>
+  </nierror>
+  <nierror code="26108">
+    <![CDATA[Erreur à la lecture du fichier.]]>
+  </nierror>
+  <nierror code="26109">
+    <![CDATA[Le fichier existe déjà.]]>
+  </nierror>
+  <nierror code="26110">
+    <![CDATA[Chemin de fichier introuvable.]]>
+  </nierror>
+  <nierror code="26111">
+    <![CDATA[Accès refusé.]]>
+  </nierror>
+  <nierror code="26112">
+    <![CDATA[Erreur lors de la création du répertoire.]]>
+  </nierror>
+  <nierror code="26113">
+    <![CDATA[Le buffer est trop petit pour contenir les données demandées.]]>
+  </nierror>
+  <nierror code="26200">
+    <![CDATA[Fichier de châssis introuvable]]>
+  </nierror>
+  <nierror code="26201">
+    <![CDATA[Pont de châssis introuvable]]>
+  </nierror>
+  <nierror code="26202">
+    <![CDATA[Erreur d'analyse de châssis]]>
+  </nierror>
+  <nierror code="26203">
+    <![CDATA[Erreur d'analyse de segment de châssis]]>
+  </nierror>
+  <nierror code="26204">
+    <![CDATA[Erreur d'analyse d'emplacement de châssis]]>
+  </nierror>
+  <nierror code="26205">
+    <![CDATA[Erreur d'analyse de pont de châssis]]>
+  </nierror>
+  <nierror code="26206">
+    <![CDATA[Erreur d'analyse de déclenchement de châssis]]>
+  </nierror>
+  <nierror code="26300">
+    <![CDATA[Fichier de contrôleur introuvable]]>
+  </nierror>
+  <nierror code="26301">
+    <![CDATA[Type de contrôleur non valide]]>
+  </nierror>
+  <nierror code="26302">
+    <![CDATA[Erreur d'analyse de contrôleur]]>
+  </nierror>
+  <nierror code="26400">
+    <![CDATA[Fichier de description de système introuvable]]>
+  </nierror>
+  <nierror code="26401">
+    <![CDATA[Erreur d'analyse de description de système]]>
+  </nierror>
+  <nierror code="26402">
+    <![CDATA[Erreur d'écriture de description de système]]>
+  </nierror>
+  <nierror code="26403">
+    <![CDATA[Limitation des spéc. de description de système]]>
+  </nierror>
+  <nierror code="26404">
+    <![CDATA[Le fichier de description de système PXI n'est pas valide. Contactez le fournisseur de votre logiciel de gestionnaire de ressources PXI pour résoudre le problème.]]>
+  </nierror>
+  <nierror code="26500">
+    <![CDATA[Erreur d'analyse de module]]>
+  </nierror>
+  <nierror code="26550">
+    <![CDATA[Erreur d'analyse de chaîne de description PCI]]>
+  </nierror>
+  <nierror code="26600">
+    <![CDATA[Système PXI MXS introuvable]]>
+  </nierror>
+  <nierror code="26650">
+    <![CDATA[Erreur à l'ouverture du fichier.]]>
+  </nierror>
+  <nierror code="26651">
+    <![CDATA[Erreur à la lecture du fichier.]]>
+  </nierror>
+  <nierror code="26652">
+    <![CDATA[Erreur à la lecture ou à l'écriture du fichier.]]>
+  </nierror>
+  <nierror code="26653">
+    <![CDATA[Attribut introuvable.]]>
+  </nierror>
+  <nierror code="26654">
+    <![CDATA[Enfant introuvable.]]>
+  </nierror>
+  <nierror code="26655">
+    <![CDATA[Le fichier a des incohérences internes.]]>
+  </nierror>
+  <nierror code="26656">
+    <![CDATA[Les données demandées sont incompatibles avec le type de données spécifié.]]>
+  </nierror>
+  <nierror code="26657">
+    <![CDATA[Il n'existe pas de gestionnaire connu pour l'arborescence de données spécifiée.]]>
+  </nierror>
+  <nierror code="26801">
+    <![CDATA[Une erreur non spécifiée s'est produite dans le sous-système PXI.]]>
+  </nierror>
+  <nierror code="26802">
+    <![CDATA[Un timeout est survenu.]]>
+  </nierror>
+  <nierror code="26803">
+    <![CDATA[Un appel récursif d'une composante au gestionnaire de ressources PXI a eu lieu pendant l'initialisation.]]>
+  </nierror>
+  <nierror code="26804">
+    <![CDATA[Le service NI PXI Resource Manager n'est pas accessible. Cause probable : il n'a pas été démarré ou il est encore en train de démarré.]]>
+  </nierror>
+  <nierror code="26805">
+    <![CDATA[Le handle n'est pas valide.]]>
+  </nierror>
+  <nierror code="26806">
+    <![CDATA[L'attribut n'est pas valide.]]>
+  </nierror>
+  <nierror code="26807">
+    <![CDATA[Le gestionnaire de ressources PXI National Instruments n'est pas le gestionnaire de ressources PXI actif du système.]]>
+  </nierror>
+  <nierror code="26808">
+    <![CDATA[Le fichier de configuration PXISA est verrouillé et inaccessible pour le moment.]]>
+  </nierror>
+  <nierror code="26809">
+    <![CDATA[Certaines fonctionnalités PXI ne sont pas disponibles car un ou plusieurs fichiers de description de système PXI n'ont pas pu être lus.  Pour obtenir de plus amples informations, allez sur ni.com/frinfo et entrez l'info-code  exvgq4.]]>
+  </nierror>
+  <nierror code="26850">
+    <![CDATA[Le système PXI a déjà été initialisé.]]>
+  </nierror>
+  <nierror code="26851">
+    <![CDATA[L'initialisation a été réalisée avec les fichiers systèmes PXI existants.  Un paramétrage utilisateur a empêché la regénération des fichiers systèmes PXI.]]>
+  </nierror>
+  <nierror code="26852">
+    <![CDATA[Un ou plusieurs fichiers de description de système PXI n'existe pas.]]>
+  </nierror>
+  <nierror code="26853">
+    <![CDATA[Réessayez l'appel.]]>
+  </nierror>
+</nidocument>

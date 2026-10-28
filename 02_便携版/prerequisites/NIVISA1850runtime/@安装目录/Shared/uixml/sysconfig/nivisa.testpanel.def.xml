@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <rules>
+    <if>
+      <!-- Disable the command if the device is not present. -->
+      <condition>
+        <eq sysattr="16924672" value="0" />
+      </condition>
+      <setcmd id="nivisa_testpanel" enable="false" />
+    </if>
+  </rules>
+  <command id="nivisa_testpanel" caption="{opentestpanel}" order="200">
+    <launch appid="{7197D524-28A7-401A-A19E-1EABC5336AA1}" args="--rsrc {visaresource} --target {targetaddress}">
+      <param name="visaresource" sysexpert="ni-visa" sysattr="16896000" />
+    </launch>
+  </command>
+</item>

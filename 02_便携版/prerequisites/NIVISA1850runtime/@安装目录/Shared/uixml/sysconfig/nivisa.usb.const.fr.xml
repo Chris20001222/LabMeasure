@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uistrings>
+  <str name="usbinterface">Numéro de l&apos;interface USB</str>
+  <str name="compliant4882">Conforme à la norme 488.2</str>
+</uistrings>
